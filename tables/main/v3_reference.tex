@@ -1,0 +1,55 @@
+\begin{table}[htbp]\centering
+\caption{Reference objectives, operating choices and traveler outcomes}\label{tab:baseline_policy_values}
+\begin{minipage}{.95\textwidth}\fontsize{8}{10}\selectfont\setstretch{1}\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.08}
+\par\noindent\textbf{A. Objective values (CNY thousand/day)}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrrrr@{}}\toprule
+Case & Obj. & P0 & P1 & P2 & P3 & P4 & P3 gain \\
+\midrule
+HN$^{*}$ & P & 1,118.8 & 1,628.3 & 1,654.3 & 2,704.0 & 2,795.2 & 1,585.2 \\
+HN$^{*}$ & W & 0.0 & 37.3 & 502.7 & 562.2 & 569.6 & 562.2 \\
+WC$^{*}$ & P & 1,831.0 & 2,014.5 & 2,523.8 & 3,619.8 & 3,802.0 & 1,788.8 \\
+WC$^{*}$ & W & 0.0 & 8.4 & 683.5 & 769.6 & 769.6 & 769.6 \\
+JX & P & 1,461.5 & 2,100.4 & 1,738.4 & 3,059.9 & 3,073.2 & 1,598.4 \\
+JX & W & 0.0 & 84.0 & 637.5 & 833.7 & 1,945.6 & 833.7 \\
+\bottomrule\end{tabular*}\par\medskip
+\par\noindent\textbf{B. Instrument attribution (CNY thousand/day)}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrr@{}}\toprule
+Case & Obj. & Fare Shapley & Frequency Shapley & Interaction & Joint increment \\
+\midrule
+HN & P & 779.6 & 805.6 & 540.2 & 1,049.7 \\
+HN & W & 48.4 & 513.8 & 22.2 & 59.5 \\
+WC & P & 639.7 & 1,149.1 & 912.5 & 1,096.0 \\
+WC & W & 47.2 & 722.4 & 77.7 & 86.1 \\
+JX & P & 980.2 & 618.2 & 682.6 & 959.5 \\
+JX & W & 140.1 & 693.6 & 112.2 & 196.2 \\
+\bottomrule\end{tabular*}\par\medskip
+\par\noindent\textbf{C. Operations, fare-cap incidence and railway-centered welfare}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllrrrrr@{}}\toprule
+Case & Design & G/D/K & $\bar\phi_{GD}$ & At cap & Peak load & Retention & $\Delta W$ (k) \\
+\midrule
+HN & P0 & 118/18/11 & 1.000 & 0/8 & 0.8800 & 1.0000 & 0.0 \\
+HN & P3 P & 101/17/11 & 1.155 & 2/8 & 0.9499 & 0.9811 & -398.9 \\
+HN & P3 W & 110/17/11 & 0.994 & 0/8 & 0.9462 & 1.0007 & 562.2 \\
+WC & P0 & 136/7/42 & 1.000 & 0/6 & 0.8800 & 1.0000 & 0.0 \\
+WC & P3 P & 116/6/42 & 1.135 & 3/6 & 0.9487 & 0.9882 & -709.7 \\
+WC & P3 W & 128/5/42 & 1.004 & 1/6 & 0.9473 & 0.9998 & 769.6 \\
+JX & P0 & 100/37/53 & 1.000 & 0/24 & 0.8800 & 1.0000 & 0.0 \\
+JX & P3 P & 88/33/53 & 1.188 & 20/24 & 0.9497 & 0.9932 & -941.2 \\
+JX & P3 W & 100/33/53 & 1.001 & 1/27 & 0.9480 & 1.0010 & 833.7 \\
+\bottomrule\end{tabular*}\par\medskip
+\par\noindent\textbf{D. Reference class composition and retained participation}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrrrr@{}}\toprule
+Case & Class & Participation & Rail share & Premium/rail & K/rail & Retained P & Retained W \\
+\midrule
+HN & H & 0.900 & 0.740 & 0.383 & 0.049 & 0.9932 & 1.0001 \\
+HN & M & 0.850 & 0.700 & 0.087 & 0.129 & 0.9887 & 1.0002 \\
+HN & L & 0.800 & 0.655 & 0.014 & 0.234 & 0.9811 & 1.0007 \\
+WC & H & 0.900 & 0.740 & 0.302 & 0.221 & 0.9948 & 0.9998 \\
+WC & M & 0.850 & 0.700 & 0.063 & 0.354 & 0.9923 & 0.9998 \\
+WC & L & 0.800 & 0.655 & 0.009 & 0.479 & 0.9882 & 0.9998 \\
+JX & H & 0.900 & 0.715 & 0.271 & 0.257 & 0.9962 & 1.0013 \\
+JX & M & 0.850 & 0.675 & 0.049 & 0.440 & 0.9949 & 1.0012 \\
+JX & L & 0.800 & 0.630 & 0.006 & 0.600 & 0.9932 & 1.0010 \\
+\bottomrule\end{tabular*}\par\medskip
+\par\noindent\fontsize{8}{9.5}\selectfont P/W denote profit/welfare objectives. A star certifies P1--P4, both objectives, only for the HN/WC central reference finite-menu problems (16 certificates). P0 is fixed. Shapley contributions sum to the P3 gain; interaction is reported separately and must not be added again. The joint increment is P3 minus the better single instrument. Welfare is measured from the same-state P0. At cap counts active G/D product--periods at 1.20. All figures and P3--P4 ledgers use these same reference designs.
+\end{minipage}\end{table}

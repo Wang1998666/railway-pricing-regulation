@@ -1,0 +1,1052 @@
+[
+  {
+    "experiment": "E13",
+    "id": "HN_elastic0.6_cap1.1",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic0.6_cap1.2",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic0.6_cap1.3",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic0.8_cap1.1",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic0.8_cap1.2",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic0.8_cap1.3",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic1.0_cap1.1",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic1.0_cap1.2",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "HN_elastic1.0_cap1.3",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_central_all",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_central_served",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_schedule_half_all",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 0.5,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_schedule_half_served",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 0.5,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_schedule_high_all",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 1.5,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_schedule_high_served",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 1.5,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_displacement60_all",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 60.0,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_displacement60_served",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 60.0,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_displacement120_all",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 120.0,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "HN_displacement120_served",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 120.0,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E15",
+    "id": "HN_fleet1.25",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "fleet_scale": 1.25
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E15",
+    "id": "HN_fleet1.5",
+    "case": "HN",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "fleet_scale": 1.5
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic0.6_cap1.1",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic0.6_cap1.2",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic0.6_cap1.3",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic0.8_cap1.1",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic0.8_cap1.2",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic0.8_cap1.3",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic1.0_cap1.1",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic1.0_cap1.2",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "WC_elastic1.0_cap1.3",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_central_all",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_central_served",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_schedule_half_all",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 0.5,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_schedule_half_served",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 0.5,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_schedule_high_all",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 1.5,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_schedule_high_served",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 1.5,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_displacement60_all",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 60.0,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_displacement60_served",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 60.0,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_displacement120_all",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 120.0,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "WC_displacement120_served",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 120.0,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E15",
+    "id": "WC_fleet1.25",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "fleet_scale": 1.25
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E15",
+    "id": "WC_fleet1.5",
+    "case": "WC",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "fleet_scale": 1.5
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic0.6_cap1.1",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic0.6_cap1.2",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic0.6_cap1.3",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 0.7499999999999999,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic0.8_cap1.1",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic0.8_cap1.2",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic0.8_cap1.3",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.0,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic1.0_cap1.1",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.1
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic1.0_cap1.2",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.2
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E13",
+    "id": "JX_elastic1.0_cap1.3",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "slope": 1.25,
+      "fare_cap": 1.3
+    },
+    "policies": [
+      "P0",
+      "P1",
+      "P2",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_central_all",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_central_served",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_schedule_half_all",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 0.5,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_schedule_half_served",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 0.5,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_schedule_high_all",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 1.5,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_schedule_high_served",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "schedule_scale": 1.5,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_displacement60_all",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 60.0,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_displacement60_served",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 60.0,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_displacement120_all",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 120.0,
+      "active_period_K": false
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E14",
+    "id": "JX_displacement120_served",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "displacement_cap": 120.0,
+      "active_period_K": true
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E15",
+    "id": "JX_fleet1.25",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "fleet_scale": 1.25
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  },
+  {
+    "experiment": "E15",
+    "id": "JX_fleet1.5",
+    "case": "JX",
+    "income": "reference",
+    "electric": "none",
+    "spec": {
+      "fleet_scale": 1.5
+    },
+    "policies": [
+      "P0",
+      "P3",
+      "P4"
+    ]
+  }
+]

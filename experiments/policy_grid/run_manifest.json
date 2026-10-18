@@ -1,0 +1,13 @@
+{
+  "grid_points": 60,
+  "grid_certificates": 60,
+  "workers": 4,
+  "seconds": 68.92079959998955,
+  "source_sha256": {
+    "run_round6.py": "750f124960da29b119f542b341b93c31311a7b78973197d25b0cf02ef2bf49f2",
+    "model.py": "17d75f36c673b1dc4e10c35ae138654a4f69df8da0d2e2110c187f9c0ae65177",
+    "exact_single_od.py": "5bbd8af7099a923d12e0088ff071b6abbcab4041278b7e131efdd450f2bd9700",
+    "copt_backend.py": "d5ad4071f6784dfed386cc2cc0763a5d3710f9bcd32129998263eefce5fb503a",
+    "verify.py": "93c26a443a04950b867a994130f98d5e3808d812ce5eb7ed979c0495b0370173"
+  }
+}

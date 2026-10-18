@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "main_saved_records": 5280,
+  "extra_saved_records": 496,
+  "counterfactual_records": 6,
+  "independently_checked_records": 5782,
+  "exact_central_reference_certificates": 16,
+  "extra_maximum_error": 1.2293457984924316e-07,
+  "baseline_witness_improvements": 37,
+  "negative_commercial_welfare_cap_anchor_states": 24,
+  "map3_sha256": "caaf675da9225c98e7c17a730fbd08e23172b30646dc743a00fd9ae7ebb982c9",
+  "fig4a_pixel_identical": true,
+  "abstract_words": 179,
+  "subsections": 7
+}

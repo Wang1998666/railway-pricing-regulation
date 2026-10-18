@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tests": 200,
+  "seed": 20261015,
+  "benchmark_columns": 289,
+  "benchmark_repeats": 100,
+  "old_seconds": 1.7239030000055209,
+  "new_seconds": 0.006538699992233887,
+  "speedup": 263.64613792543264
+}

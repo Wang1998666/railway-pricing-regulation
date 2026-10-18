@@ -1,0 +1,80 @@
+{
+  "checked_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "total_files": 2598,
+  "copied_files": 2584,
+  "json_files_checked": 2087,
+  "python_files_checked": 127,
+  "json_parse_errors": [],
+  "python_syntax_errors": [],
+  "missing_files": [],
+  "unexpected_files": [],
+  "obsolete_version_directories": [],
+  "private_key_residual_files": [],
+  "private_dotenv_files_copied": [],
+  "non_code_data_changed": [],
+  "core_algorithms_changed": [],
+  "static_path_bindings": [
+    {
+      "file": "experiments/policy_grid/run_round6.py",
+      "binding": "BASE",
+      "target": "experiments/main",
+      "passed": true
+    },
+    {
+      "file": "experiments/policy_grid/analyze_round6.py",
+      "binding": "BASE",
+      "target": "experiments/main",
+      "passed": true
+    },
+    {
+      "file": "experiments/supplementary/common.py",
+      "binding": "BASE",
+      "target": "experiments/main",
+      "passed": true
+    },
+    {
+      "file": "experiments/supplementary/common.py",
+      "binding": "ROUND6",
+      "target": "experiments/policy_grid",
+      "passed": true
+    },
+    {
+      "file": "experiments/main/build_inputs.py",
+      "binding": "OLD",
+      "target": "data/corridors",
+      "passed": true
+    },
+    {
+      "file": "preprocessing/prepare_formal_case_audit.py",
+      "binding": "FORMAL_ROOT",
+      "target": "data/corridors",
+      "passed": true
+    },
+    {
+      "file": "visualization/case_figures/redraw_case_figures.py",
+      "binding": "SOURCE",
+      "target": "experiments/main",
+      "passed": true
+    },
+    {
+      "file": "experiments/main/figures_round5.py",
+      "binding": "OUT",
+      "target": "visualization/main_figures",
+      "passed": true
+    }
+  ],
+  "round5_run_groups": 966,
+  "round5_states": 840,
+  "final_figures": 17,
+  "final_figures_matching_upstream_hash": 16,
+  "copied_python_files_adjusted": 24,
+  "research_code_modified": true,
+  "modification_scope": "Directory references and generated path descriptions only; core algorithms and numerical data unchanged.",
+  "original_project_written_to": false,
+  "experiments_executed": false,
+  "acquisition_requests_sent": false,
+  "validation_scope": "File set preservation, SHA256 of data/results/core algorithms, Python AST and JSON parsing, static pathlib references, and credential scan.",
+  "passed": true,
+  "public_repository": "https://github.com/Wang1998666/railway-pricing-regulation"
+}

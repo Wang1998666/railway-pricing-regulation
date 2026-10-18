@@ -1,0 +1,5 @@
+# Auxiliary map, plotting, and environment-inspection modules.
+# These versions were not pinned in the archived environment metadata.
+Pillow
+geopandas
+psutil

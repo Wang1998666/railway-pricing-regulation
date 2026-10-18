@@ -1,0 +1,38 @@
+{
+  "case_id": "wuhan_changsha",
+  "name": "武汉—长沙铁路—公路客运廊道",
+  "case_type": "calibrated numerical illustration",
+  "query_date": "2026-08-05",
+  "od_scope": "forward",
+  "cities": [
+    {"name": "武汉", "rail_query": "武汉"},
+    {"name": "长沙", "rail_query": "长沙"}
+  ],
+  "collection": {
+    "amap_key_env": "AMAP_API_KEY",
+    "request_delay_seconds": 1.5,
+    "timeout_seconds": 30.0
+  },
+  "demand": {
+    "method": "capacity_loadfactor_mode_share",
+    "reference_participation_target": 0.85,
+    "class_share": {"高收入": 0.25, "中收入": 0.50, "低收入": 0.25},
+    "vulnerable_class": "低收入",
+    "load_factor": {"G": 0.80, "D": 0.72, "K": 0.68},
+    "rail_share_by_distance": [
+      {"min_km": 0, "max_km": 100, "share": 0.45},
+      {"min_km": 100, "max_km": 200, "share": 0.60},
+      {"min_km": 200, "max_km": 350, "share": 0.72},
+      {"min_km": 350, "max_km": 600, "share": 0.65},
+      {"min_km": 600, "max_km": 100000, "share": 0.55}
+    ]
+  },
+  "model": {
+    "fare_bounds": [0.80, 1.20],
+    "line_capacity_per_hour": 16,
+    "min_od_departures_per_period": 1,
+    "loss_tolerance_options": [0.0, 500000.0, 2000000.0],
+    "retention_floor_options": [0.90, 0.95, 1.00],
+    "cost_reference_operating_ratio": 0.92
+  }
+}

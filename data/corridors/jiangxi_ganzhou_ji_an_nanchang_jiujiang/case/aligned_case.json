@@ -1,0 +1,1362 @@
+{
+  "meta": {
+    "name": "赣州—吉安—南昌—九江铁路—公路客运廊道",
+    "version": "1.0",
+    "case_type": "calibrated numerical case anchored to observed public-service snapshots",
+    "direction": "赣州->九江",
+    "source_manifest": [
+      {
+        "file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang_trains_20260805.csv",
+        "bytes": 41542,
+        "sha256": "f7110a0a3ea55d3242364e15508188b1bc48d1561bfc72b2adc89d7707aa3943"
+      },
+      {
+        "file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang_prices_20260805.csv",
+        "bytes": 47316,
+        "sha256": "76228121913cc68ad0213fefd0bfba0531d92757daf27f6903524e9e3aa63cd9"
+      },
+      {
+        "file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang_amap_od.csv",
+        "bytes": 398,
+        "sha256": "0b8ba4d8e2a1b373ae53852f0fa4558364037e9c7869af5cf640144ae21dfb08"
+      },
+      {
+        "file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang_amap_access.csv",
+        "bytes": 574,
+        "sha256": "cd7d84783261361af132d6154cc01ed3aefaf0ca872cd41f15e387dca9e9e1a6"
+      },
+      {
+        "file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang_road_passenger.csv",
+        "bytes": 555,
+        "sha256": "6b39455b7da9e7d7a878d70efc78843a2880af3b003980d3b343f2ae90f22871"
+      },
+      {
+        "file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang_access_fares.csv",
+        "bytes": 449,
+        "sha256": "d463e75af19767ed0b92d5592665628a5762293080a45b5376038cc8ed1d5ef9"
+      }
+    ],
+    "pipeline_case_id": "jiangxi_ganzhou_ji_an_nanchang_jiujiang",
+    "demand_data_status": "assumption-derived from rail supply"
+  },
+  "sets": {
+    "cities": [
+      "赣州",
+      "吉安",
+      "南昌",
+      "九江"
+    ],
+    "ods": [
+      "赣州-吉安",
+      "赣州-南昌",
+      "赣州-九江",
+      "吉安-南昌",
+      "吉安-九江",
+      "南昌-九江"
+    ],
+    "periods": {
+      "早高峰": {
+        "start": 6,
+        "end": 9,
+        "duration_h": 3.0
+      },
+      "日间": {
+        "start": 9,
+        "end": 17,
+        "duration_h": 8.0
+      },
+      "晚高峰": {
+        "start": 17,
+        "end": 20,
+        "duration_h": 3.0
+      },
+      "夜间": {
+        "start": 20,
+        "end": 6,
+        "duration_h": 10.0
+      }
+    },
+    "classes": [
+      "高收入",
+      "中收入",
+      "低收入"
+    ],
+    "vulnerable_class": "低收入",
+    "products": [
+      "G",
+      "D",
+      "K"
+    ]
+  },
+  "network": {
+    "segments": [
+      "赣州-吉安",
+      "吉安-南昌",
+      "南昌-九江"
+    ],
+    "segment_lengths_km": {
+      "赣州-吉安": 187.367,
+      "吉安-南昌": 219.592,
+      "南昌-九江": 123.544
+    },
+    "od_segments": {
+      "赣州-吉安": [
+        "赣州-吉安"
+      ],
+      "赣州-南昌": [
+        "赣州-吉安",
+        "吉安-南昌"
+      ],
+      "赣州-九江": [
+        "赣州-吉安",
+        "吉安-南昌",
+        "南昌-九江"
+      ],
+      "吉安-南昌": [
+        "吉安-南昌"
+      ],
+      "吉安-九江": [
+        "吉安-南昌",
+        "南昌-九江"
+      ],
+      "南昌-九江": [
+        "南昌-九江"
+      ]
+    },
+    "corridor_length_km": 530.503
+  },
+  "products": {
+    "G": {
+      "name": "high_speed",
+      "seat_capacity": {
+        "商务座": 18,
+        "一等座": 96,
+        "二等座": 576
+      },
+      "seat_comfort": {
+        "商务座": 5.0,
+        "一等座": 4.0,
+        "二等座": 3.0
+      },
+      "flexibility": 2.0,
+      "reliability_fraction": 0.02,
+      "cycle_time_h": 4.036686666666666,
+      "fleet_size": 25
+    },
+    "D": {
+      "name": "emu",
+      "seat_capacity": {
+        "一等座": 72,
+        "二等座": 480
+      },
+      "seat_comfort": {
+        "一等座": 4.0,
+        "二等座": 3.0
+      },
+      "flexibility": 2.0,
+      "reliability_fraction": 0.03,
+      "cycle_time_h": 5.80503,
+      "fleet_size": 15
+    },
+    "K": {
+      "name": "conventional",
+      "seat_capacity": {
+        "硬座": 768,
+        "硬卧": 528,
+        "软卧": 72
+      },
+      "seat_comfort": {
+        "硬座": 2.0,
+        "硬卧": 3.0,
+        "软卧": 4.0
+      },
+      "flexibility": 1.0,
+      "reliability_fraction": 0.08,
+      "cycle_time_h": 9.341716666666667,
+      "fleet_size": 14
+    }
+  },
+  "attributes": {
+    "rail_fare": {
+      "赣州-吉安": {
+        "K": {
+          "硬座": 28.5,
+          "硬卧": 82.5,
+          "软卧": 119.5
+        },
+        "G": {
+          "商务座": 337.0,
+          "一等座": 180.0,
+          "二等座": 112.0
+        },
+        "D": {
+          "二等座": 50.5,
+          "一等座": 80.8
+        }
+      },
+      "赣州-南昌": {
+        "K": {
+          "硬座": 62.5,
+          "硬卧": 117.5,
+          "软卧": 174.5
+        },
+        "G": {
+          "商务座": 669.0,
+          "一等座": 354.0,
+          "二等座": 221.0
+        },
+        "D": {
+          "二等座": 112.0,
+          "一等座": 179.2
+        }
+      },
+      "赣州-九江": {
+        "K": {
+          "硬座": 75.0,
+          "硬卧": 142.0,
+          "软卧": 214.0
+        },
+        "D": {
+          "二等座": 169.0,
+          "一等座": 270.4
+        },
+        "G": {
+          "商务座": 783.0,
+          "一等座": 415.0,
+          "二等座": 259.0
+        }
+      },
+      "吉安-南昌": {
+        "K": {
+          "硬座": 37.5,
+          "硬卧": 91.5,
+          "软卧": 131.5
+        },
+        "G": {
+          "商务座": 333.0,
+          "一等座": 174.0,
+          "二等座": 109.0
+        },
+        "D": {
+          "二等座": 53.0,
+          "一等座": 84.8
+        }
+      },
+      "吉安-九江": {
+        "K": {
+          "硬座": 53.5,
+          "硬卧": 107.5,
+          "软卧": 158.5
+        },
+        "G": {
+          "商务座": 447.0,
+          "一等座": 235.0,
+          "二等座": 147.0
+        },
+        "D": {
+          "二等座": 98.5,
+          "一等座": 157.6
+        }
+      },
+      "南昌-九江": {
+        "K": {
+          "硬座": 21.5,
+          "硬卧": 75.5,
+          "软卧": 108.5
+        },
+        "D": {
+          "一等座": 61.0,
+          "二等座": 38.0
+        },
+        "G": {
+          "商务座": 114.0,
+          "一等座": 61.0,
+          "二等座": 38.0
+        }
+      }
+    },
+    "rail_runtime_min": {
+      "赣州-吉安": {
+        "K": 116.0,
+        "G": 46.0,
+        "D": 108.0
+      },
+      "赣州-南昌": {
+        "K": 267.0,
+        "G": 109.0,
+        "D": 247.0
+      },
+      "赣州-九江": {
+        "K": 372.0,
+        "D": 327.0,
+        "G": 170.0
+      },
+      "吉安-南昌": {
+        "K": 145.5,
+        "G": 61.0,
+        "D": 136.0
+      },
+      "吉安-九江": {
+        "K": 254.0,
+        "G": 123.0,
+        "D": 203.0
+      },
+      "南昌-九江": {
+        "K": 85.5,
+        "D": 55.0,
+        "G": 54.0
+      }
+    },
+    "road_by_od": {
+      "赣州-吉安": {
+        "distance_km": 187.367,
+        "auto_duration_min": 127.05,
+        "coach_duration_min": 165.165,
+        "tolls_yuan": 75.0,
+        "private_auto_cost": 244.26,
+        "coach_fare": 61.21,
+        "maas_fare": 106.39,
+        "business_van_fare": 463.03
+      },
+      "赣州-南昌": {
+        "distance_km": 392.664,
+        "auto_duration_min": 242.9,
+        "coach_duration_min": 315.77,
+        "tolls_yuan": 164.0,
+        "private_auto_cost": 507.76,
+        "coach_fare": 122.8,
+        "maas_fare": 220.62,
+        "business_van_fare": 961.02
+      },
+      "赣州-九江": {
+        "distance_km": 515.665,
+        "auto_duration_min": 305.45,
+        "coach_duration_min": 397.085,
+        "tolls_yuan": 235.0,
+        "private_auto_cost": 683.32,
+        "coach_fare": 159.7,
+        "maas_fare": 288.38,
+        "business_van_fare": 1256.64
+      },
+      "吉安-南昌": {
+        "distance_km": 219.592,
+        "auto_duration_min": 142.667,
+        "coach_duration_min": 185.467,
+        "tolls_yuan": 97.0,
+        "private_auto_cost": 293.65,
+        "coach_fare": 70.88,
+        "maas_fare": 124.06,
+        "business_van_fare": 540.17
+      },
+      "吉安-九江": {
+        "distance_km": 342.593,
+        "auto_duration_min": 205.883,
+        "coach_duration_min": 267.648,
+        "tolls_yuan": 161.0,
+        "private_auto_cost": 462.2,
+        "coach_fare": 107.78,
+        "maas_fare": 191.88,
+        "business_van_fare": 836.06
+      },
+      "南昌-九江": {
+        "distance_km": 123.544,
+        "auto_duration_min": 87.4,
+        "coach_duration_min": 113.62,
+        "tolls_yuan": 53.0,
+        "private_auto_cost": 168.01,
+        "coach_fare": 42.06,
+        "maas_fare": 70.51,
+        "business_van_fare": 306.76
+      }
+    },
+    "access_by_city": {
+      "赣州": {
+        "time_min": 21.55,
+        "fare": 51.7
+      },
+      "吉安": {
+        "time_min": 18.32,
+        "fare": 29.16
+      },
+      "南昌": {
+        "time_min": 31.58,
+        "fare": 55.55
+      },
+      "九江": {
+        "time_min": 17.84,
+        "fare": 37.42
+      }
+    }
+  },
+  "demand_segments": [
+    {
+      "id": "赣州-吉安|高收入|早高峰",
+      "od": "赣州-吉安",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 356.1658546125059,
+      "qbar": 419.01865248530106
+    },
+    {
+      "id": "赣州-吉安|中收入|早高峰",
+      "od": "赣州-吉安",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 1068.4975638375176,
+      "qbar": 1257.0559574559031
+    },
+    {
+      "id": "赣州-吉安|低收入|早高峰",
+      "od": "赣州-吉安",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 356.1658546125059,
+      "qbar": 419.01865248530106
+    },
+    {
+      "id": "赣州-吉安|高收入|日间",
+      "od": "赣州-吉安",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 2764.3814141650114,
+      "qbar": 3252.213428429425
+    },
+    {
+      "id": "赣州-吉安|中收入|日间",
+      "od": "赣州-吉安",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 8293.144242495035,
+      "qbar": 9756.640285288275
+    },
+    {
+      "id": "赣州-吉安|低收入|日间",
+      "od": "赣州-吉安",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 2764.3814141650114,
+      "qbar": 3252.213428429425
+    },
+    {
+      "id": "赣州-吉安|高收入|晚高峰",
+      "od": "赣州-吉安",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 1299.8794774658234,
+      "qbar": 1529.269973489204
+    },
+    {
+      "id": "赣州-吉安|中收入|晚高峰",
+      "od": "赣州-吉安",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 3899.6384323974694,
+      "qbar": 4587.809920467611
+    },
+    {
+      "id": "赣州-吉安|低收入|晚高峰",
+      "od": "赣州-吉安",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 1299.8794774658234,
+      "qbar": 1529.269973489204
+    },
+    {
+      "id": "赣州-吉安|高收入|夜间",
+      "od": "赣州-吉安",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 384.3635377286664,
+      "qbar": 452.1923973278428
+    },
+    {
+      "id": "赣州-吉安|中收入|夜间",
+      "od": "赣州-吉安",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 1153.090613185999,
+      "qbar": 1356.5771919835283
+    },
+    {
+      "id": "赣州-吉安|低收入|夜间",
+      "od": "赣州-吉安",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 384.3635377286664,
+      "qbar": 452.1923973278428
+    },
+    {
+      "id": "赣州-南昌|高收入|早高峰",
+      "od": "赣州-南昌",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 210.9081612636788,
+      "qbar": 248.1272485455045
+    },
+    {
+      "id": "赣州-南昌|中收入|早高峰",
+      "od": "赣州-南昌",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 632.7244837910364,
+      "qbar": 744.3817456365133
+    },
+    {
+      "id": "赣州-南昌|低收入|早高峰",
+      "od": "赣州-南昌",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 210.9081612636788,
+      "qbar": 248.1272485455045
+    },
+    {
+      "id": "赣州-南昌|高收入|日间",
+      "od": "赣州-南昌",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 2048.5211665546817,
+      "qbar": 2410.0249018290374
+    },
+    {
+      "id": "赣州-南昌|中收入|日间",
+      "od": "赣州-南昌",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 6145.563499664045,
+      "qbar": 7230.074705487112
+    },
+    {
+      "id": "赣州-南昌|低收入|日间",
+      "od": "赣州-南昌",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 2048.5211665546817,
+      "qbar": 2410.0249018290374
+    },
+    {
+      "id": "赣州-南昌|高收入|晚高峰",
+      "od": "赣州-南昌",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 1106.5970522876842,
+      "qbar": 1301.8788850443345
+    },
+    {
+      "id": "赣州-南昌|中收入|晚高峰",
+      "od": "赣州-南昌",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 3319.7911568630525,
+      "qbar": 3905.636655133003
+    },
+    {
+      "id": "赣州-南昌|低收入|晚高峰",
+      "od": "赣州-南昌",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 1106.5970522876842,
+      "qbar": 1301.8788850443345
+    },
+    {
+      "id": "赣州-南昌|高收入|夜间",
+      "od": "赣州-南昌",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 743.7384651256298,
+      "qbar": 874.9864295595645
+    },
+    {
+      "id": "赣州-南昌|中收入|夜间",
+      "od": "赣州-南昌",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 2231.2153953768893,
+      "qbar": 2624.959288678693
+    },
+    {
+      "id": "赣州-南昌|低收入|夜间",
+      "od": "赣州-南昌",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 743.7384651256298,
+      "qbar": 874.9864295595645
+    },
+    {
+      "id": "赣州-九江|高收入|早高峰",
+      "od": "赣州-九江",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 30.28189663106593,
+      "qbar": 35.62576074243051
+    },
+    {
+      "id": "赣州-九江|中收入|早高峰",
+      "od": "赣州-九江",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 90.84568989319777,
+      "qbar": 106.87728222729149
+    },
+    {
+      "id": "赣州-九江|低收入|早高峰",
+      "od": "赣州-九江",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 30.28189663106593,
+      "qbar": 35.62576074243051
+    },
+    {
+      "id": "赣州-九江|高收入|日间",
+      "od": "赣州-九江",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 560.1913251179014,
+      "qbar": 659.0486177857664
+    },
+    {
+      "id": "赣州-九江|中收入|日间",
+      "od": "赣州-九江",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 1680.5739753537043,
+      "qbar": 1977.145853357299
+    },
+    {
+      "id": "赣州-九江|低收入|日间",
+      "od": "赣州-九江",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 560.1913251179014,
+      "qbar": 659.0486177857664
+    },
+    {
+      "id": "赣州-九江|高收入|晚高峰",
+      "od": "赣州-九江",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 181.8925964671722,
+      "qbar": 213.9912899613791
+    },
+    {
+      "id": "赣州-九江|中收入|晚高峰",
+      "od": "赣州-九江",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 545.6777894015166,
+      "qbar": 641.9738698841372
+    },
+    {
+      "id": "赣州-九江|低收入|晚高峰",
+      "od": "赣州-九江",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 181.8925964671722,
+      "qbar": 213.9912899613791
+    },
+    {
+      "id": "赣州-九江|高收入|夜间",
+      "od": "赣州-九江",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 414.69863139836264,
+      "qbar": 487.8807428216032
+    },
+    {
+      "id": "赣州-九江|中收入|夜间",
+      "od": "赣州-九江",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 1244.0958941950878,
+      "qbar": 1463.6422284648092
+    },
+    {
+      "id": "赣州-九江|低收入|夜间",
+      "od": "赣州-九江",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 414.69863139836264,
+      "qbar": 487.8807428216032
+    },
+    {
+      "id": "吉安-南昌|高收入|早高峰",
+      "od": "吉安-南昌",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 536.6646152175606,
+      "qbar": 631.3701355500713
+    },
+    {
+      "id": "吉安-南昌|中收入|早高峰",
+      "od": "吉安-南昌",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 1609.9938456526813,
+      "qbar": 1894.1104066502135
+    },
+    {
+      "id": "吉安-南昌|低收入|早高峰",
+      "od": "吉安-南昌",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 536.6646152175606,
+      "qbar": 631.3701355500713
+    },
+    {
+      "id": "吉安-南昌|高收入|日间",
+      "od": "吉安-南昌",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 2262.0962270683435,
+      "qbar": 2661.2896789039337
+    },
+    {
+      "id": "吉安-南昌|中收入|日间",
+      "od": "吉安-南昌",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 6786.288681205029,
+      "qbar": 7983.8690367118
+    },
+    {
+      "id": "吉安-南昌|低收入|日间",
+      "od": "吉安-南昌",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 2262.0962270683435,
+      "qbar": 2661.2896789039337
+    },
+    {
+      "id": "吉安-南昌|高收入|晚高峰",
+      "od": "吉安-南昌",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 863.1703372529124,
+      "qbar": 1015.4945144151912
+    },
+    {
+      "id": "吉安-南昌|中收入|晚高峰",
+      "od": "吉安-南昌",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 2589.511011758737,
+      "qbar": 3046.4835432455734
+    },
+    {
+      "id": "吉安-南昌|低收入|晚高峰",
+      "od": "吉安-南昌",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 863.1703372529124,
+      "qbar": 1015.4945144151912
+    },
+    {
+      "id": "吉安-南昌|高收入|夜间",
+      "od": "吉安-南昌",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 299.5307030069265,
+      "qbar": 352.38906236108994
+    },
+    {
+      "id": "吉安-南昌|中收入|夜间",
+      "od": "吉安-南昌",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 898.5921090207794,
+      "qbar": 1057.16718708327
+    },
+    {
+      "id": "吉安-南昌|低收入|夜间",
+      "od": "吉安-南昌",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 299.5307030069265,
+      "qbar": 352.38906236108994
+    },
+    {
+      "id": "吉安-九江|高收入|早高峰",
+      "od": "吉安-九江",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 81.01294508435164,
+      "qbar": 95.30934715806076
+    },
+    {
+      "id": "吉安-九江|中收入|早高峰",
+      "od": "吉安-九江",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 243.0388352530549,
+      "qbar": 285.9280414741823
+    },
+    {
+      "id": "吉安-九江|低收入|早高峰",
+      "od": "吉安-九江",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 81.01294508435164,
+      "qbar": 95.30934715806076
+    },
+    {
+      "id": "吉安-九江|高收入|日间",
+      "od": "吉安-九江",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 561.1485478717188,
+      "qbar": 660.1747622020222
+    },
+    {
+      "id": "吉安-九江|中收入|日间",
+      "od": "吉安-九江",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 1683.4456436151568,
+      "qbar": 1980.5242866060669
+    },
+    {
+      "id": "吉安-九江|低收入|日间",
+      "od": "吉安-九江",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 561.1485478717188,
+      "qbar": 660.1747622020222
+    },
+    {
+      "id": "吉安-九江|高收入|晚高峰",
+      "od": "吉安-九江",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 230.83981595370219,
+      "qbar": 271.576254063179
+    },
+    {
+      "id": "吉安-九江|中收入|晚高峰",
+      "od": "吉安-九江",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 692.5194478611065,
+      "qbar": 814.7287621895372
+    },
+    {
+      "id": "吉安-九江|低收入|晚高峰",
+      "od": "吉安-九江",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 230.83981595370219,
+      "qbar": 271.576254063179
+    },
+    {
+      "id": "吉安-九江|高收入|夜间",
+      "od": "吉安-九江",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 113.88326814405592,
+      "qbar": 133.9803154635952
+    },
+    {
+      "id": "吉安-九江|中收入|夜间",
+      "od": "吉安-九江",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 341.6498044321677,
+      "qbar": 401.94094639078554
+    },
+    {
+      "id": "吉安-九江|低收入|夜间",
+      "od": "吉安-九江",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 113.88326814405592,
+      "qbar": 133.9803154635952
+    },
+    {
+      "id": "南昌-九江|高收入|早高峰",
+      "od": "南昌-九江",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 945.0423163129213,
+      "qbar": 1111.8144897799075
+    },
+    {
+      "id": "南昌-九江|中收入|早高峰",
+      "od": "南昌-九江",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 2835.1269489387637,
+      "qbar": 3335.443469339722
+    },
+    {
+      "id": "南昌-九江|低收入|早高峰",
+      "od": "南昌-九江",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 945.0423163129213,
+      "qbar": 1111.8144897799075
+    },
+    {
+      "id": "南昌-九江|高收入|日间",
+      "od": "南昌-九江",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 4124.620242370508,
+      "qbar": 4852.494402788833
+    },
+    {
+      "id": "南昌-九江|中收入|日间",
+      "od": "南昌-九江",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 12373.860727111525,
+      "qbar": 14557.4832083665
+    },
+    {
+      "id": "南昌-九江|低收入|日间",
+      "od": "南昌-九江",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 4124.620242370508,
+      "qbar": 4852.494402788833
+    },
+    {
+      "id": "南昌-九江|高收入|晚高峰",
+      "od": "南昌-九江",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 1667.6318779414773,
+      "qbar": 1961.9198564017381
+    },
+    {
+      "id": "南昌-九江|中收入|晚高峰",
+      "od": "南昌-九江",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 5002.8956338244325,
+      "qbar": 5885.759569205215
+    },
+    {
+      "id": "南昌-九江|低收入|晚高峰",
+      "od": "南昌-九江",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 1667.6318779414773,
+      "qbar": 1961.9198564017381
+    },
+    {
+      "id": "南昌-九江|高收入|夜间",
+      "od": "南昌-九江",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 1756.5282078967912,
+      "qbar": 2066.503773996225
+    },
+    {
+      "id": "南昌-九江|中收入|夜间",
+      "od": "南昌-九江",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 5269.584623690373,
+      "qbar": 6199.511321988673
+    },
+    {
+      "id": "南昌-九江|低收入|夜间",
+      "od": "南昌-九江",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 1756.5282078967912,
+      "qbar": 2066.503773996225
+    }
+  ],
+  "synthetic_service_patterns": [
+    {
+      "id": "K_SYN_JIAN_JIUJIANG_DIRECT",
+      "product": "K",
+      "served_ods": [
+        "吉安-九江"
+      ],
+      "route_segments": [
+        "吉安-南昌",
+        "南昌-九江"
+      ],
+      "route_length_km": 343.136,
+      "cycle_time_h": 6.218933,
+      "frequency_max": {
+        "早高峰": 2,
+        "日间": 2,
+        "晚高峰": 2,
+        "夜间": 2
+      },
+      "minimum_daily_departures_if_active": 1,
+      "activation_cost_share_of_k_fixed": 0.15,
+      "synthetic_definition": "Ji'an-Jiujiang service via Ji'an-Nanchang-Jiujiang that passes Nanchang without a passenger stop; it inherits the observed Ji'an-Jiujiang K fare, runtime, and seat attributes."
+    }
+  ],
+  "observed_frequency": {
+    "G": {
+      "早高峰": 11,
+      "日间": 63,
+      "晚高峰": 20,
+      "夜间": 6
+    },
+    "D": {
+      "早高峰": 7,
+      "日间": 15,
+      "晚高峰": 14,
+      "夜间": 1
+    },
+    "K": {
+      "早高峰": 3,
+      "日间": 22,
+      "晚高峰": 11,
+      "夜间": 17
+    }
+  },
+  "reference_design": {
+    "periods": [
+      "早高峰",
+      "日间",
+      "晚高峰",
+      "夜间"
+    ],
+    "N": {
+      "G": {
+        "早高峰": 11,
+        "日间": 63,
+        "晚高峰": 20,
+        "夜间": 6
+      },
+      "D": {
+        "早高峰": 7,
+        "日间": 15,
+        "晚高峰": 14,
+        "夜间": 1
+      },
+      "K": {
+        "早高峰": 3,
+        "日间": 22,
+        "晚高峰": 11,
+        "夜间": 17
+      }
+    },
+    "phi": {
+      "G": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      },
+      "D": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      },
+      "K": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      }
+    }
+  },
+  "utility": {
+    "by_class": {
+      "高收入": {
+        "beta_c": 0.012,
+        "beta_iv": 0.035,
+        "beta_ac": 0.045,
+        "beta_wt": 0.05,
+        "beta_sc": 0.025,
+        "beta_rel": 0.02,
+        "beta_tr": 0.15,
+        "gamma_com": 0.08,
+        "gamma_flex": 0.1
+      },
+      "中收入": {
+        "beta_c": 0.02,
+        "beta_iv": 0.03,
+        "beta_ac": 0.04,
+        "beta_wt": 0.045,
+        "beta_sc": 0.022,
+        "beta_rel": 0.018,
+        "beta_tr": 0.12,
+        "gamma_com": 0.06,
+        "gamma_flex": 0.07
+      },
+      "低收入": {
+        "beta_c": 0.035,
+        "beta_iv": 0.025,
+        "beta_ac": 0.035,
+        "beta_wt": 0.04,
+        "beta_sc": 0.018,
+        "beta_rel": 0.015,
+        "beta_tr": 0.1,
+        "gamma_com": 0.04,
+        "gamma_flex": 0.05
+      }
+    },
+    "rho": {
+      "高收入": 0.7,
+      "中收入": 0.8,
+      "低收入": 0.9
+    },
+    "mu": {
+      "rail": 0.45,
+      "road": 0.5,
+      "auto": 0.55,
+      "mode_level": 0.75,
+      "top": 1.0
+    },
+    "asc_mode": {
+      "高收入": {
+        "rail": 0.7528930549776591,
+        "road": 0.0,
+        "auto": 0.0
+      },
+      "中收入": {
+        "rail": 0.9843861809578369,
+        "road": 0.0,
+        "auto": 0.0
+      },
+      "低收入": {
+        "rail": 2.088634778353078,
+        "road": 0.0,
+        "auto": 0.0
+      }
+    },
+    "alpha_travel": {
+      "高收入": 9.410666148559766,
+      "中收入": 10.851976901047799,
+      "低收入": 13.215940359044897
+    },
+    "asc_product": {
+      "G": 0.15,
+      "D": 0.0,
+      "K": -0.1
+    },
+    "asc_seat": {
+      "G": {
+        "商务座": -1.559581,
+        "一等座": -0.806292,
+        "二等座": 0.0
+      },
+      "D": {
+        "一等座": -0.853704,
+        "二等座": 0.0
+      },
+      "K": {
+        "硬座": 0.0,
+        "硬卧": -0.168612,
+        "软卧": -1.065206
+      }
+    },
+    "asc_alternative": {
+      "private_auto": 0.0,
+      "coach": -0.1,
+      "maas": 0.05,
+      "business_van": -0.15
+    }
+  },
+  "schedule": {
+    "vartheta_min": 15.0,
+    "terminal_wait_min": 10.0
+  },
+  "electrification_savings": {
+    "private_auto_per_km": 0.58,
+    "maas_per_km": 0.2,
+    "business_van_per_km": 0.3,
+    "coach_per_km": 0.12
+  },
+  "scenarios": {
+    "income": {
+      "reference": {
+        "高收入": 0.0,
+        "中收入": 0.0,
+        "低收入": 0.0
+      },
+      "common_downturn": {
+        "高收入": -0.1,
+        "中收入": -0.1,
+        "低收入": -0.1
+      },
+      "polarized_downturn": {
+        "高收入": 0.02,
+        "中收入": -0.08,
+        "低收入": -0.15
+      }
+    },
+    "electrification": {
+      "none": {
+        "auto_intensity": 0.0,
+        "road_services": [],
+        "pass_through": 0.0
+      },
+      "auto_only": {
+        "auto_intensity": 0.5,
+        "road_services": [],
+        "pass_through": 0.0
+      },
+      "auto_maas_low": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.3
+      },
+      "auto_maas_high": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.7
+      },
+      "all_road_low": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "coach",
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.3
+      },
+      "all_road_high": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "coach",
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.7
+      }
+    }
+  },
+  "constraints": {
+    "fare_bounds": [
+      0.8,
+      1.2
+    ],
+    "frequency_max": {
+      "G": {
+        "早高峰": 17,
+        "日间": 95,
+        "晚高峰": 30,
+        "夜间": 9
+      },
+      "D": {
+        "早高峰": 11,
+        "日间": 23,
+        "晚高峰": 21,
+        "夜间": 2
+      },
+      "K": {
+        "早高峰": 5,
+        "日间": 33,
+        "晚高峰": 17,
+        "夜间": 26
+      }
+    },
+    "line_capacity_per_hour": 16.0,
+    "min_od_departures_per_period": 1,
+    "loss_tolerance_options": [
+      0.0,
+      500000.0,
+      2000000.0
+    ],
+    "retention_floor_options": [
+      0.9,
+      0.95,
+      1.0
+    ]
+  },
+  "calibration": {
+    "demand_method": "capacity_loadfactor_mode_share",
+    "reference_participation_target": 0.85,
+    "target_rail_share": 0.6322665192477179,
+    "target_rail_trips": 158850.17039075124,
+    "target_market_trips": 251239.25679277471,
+    "rail_share_source": "configured OD values or distance-band assumptions",
+    "demand_allocation": "unique-train OD weights scaled to each train's peak segment load",
+    "load_factor": {
+      "G": 0.78,
+      "D": 0.72,
+      "K": 0.7
+    },
+    "fare_imputation": [
+      {
+        "od": "赣州-吉安",
+        "product": "D",
+        "seat": "一等座",
+        "imputed_fare": 80.8,
+        "method": "within-OD product fare normalized by configured seat ratio",
+        "seat_ratio": 1.6
+      },
+      {
+        "od": "赣州-南昌",
+        "product": "D",
+        "seat": "一等座",
+        "imputed_fare": 179.2,
+        "method": "within-OD product fare normalized by configured seat ratio",
+        "seat_ratio": 1.6
+      },
+      {
+        "od": "赣州-九江",
+        "product": "D",
+        "seat": "一等座",
+        "imputed_fare": 270.4,
+        "method": "within-OD product fare normalized by configured seat ratio",
+        "seat_ratio": 1.6
+      },
+      {
+        "od": "吉安-南昌",
+        "product": "D",
+        "seat": "一等座",
+        "imputed_fare": 84.8,
+        "method": "within-OD product fare normalized by configured seat ratio",
+        "seat_ratio": 1.6
+      },
+      {
+        "od": "吉安-九江",
+        "product": "D",
+        "seat": "一等座",
+        "imputed_fare": 157.6,
+        "method": "within-OD product fare normalized by configured seat ratio",
+        "seat_ratio": 1.6
+      }
+    ],
+    "fare_imputation_count": 5,
+    "reference_products": [
+      "G",
+      "D",
+      "K"
+    ],
+    "cost_reference_operating_ratio": 0.92,
+    "demand_capacity_rescale": 0.4685531429978449,
+    "constraint_adjustments": [
+      {
+        "parameter": "products.K.fleet_size",
+        "original_value": 12,
+        "adjusted_value": 14,
+        "reason": "The observed 2026-08-05 incumbent K pattern mix requires 325.9075 trainset-hours per day under the calibrated route-cycle approximation, exceeding 12 x 24 hours. The minimum feasible integer fleet calibration is therefore 14; observed service is left unchanged."
+      }
+    ]
+  },
+  "costs": {
+    "fixed_per_product_day": {
+      "G": 333496.63348834065,
+      "D": 250122.4751162555,
+      "K": 166748.31674417033
+    },
+    "per_run": {
+      "G": 4435.219953960422,
+      "D": 3636.8803622475452,
+      "K": 2882.892970074274
+    },
+    "per_train_km": {
+      "G": 88.70439907920843,
+      "D": 72.73760724495091,
+      "K": 57.65785940148548
+    },
+    "calibration_note": "Normalized to the configured reference operating ratio; not observed accounting cost."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "n": 1842,
+  "lower_left": 341,
+  "common_VOT_CNY_hour": [
+    97.5714285714
+  ],
+  "argmax_cells": {
+    "H": 1.0,
+    "M": 0.0,
+    "L": 0.0
+  },
+  "argmax_worst": {
+    "H": 1.0,
+    "M": 0.0,
+    "L": 0.0
+  },
+  "lower_left_L_exit_share": 1.0,
+  "lower_left_H_argmax_share": 1.0,
+  "lower_left_fixed_not_falling": 0.04985337243401759,
+  "quadrants": {
+    "dG": {
+      "-1,-1": 341,
+      "-1,+1": 460,
+      "+1,-1": 600,
+      "+1,+1": 225,
+      "on_axis": 216
+    },
+    "delta_L_common_ratio": {
+      "-1,-1": 660,
+      "-1,+1": 395,
+      "+1,-1": 308,
+      "+1,+1": 242,
+      "on_axis": 237
+    },
+    "delta_L_monetary_CNY": {
+      "-1,-1": 728,
+      "-1,+1": 420,
+      "+1,-1": 284,
+      "+1,+1": 268,
+      "on_axis": 142
+    },
+    "delta_Gfix": {
+      "-1,-1": 327,
+      "-1,+1": 476,
+      "+1,-1": 614,
+      "+1,+1": 209,
+      "on_axis": 216
+    }
+  },
+  "scalar_max_error": 6.705522537231445e-08
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "pages": 53,
+  "pdf_sha256": "aa8e27a663e9c4884b363a634b27010bce276affab7b40f4410f69150f72e0e9",
+  "contact_sheets_reviewed": [
+    "contact_01.png",
+    "contact_07.png",
+    "contact_13.png",
+    "contact_19.png",
+    "contact_25.png",
+    "contact_31.png",
+    "contact_37.png",
+    "contact_43.png",
+    "contact_49.png"
+  ],
+  "detailed_pages": [
+    28,
+    37,
+    38,
+    44,
+    45,
+    46
+  ],
+  "notes": "All pages rendered and reviewed across the final layout pass; final Figure 17 inset ticks rechecked at 2x. No clipping, label/legend overlap, unresolved references, or table-width defects observed. Existing figures and protected Sections 2-3 unchanged."
+}

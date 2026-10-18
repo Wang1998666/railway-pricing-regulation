@@ -1,0 +1,5 @@
+﻿od,period,rail_share,estimated_rail_trips,target_market_trips,method
+杭州-南京,早高峰,0.7,10482.480000000001,14974.97142857143,capacity_loadfactor_mode_share
+杭州-南京,日间,0.7,37127.16,53038.80000000001,capacity_loadfactor_mode_share
+杭州-南京,晚高峰,0.7,23600.160000000007,33714.5142857143,capacity_loadfactor_mode_share
+杭州-南京,夜间,0.7,9985.320000000002,14264.74285714286,capacity_loadfactor_mode_share

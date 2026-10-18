@@ -1,0 +1,34 @@
+\begin{table}[htbp]\centering
+\caption{Behavior, cost and policy calibration}\label{tab:calibration_parameters}
+\begin{minipage}{.95\textwidth}\fontsize{8}{10}\selectfont\setstretch{1}\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.08}
+\par\noindent\textbf{A. Common parameters}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}>{\raggedright\arraybackslash}p{.40\linewidth}>{\raggedright\arraybackslash}p{.54\linewidth}@{}}\toprule
+Parameter & Maintained value \\
+\midrule
+Potential shares H/M/L & 0.20 / 0.60 / 0.20 \\
+Participation H/M/L & 0.90 / 0.85 / 0.80 \\
+Rail-share class offsets & $+0.040/0/-0.045$ from the OD target \\
+Distance-band rail targets & 0.70 / 0.60 / 0.55 / 0.45 \\
+Own G/D product elasticity & --0.80 quantity-weighted; --0.60/--1.00 sensitivity \\
+Common slope factors HN/WC/JX & 0.2535/0.2032/0.1964 \\
+Money slopes before scaling & 0.012 / 0.020 / 0.035 per CNY \\
+In-vehicle slopes before scaling & 0.035 / 0.030 / 0.025 per minute \\
+Access / wait slopes & 0.045/0.040/0.035; 0.050/0.045/0.040 \\
+Schedule / reliability slopes & 0.025/0.022/0.018; 0.020/0.018/0.015 \\
+Transfer / comfort / flexibility & 0.15/0.12/0.10; 0.08/0.06/0.04; 0.10/0.07/0.05 \\
+Income elasticity of money & 0.70 / 0.80 / 0.90 \\
+Reference VOT H/M/L & 175.0 / 90.0 / 42.9 CNY/h \\
+Nest scales seat/product/road/mode/top & 0.30 / 0.45 / 0.50 / 0.75 / 1.00 \\
+G/D/K formations & 18/96/576; 72/480; 768/528/72 seats \\
+Reference load / ceiling & 0.88 / 0.95; tests 0.85/0.88/0.92 and 0.95/1.00 \\
+Variable / commitment costs & 70\% / 30\%; tests 50/70/90\% variable \\
+Central model reference cost & 92\% of reference rail revenue \\
+Fare menu / K tariff & 0.80--1.20 by 0.025; K fixed at 1 \\
+Car occupancy & 2; sensitivities 1 and 3 \\
+Allowance / retention & 2,000 CNY/reference departure; 0.95 \\
+Polarized H/M/L level incomes & $+2/-8/-15\%$ \\
+Equal-mean uniform income & $-7.56\%$; mean log change --0.078572 \\
+Road intensity / saving vector & x=0--1; 0.145/0.084/0.140/0.210 CNY/person-km \\
+\bottomrule\end{tabular*}\par\medskip
+\par\noindent\fontsize{8}{9.5}\selectfont All slopes share the corridor factor, preserving VOT. The elasticity target applies to changing one G/D product--period multiplier with K and other fares fixed. Class tilts preserve aggregate product--seat flows. The saving vector is ordered auto/coach/MaaS/van; x=0 denotes the routing reference.
+\end{minipage}\end{table}

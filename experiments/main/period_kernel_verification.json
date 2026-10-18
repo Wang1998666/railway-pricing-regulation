@@ -1,0 +1,537 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "HN",
+      "spec": {},
+      "period": 0,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "HN",
+      "spec": {},
+      "period": 1,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "HN",
+      "spec": {},
+      "period": 2,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "HN",
+      "spec": {},
+      "period": 3,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 0,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 1,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 2,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 3,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 0,
+      "error": 1.3969838619232178e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 1,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 2,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 3,
+      "error": 1.1641532182693481e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 0,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 1,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 2,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 3,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 1,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 2,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "HN",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 3,
+      "error": 5.587935447692871e-09
+    },
+    {
+      "case": "WC",
+      "spec": {},
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {},
+      "period": 1,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "WC",
+      "spec": {},
+      "period": 2,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "WC",
+      "spec": {},
+      "period": 3,
+      "error": 1.1175870895385742e-08
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 1,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 2,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 3,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 0,
+      "error": 1.862645149230957e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 1,
+      "error": 9.313225746154785e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 2,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 3,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 1,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 2,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 3,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 0,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 1,
+      "error": 2.9802322387695312e-08
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 2,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "WC",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 3,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "JX",
+      "spec": {},
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "JX",
+      "spec": {},
+      "period": 1,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "JX",
+      "spec": {},
+      "period": 2,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "JX",
+      "spec": {},
+      "period": 3,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 1,
+      "error": 2.9802322387695312e-08
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 2,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "electric_scale": 0.35,
+        "k_withdraw": 1.0
+      },
+      "period": 3,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 0,
+      "error": 9.313225746154785e-10
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 1,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 2,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "money": 3.0,
+        "mu_sc": 0.25,
+        "mu_pr": 0.5
+      },
+      "period": 3,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 0,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 1,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 2,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "slope": 1.25,
+        "fare_cap": 1.3,
+        "schedule_slope": 1.5
+      },
+      "period": 3,
+      "error": 3.725290298461914e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 0,
+      "error": 7.450580596923828e-09
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 1,
+      "error": 5.960464477539063e-08
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 2,
+      "error": 1.4901161193847656e-08
+    },
+    {
+      "case": "JX",
+      "spec": {
+        "demand": 2.0,
+        "displacement_cap": 60
+      },
+      "period": 3,
+      "error": 1.4901161193847656e-08
+    }
+  ],
+  "maximum_error": 5.960464477539063e-08,
+  "old_seconds": 2.8699647999892477,
+  "new_seconds": 1.428601499996148,
+  "kernel_speedup": 2.0089330719567253
+}

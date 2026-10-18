@@ -1,0 +1,33 @@
+\begin{table}[p]
+\centering
+\caption{Confirmed selective-K reopening events in the sensitivity analysis}\label{tab:k_reopening_events}
+\begingroup
+\scriptsize
+\setlength{\tabcolsep}{0.35em}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}p{0.15\textwidth}lp{0.22\textwidth}p{0.16\textwidth}ccl@{}}
+\toprule
+Corridor & Objective & Trigger & Role & K dep./day & Patterns & Channel \\
+\midrule
+Wuhan--Changsha & Profit & alternative income support & Restores feasibility & 4 & P01 & Demand \\
+Wuhan--Changsha & Profit & income state 0.1 & Restores feasibility & 1 & P01 & Demand \\
+Wuhan--Changsha & Profit & income state 0.2 & Restores feasibility & 8 & P01 & Demand \\
+Wuhan--Changsha & Welfare change & alternative income support & Restores feasibility & 3 & P01 & Demand \\
+Wuhan--Changsha & Welfare change & K operating upgrade & Improves objective & 4 & P01 & Combined \\
+Wuhan--Changsha & Welfare change & strong-support bundle & Improves objective & 15 & P01 & Combined \\
+Wuhan--Changsha & Welfare change & income state 0.2 & Restores feasibility & 4 & P01 & Demand \\
+Wuhan--Changsha & Welfare change & K runtime $\times$0.70 & Improves objective & 9 & P01 & Demand \\
+Wuhan--Changsha & Welfare change & K runtime $\times$0.80 & Improves objective & 4 & P01 & Demand \\
+Jiangxi & Profit & monetary sensitivity $\times$1.50 & Restores feasibility & 4 & P06, P09 & Demand \\
+Jiangxi & Profit & affordability bundle & Restores feasibility & 2 & P06 & Combined \\
+Jiangxi & Profit & demand--capacity bundle & Improves objective & 7 & P02, P06, P09 & Combined \\
+Jiangxi & Profit & demand scale $\times$1.50 & Improves objective & 4 & P06, P07 & Demand \\
+Jiangxi & Welfare change & monetary sensitivity $\times$1.50 & Restores feasibility & 2 & P09 & Demand \\
+Jiangxi & Welfare change & affordability bundle & Restores feasibility & 1 & P06 & Combined \\
+Jiangxi & Welfare change & demand--capacity bundle & Improves objective & 4 & P02, P06, P07 & Combined \\
+Jiangxi & Welfare change & demand scale $\times$1.50 & Improves objective & 3 & P06, P07 & Demand \\
+\bottomrule
+\end{tabular}
+\parbox{0.96\textwidth}{\footnotesize\textit{Notes.} The table lists all 17 confirmed events among 240 sensitivity comparisons. A reopening requires a positive K frequency and either restored feasibility or an objective improvement relative to a feasible no-K branch. No event was classified near the numerical boundary. Channel classification: Demand = perturbation raises $\Delta\mathcal R^{\mathrm{act}}$ through class-specific demand or service attributes; Combined = multi-channel bundle including demand and cost/coverage elements. No event is driven by cost-only changes, consistent with Remark~\ref{prop:k_activation_threshold}.}
+\endgroup
+\end{table}

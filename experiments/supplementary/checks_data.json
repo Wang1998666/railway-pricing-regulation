@@ -1,0 +1,107 @@
+{
+  "van": {
+    "HN": {
+      "fares": [
+        695.5
+      ],
+      "van_trips": 706.6652202197804,
+      "share_all_realized": 0.005400000000000001,
+      "share_road": 0.018
+    },
+    "WC": {
+      "fares": [
+        831.82
+      ],
+      "van_trips": 1011.2924413186814,
+      "share_all_realized": 0.005400000000000001,
+      "share_road": 0.018
+    },
+    "JX": {
+      "fares": [
+        463.03,
+        961.02,
+        1256.64,
+        540.17,
+        836.06,
+        306.76
+      ],
+      "van_trips": 1585.1103713251873,
+      "share_all_realized": 0.005845370152532208,
+      "share_road": 0.017999999999999995
+    }
+  },
+  "headroom": {
+    "HN": 0.8862989494778194,
+    "WC": 1.0252294937868751,
+    "JX": 0.3151467495038965
+  },
+  "freeze": {
+    "HN": {
+      "N_identical": true,
+      "all_active_fares_one": true,
+      "same_y_u": true,
+      "design_hash_freeze": "ad2a93b396223e1053b5fb057b52849ab7105a639bbc5b80933a143daccd1a13",
+      "design_hash_P2": "ad2a93b396223e1053b5fb057b52849ab7105a639bbc5b80933a143daccd1a13"
+    },
+    "WC": {
+      "N_identical": true,
+      "all_active_fares_one": true,
+      "same_y_u": true,
+      "design_hash_freeze": "9e31d0eba0eea514317ca92ffa00fe1ff503aca849fe078275497b91329e5ba0",
+      "design_hash_P2": "9e31d0eba0eea514317ca92ffa00fe1ff503aca849fe078275497b91329e5ba0"
+    }
+  },
+  "distinct_grid": {
+    "HN": {
+      "v3": 11,
+      "v4": 21
+    },
+    "WC": {
+      "v3": 10,
+      "v4": 20
+    }
+  },
+  "floor_counts": {
+    "same_state": {
+      "HN": {
+        "states": 24,
+        "P0": 22,
+        "P4": 24,
+        "unresolved_P4": 0
+      },
+      "WC": {
+        "states": 24,
+        "P0": 22,
+        "P4": 24,
+        "unresolved_P4": 0
+      },
+      "JX": {
+        "states": 24,
+        "P0": 24,
+        "P4": 24,
+        "unresolved_P4": 0
+      }
+    },
+    "absolute_reference": {
+      "HN": {
+        "states": 24,
+        "P0": 20,
+        "P4": 24,
+        "unresolved_P4": 0
+      },
+      "WC": {
+        "states": 24,
+        "P0": 22,
+        "P4": 24,
+        "unresolved_P4": 0
+      },
+      "JX": {
+        "states": 24,
+        "P0": 24,
+        "P4": 24,
+        "unresolved_P4": 0
+      }
+    }
+  },
+  "JX_welfare_profit_gain": 163.34990079341082
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "JX_central_all.json",
+    "policy": "P3",
+    "objective": "welfare"
+  },
+  {
+    "file": "JX_central_served.json",
+    "policy": "P3",
+    "objective": "welfare"
+  }
+]

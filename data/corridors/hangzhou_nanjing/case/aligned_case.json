@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "name": "杭州—南京铁路—公路客运廊道",
+    "version": "1.0",
+    "case_type": "calibrated numerical case anchored to observed public-service snapshots",
+    "direction": "杭州->南京",
+    "source_manifest": [
+      {
+        "file": "hangzhou_nanjing_trains_20260805.csv",
+        "bytes": 13969,
+        "sha256": "68c3642096fe161d873a143e41d9f441fcceef699ff06adfa38dddc050ca5f13"
+      },
+      {
+        "file": "hangzhou_nanjing_prices_20260805.csv",
+        "bytes": 15883,
+        "sha256": "143b95e1ee609ed07d385a42d08cba661a1f85da0e4deba3b5e9b3755500f516"
+      },
+      {
+        "file": "hangzhou_nanjing_amap_od.csv",
+        "bytes": 148,
+        "sha256": "77e261463c2c9c6cca7005d393ad4f67c4c4aa90d74f67d68f6edb838291aef2"
+      },
+      {
+        "file": "hangzhou_nanjing_amap_access.csv",
+        "bytes": 343,
+        "sha256": "aa6cb404d95be8db56cd5cefc703309b90bd89d647cb8a2a0171c36dc49c714c"
+      },
+      {
+        "file": "hangzhou_nanjing_road_passenger.csv",
+        "bytes": 206,
+        "sha256": "4f973cb2933ec96f9648739829755f06246f63efda4fb0009220afe3d4ca2293"
+      },
+      {
+        "file": "hangzhou_nanjing_access_fares.csv",
+        "bytes": 270,
+        "sha256": "af526bd4d0d8e9fc89da01b7e6c91699fddf34880e8ecfd87845e0275a209c8c"
+      }
+    ],
+    "pipeline_case_id": "hangzhou_nanjing",
+    "demand_data_status": "assumption-derived from rail supply"
+  },
+  "sets": {
+    "cities": [
+      "杭州",
+      "南京"
+    ],
+    "ods": [
+      "杭州-南京"
+    ],
+    "periods": {
+      "早高峰": {
+        "start": 6,
+        "end": 9,
+        "duration_h": 3.0
+      },
+      "日间": {
+        "start": 9,
+        "end": 17,
+        "duration_h": 8.0
+      },
+      "晚高峰": {
+        "start": 17,
+        "end": 20,
+        "duration_h": 3.0
+      },
+      "夜间": {
+        "start": 20,
+        "end": 6,
+        "duration_h": 10.0
+      }
+    },
+    "classes": [
+      "高收入",
+      "中收入",
+      "低收入"
+    ],
+    "vulnerable_class": "低收入",
+    "products": [
+      "G",
+      "D",
+      "K"
+    ]
+  },
+  "network": {
+    "segments": [
+      "杭州-南京"
+    ],
+    "segment_lengths_km": {
+      "杭州-南京": 279.388
+    },
+    "od_segments": {
+      "杭州-南京": [
+        "杭州-南京"
+      ]
+    },
+    "corridor_length_km": 279.388
+  },
+  "products": {
+    "G": {
+      "name": "high_speed",
+      "seat_capacity": {
+        "商务座": 18,
+        "一等座": 96,
+        "二等座": 576
+      },
+      "seat_comfort": {
+        "商务座": 5.0,
+        "一等座": 4.0,
+        "二等座": 3.0
+      },
+      "flexibility": 2.0,
+      "reliability_fraction": 0.02,
+      "cycle_time_h": 2.3625866666666666,
+      "fleet_size": 25
+    },
+    "D": {
+      "name": "emu",
+      "seat_capacity": {
+        "一等座": 72,
+        "二等座": 480
+      },
+      "seat_comfort": {
+        "一等座": 4.0,
+        "二等座": 3.0
+      },
+      "flexibility": 2.0,
+      "reliability_fraction": 0.03,
+      "cycle_time_h": 3.2938799999999997,
+      "fleet_size": 15
+    },
+    "K": {
+      "name": "conventional",
+      "seat_capacity": {
+        "硬座": 768,
+        "硬卧": 528,
+        "软卧": 72
+      },
+      "seat_comfort": {
+        "硬座": 2.0,
+        "硬卧": 3.0,
+        "软卧": 4.0
+      },
+      "flexibility": 1.0,
+      "reliability_fraction": 0.08,
+      "cycle_time_h": 5.156466666666666,
+      "fleet_size": 12
+    }
+  },
+  "attributes": {
+    "rail_fare": {
+      "杭州-南京": {
+        "K": {
+          "硬座": 69.0,
+          "硬卧": 130.0,
+          "软卧": 194.0
+        },
+        "G": {
+          "商务座": 493.0,
+          "一等座": 225.0,
+          "二等座": 141.0
+        },
+        "D": {
+          "一等座": 182.0,
+          "二等座": 145.0
+        }
+      }
+    },
+    "rail_runtime_min": {
+      "杭州-南京": {
+        "K": 360.0,
+        "G": 91.0,
+        "D": 137.5
+      }
+    },
+    "road_by_od": {
+      "杭州-南京": {
+        "distance_km": 279.388,
+        "auto_duration_min": 202.117,
+        "coach_duration_min": 262.752,
+        "tolls_yuan": 110.0,
+        "private_auto_cost": 357.48,
+        "coach_fare": 88.82,
+        "maas_fare": 159.91,
+        "business_van_fare": 695.5
+      }
+    },
+    "access_by_city": {
+      "杭州": {
+        "time_min": 28.02,
+        "fare": 37.84
+      },
+      "南京": {
+        "time_min": 21.52,
+        "fare": 32.31
+      }
+    }
+  },
+  "demand_segments": [
+    {
+      "id": "杭州-南京|高收入|早高峰",
+      "od": "杭州-南京",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 2004.242847399557,
+      "qbar": 2357.9327616465375
+    },
+    {
+      "id": "杭州-南京|中收入|早高峰",
+      "od": "杭州-南京",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 6012.72854219867,
+      "qbar": 7073.798284939613
+    },
+    {
+      "id": "杭州-南京|低收入|早高峰",
+      "od": "杭州-南京",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 2004.242847399557,
+      "qbar": 2357.9327616465375
+    },
+    {
+      "id": "杭州-南京|高收入|日间",
+      "od": "杭州-南京",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 7098.6870353445875,
+      "qbar": 8351.396512170102
+    },
+    {
+      "id": "杭州-南京|中收入|日间",
+      "od": "杭州-南京",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 21296.06110603376,
+      "qbar": 25054.18953651031
+    },
+    {
+      "id": "杭州-南京|低收入|日间",
+      "od": "杭州-南京",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 7098.6870353445875,
+      "qbar": 8351.396512170102
+    },
+    {
+      "id": "杭州-南京|高收入|晚高峰",
+      "od": "杭州-南京",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 4512.334092455711,
+      "qbar": 5308.6283440655425
+    },
+    {
+      "id": "杭州-南京|中收入|晚高峰",
+      "od": "杭州-南京",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 13537.00227736713,
+      "qbar": 15925.885032196624
+    },
+    {
+      "id": "杭州-南京|低收入|晚高峰",
+      "od": "杭州-南京",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 4512.334092455711,
+      "qbar": 5308.6283440655425
+    },
+    {
+      "id": "杭州-南京|高收入|夜间",
+      "od": "杭州-南京",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 1909.1862029782785,
+      "qbar": 2246.101415268563
+    },
+    {
+      "id": "杭州-南京|中收入|夜间",
+      "od": "杭州-南京",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 5727.558608934835,
+      "qbar": 6738.304245805689
+    },
+    {
+      "id": "杭州-南京|低收入|夜间",
+      "od": "杭州-南京",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 1909.1862029782785,
+      "qbar": 2246.101415268563
+    }
+  ],
+  "observed_frequency": {
+    "G": {
+      "早高峰": 18,
+      "日间": 57,
+      "晚高峰": 32,
+      "夜间": 11
+    },
+    "D": {
+      "早高峰": 2,
+      "日间": 9,
+      "晚高峰": 4,
+      "夜间": 3
+    },
+    "K": {
+      "早高峰": 0,
+      "日间": 3,
+      "晚高峰": 5,
+      "夜间": 3
+    }
+  },
+  "reference_design": {
+    "periods": [
+      "早高峰",
+      "日间",
+      "晚高峰",
+      "夜间"
+    ],
+    "N": {
+      "G": {
+        "早高峰": 18,
+        "日间": 57,
+        "晚高峰": 32,
+        "夜间": 11
+      },
+      "D": {
+        "早高峰": 2,
+        "日间": 9,
+        "晚高峰": 4,
+        "夜间": 3
+      },
+      "K": {
+        "早高峰": 0,
+        "日间": 0,
+        "晚高峰": 0,
+        "夜间": 0
+      }
+    },
+    "phi": {
+      "G": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      },
+      "D": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      },
+      "K": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      }
+    }
+  },
+  "utility": {
+    "by_class": {
+      "高收入": {
+        "beta_c": 0.012,
+        "beta_iv": 0.035,
+        "beta_ac": 0.045,
+        "beta_wt": 0.05,
+        "beta_sc": 0.025,
+        "beta_rel": 0.02,
+        "beta_tr": 0.15,
+        "gamma_com": 0.08,
+        "gamma_flex": 0.1
+      },
+      "中收入": {
+        "beta_c": 0.02,
+        "beta_iv": 0.03,
+        "beta_ac": 0.04,
+        "beta_wt": 0.045,
+        "beta_sc": 0.022,
+        "beta_rel": 0.018,
+        "beta_tr": 0.12,
+        "gamma_com": 0.06,
+        "gamma_flex": 0.07
+      },
+      "低收入": {
+        "beta_c": 0.035,
+        "beta_iv": 0.025,
+        "beta_ac": 0.035,
+        "beta_wt": 0.04,
+        "beta_sc": 0.018,
+        "beta_rel": 0.015,
+        "beta_tr": 0.1,
+        "gamma_com": 0.04,
+        "gamma_flex": 0.05
+      }
+    },
+    "rho": {
+      "高收入": 0.7,
+      "中收入": 0.8,
+      "低收入": 0.9
+    },
+    "mu": {
+      "rail": 0.45,
+      "road": 0.5,
+      "auto": 0.55,
+      "mode_level": 0.75,
+      "top": 1.0
+    },
+    "asc_mode": {
+      "高收入": {
+        "rail": -1.5656197822796658,
+        "road": 0.0,
+        "auto": 0.0
+      },
+      "中收入": {
+        "rail": -1.0143516589403623,
+        "road": 0.0,
+        "auto": 0.0
+      },
+      "低收入": {
+        "rail": 0.6108559362291599,
+        "road": 0.0,
+        "auto": 0.0
+      }
+    },
+    "alpha_travel": {
+      "高收入": 10.999118237439266,
+      "中收入": 11.495545683101561,
+      "低收入": 12.364094228613776
+    },
+    "asc_product": {
+      "G": 0.15,
+      "D": 0.0,
+      "K": -0.1
+    },
+    "asc_seat": {
+      "G": {
+        "商务座": -1.559581,
+        "一等座": -0.806292,
+        "二等座": 0.0
+      },
+      "D": {
+        "一等座": -0.853704,
+        "二等座": 0.0
+      },
+      "K": {
+        "硬座": 0.0,
+        "硬卧": -0.168612,
+        "软卧": -1.065206
+      }
+    },
+    "asc_alternative": {
+      "private_auto": 0.0,
+      "coach": -0.1,
+      "maas": 0.05,
+      "business_van": -0.15
+    }
+  },
+  "schedule": {
+    "vartheta_min": 15.0,
+    "terminal_wait_min": 10.0
+  },
+  "electrification_savings": {
+    "private_auto_per_km": 0.58,
+    "maas_per_km": 0.2,
+    "business_van_per_km": 0.3,
+    "coach_per_km": 0.12
+  },
+  "scenarios": {
+    "income": {
+      "reference": {
+        "高收入": 0.0,
+        "中收入": 0.0,
+        "低收入": 0.0
+      },
+      "common_downturn": {
+        "高收入": -0.1,
+        "中收入": -0.1,
+        "低收入": -0.1
+      },
+      "polarized_downturn": {
+        "高收入": 0.02,
+        "中收入": -0.08,
+        "低收入": -0.15
+      }
+    },
+    "electrification": {
+      "none": {
+        "auto_intensity": 0.0,
+        "road_services": [],
+        "pass_through": 0.0
+      },
+      "auto_only": {
+        "auto_intensity": 0.5,
+        "road_services": [],
+        "pass_through": 0.0
+      },
+      "auto_maas_low": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.3
+      },
+      "auto_maas_high": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.7
+      },
+      "all_road_low": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "coach",
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.3
+      },
+      "all_road_high": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "coach",
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.7
+      }
+    }
+  },
+  "constraints": {
+    "fare_bounds": [
+      0.8,
+      1.2
+    ],
+    "frequency_max": {
+      "G": {
+        "早高峰": 27,
+        "日间": 86,
+        "晚高峰": 48,
+        "夜间": 17
+      },
+      "D": {
+        "早高峰": 3,
+        "日间": 14,
+        "晚高峰": 6,
+        "夜间": 5
+      },
+      "K": {
+        "早高峰": 2,
+        "日间": 5,
+        "晚高峰": 8,
+        "夜间": 5
+      }
+    },
+    "line_capacity_per_hour": 16.0,
+    "min_od_departures_per_period": 1,
+    "loss_tolerance_options": [
+      0.0,
+      500000.0,
+      2000000.0
+    ],
+    "retention_floor_options": [
+      0.9,
+      0.95,
+      1.0
+    ]
+  },
+  "calibration": {
+    "demand_method": "capacity_loadfactor_mode_share",
+    "reference_participation_target": 0.85,
+    "target_rail_share": 0.7000000000000001,
+    "target_rail_trips": 81195.12000000002,
+    "target_market_trips": 115993.0285714286,
+    "rail_share_source": "configured OD values or distance-band assumptions",
+    "demand_allocation": "unique-train OD weights scaled to each train's peak segment load",
+    "load_factor": {
+      "G": 0.78,
+      "D": 0.72,
+      "K": 0.7
+    },
+    "fare_imputation": [],
+    "fare_imputation_count": 0,
+    "reference_products": [
+      "G",
+      "D"
+    ],
+    "cost_reference_operating_ratio": 0.92,
+    "demand_capacity_rescale": 0.6691975530502751
+  },
+  "costs": {
+    "fixed_per_product_day": {
+      "G": 323685.8017432789,
+      "D": 242764.35130745918,
+      "K": 161842.90087163946
+    },
+    "per_run": {
+      "G": 7448.254817388018,
+      "D": 6107.568950258174,
+      "K": 4841.365631302212
+    },
+    "per_train_km": {
+      "G": 148.96509634776035,
+      "D": 122.15137900516348,
+      "K": 96.82731262604423
+    },
+    "calibration_note": "Normalized to the configured reference operating ratio; not observed accounting cost."
+  }
+}

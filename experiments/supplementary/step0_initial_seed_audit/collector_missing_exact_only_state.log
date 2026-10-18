@@ -1,0 +1,17 @@
+Cardinal Optimizer v8.0.6. Build date Aug  7 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+PASS HN commercial profit_gain expected 1585.2 actual 1585.178195199158
+PASS HN commercial delta_W expected -398.9 actual -398.87624877366795
+PASS HN commercial L_retention expected 0.9811 actual 0.9810630663711775
+PASS HN welfare delta_W expected 562.2 actual 562.172205942098
+PASS HN strict profit_gain expected 569.9 actual 569.9137934366986
+PASS HN strict delta_W expected 388.9 actual 388.8848373747542
+Traceback (most recent call last):
+  File "D:\Paper-M\TRA\TRA-R3\exp_v4\step0.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "D:\Paper-M\TRA\TRA-R3\exp_v4\step0.py", line 22, in main
+    warm=v3_states[statekey(m)]['warm']
+         ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: '4c4949afb2b5947b56997c25'

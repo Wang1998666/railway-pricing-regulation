@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "reviewed_pdf_sha256": "c78ee191eaaaf236a2ba5ba87dc4a17900c9111177a83f5c6fc83e0e571a08aa",
+  "reviewed_at_utc": "2026-10-15T13:07:04.308095+00:00",
+  "pages": 51,
+  "all_pages_reviewed_in_contact_sheets": true,
+  "detailed_table_pages": [
+    29,
+    32,
+    36,
+    41
+  ],
+  "detailed_figures": [
+    4,
+    7,
+    11,
+    12,
+    14,
+    16
+  ],
+  "case_overfull_warnings": 0,
+  "visible_overlaps_or_clipping": false,
+  "unresolved_references": []
+}

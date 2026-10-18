@@ -1,0 +1,77 @@
+{
+  "case_id": "wuhan_changsha",
+  "collected_at_utc": "2026-07-31T02:34:02.231372+00:00",
+  "source_url": "https://lbs.amap.com/api/webservice/guide/api/direction/",
+  "city_centers": {
+    "武汉": "114.303873,30.594196",
+    "长沙": "112.938882,28.228304"
+  },
+  "station_locations": {
+    "武汉": {
+      "武昌": "114.317603,30.528545",
+      "武汉": "114.424338,30.606981",
+      "汉口": "114.254807,30.618527"
+    },
+    "长沙": {
+      "长沙": "113.014603,28.193580",
+      "长沙南": "113.065510,28.147093"
+    }
+  },
+  "routes": [
+    {
+      "kind": "intercity",
+      "origin": "武汉",
+      "destination": "长沙",
+      "distance_km": 333.52,
+      "duration_min": 245.183,
+      "tolls_yuan": 140.0,
+      "toll_distance_km": 295.97,
+      "coach_duration_min": 318.738
+    },
+    {
+      "kind": "access",
+      "city": "武汉",
+      "station": "武昌",
+      "drive_distance_km": 11.571,
+      "drive_duration_min": 28.65,
+      "walk_distance_km": 11.402,
+      "walk_duration_min": 152.033
+    },
+    {
+      "kind": "access",
+      "city": "武汉",
+      "station": "武汉",
+      "drive_distance_km": 15.214,
+      "drive_duration_min": 28.533,
+      "walk_distance_km": 15.03,
+      "walk_duration_min": 200.4
+    },
+    {
+      "kind": "access",
+      "city": "武汉",
+      "station": "汉口",
+      "drive_distance_km": 7.413,
+      "drive_duration_min": 36.633,
+      "walk_distance_km": 6.42,
+      "walk_duration_min": 85.6
+    },
+    {
+      "kind": "access",
+      "city": "长沙",
+      "station": "长沙",
+      "drive_distance_km": 13.005,
+      "drive_duration_min": 32.367,
+      "walk_distance_km": 11.055,
+      "walk_duration_min": 147.4
+    },
+    {
+      "kind": "access",
+      "city": "长沙",
+      "station": "长沙南",
+      "drive_distance_km": 31.374,
+      "drive_duration_min": 45.083,
+      "walk_distance_km": 21.014,
+      "walk_duration_min": 280.183
+    }
+  ]
+}

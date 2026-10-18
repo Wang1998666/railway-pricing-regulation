@@ -1,0 +1,5 @@
+﻿od,period,rail_share,estimated_rail_trips,target_market_trips,method
+武汉-长沙,早高峰,0.7,15311.520000000006,21873.60000000001,capacity_loadfactor_mode_share
+武汉-长沙,日间,0.7,54602.99999999992,78004.28571428561,capacity_loadfactor_mode_share
+武汉-长沙,晚高峰,0.7,18900.00000000001,27000.00000000002,capacity_loadfactor_mode_share
+武汉-长沙,夜间,0.7,27381.959999999992,39117.085714285706,capacity_loadfactor_mode_share

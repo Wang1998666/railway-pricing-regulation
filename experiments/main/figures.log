@@ -1,0 +1,14 @@
+rendered calibration
+rendered elasticity
+rendered attribution
+rendered fares_headroom
+rendered od_arcs
+rendered shocks
+rendered polarization
+rendered entries
+D:\Paper-M\TRA\TRA-R2\experiments_v3_round5\figures_round5.py:165: UserWarning: You passed both c and facecolor/facecolors for the markers. c has precedence over facecolor/facecolors. This behavior may change in the future.
+  base=record(REF[ci],pol,'profit');rows=sorted([g for g in gg if g['job']['case']==ci and g['job']['spec']['eta']>=.975],key=lambda g:g['job']['spec']['eta']);good=[g for g in rows if record(g,pol,'profit')['feasible']];xx=[base['eta']]+[g['job']['spec']['eta'] for g in good];yy=[0]+[(base['profit']-record(g,pol,'profit')['profit'])/1000 for g in good];idx=np.argsort(xx);ax.step(np.array(xx)[idx],np.array(yy)[idx],where='post',c=CC[ci],ls=ls,lw=1);ax.scatter(xx,yy,c=CC[ci],marker=marker,s=19,facecolor=CC[ci] if pol=='P3' else 'white',label=ci+' '+pol)
+rendered guarantees
+rendered equity
+rendered governance
+rendered calibration_dependence

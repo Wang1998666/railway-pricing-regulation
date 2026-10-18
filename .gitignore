@@ -1,0 +1,21 @@
+# Private local credentials and solver licenses
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.lic
+license.dat
+**/credentials.*
+**/secrets.*
+
+# Local environments and generated Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Archived inputs, runs, states, and results are deliberately tracked.

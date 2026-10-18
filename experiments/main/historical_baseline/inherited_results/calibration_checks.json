@@ -1,0 +1,1207 @@
+{
+  "n": 96,
+  "passed": true,
+  "failures": [],
+  "reports": [
+    {
+      "case_id": "HN",
+      "spec": {},
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "money": 1.25
+      },
+      "flow_error": 5.038600647822022e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.237854842718662e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "money": 1.5
+      },
+      "flow_error": 5.020410753786564e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.08242361927114e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "money": 2.0
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 7.982503547054876e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "money": 3.0
+      },
+      "flow_error": 5.129550117999315e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.038014698286133e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "mu_sc": 0.25
+      },
+      "flow_error": 5.056790541857481e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.08242361927114e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "mu_sc": 0.35
+      },
+      "flow_error": 5.120455170981586e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 7.982503547054876e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "mu_pr": 0.4
+      },
+      "flow_error": 5.102265276946127e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.137934770502397e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "mu_pr": 0.5
+      },
+      "flow_error": 5.047695594839752e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.137934770502397e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "slope": 0.75
+      },
+      "flow_error": 5.06588548887521e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.104628079763643e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "slope": 1.25
+      },
+      "flow_error": 5.020410753786564e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.22675261247241e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "homogeneous": true
+      },
+      "flow_error": 1.0913936421275139e-11,
+      "participation_error": 0.0,
+      "load_error": 2.220446049250313e-16,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.5
+      },
+      "flow_error": 4.911271389573812e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 7.838174553853605e-14,
+      "variable_share": 0.5,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.7
+      },
+      "flow_error": 4.911271389573812e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 7.838174553853605e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.9
+      },
+      "flow_error": 4.911271389573812e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 7.838174553853605e-14,
+      "variable_share": 0.8999999999999999,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.5
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.49999999999999994,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.7
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.9
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.9,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.5
+      },
+      "flow_error": 1.9554136088117957e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.482103908136196e-14,
+      "variable_share": 0.49999999999999994,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.7
+      },
+      "flow_error": 1.9554136088117957e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.482103908136196e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.9
+      },
+      "flow_error": 1.9554136088117957e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.482103908136196e-14,
+      "variable_share": 0.9,
+      "cost_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.0
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.15
+      },
+      "flow_error": 4.813500709133223e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.4555023852835802e-13,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.3
+      },
+      "flow_error": 3.843751983367838e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.1535217225855376e-13,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.0
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.15
+      },
+      "flow_error": 4.813500709133223e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.4555023852835802e-13,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.3
+      },
+      "flow_error": 3.843751983367838e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.1535217225855376e-13,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.0
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.15
+      },
+      "flow_error": 4.813500709133223e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.4555023852835802e-13,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.3
+      },
+      "flow_error": 3.843751983367838e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.1535217225855376e-13,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "occupancy": 1.0
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "HN",
+      "spec": {
+        "occupancy": 3.0
+      },
+      "flow_error": 5.093170329928398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 8.126832540256146e-14,
+      "variable_share": 0.6999999999999998,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {},
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "money": 1.25
+      },
+      "flow_error": 1.9190338207408786e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.652633751016765e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "money": 1.5
+      },
+      "flow_error": 1.7553247744217515e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.68594044175552e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "money": 2.0
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.5860203695392556e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "money": 3.0
+      },
+      "flow_error": 1.9190338207408786e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.6193270602780103e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "mu_sc": 0.25
+      },
+      "flow_error": 1.8917489796876907e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.730349362740526e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "mu_sc": 0.35
+      },
+      "flow_error": 1.800799509510398e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.785860513971784e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "mu_pr": 0.4
+      },
+      "flow_error": 2.000888343900442e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.68594044175552e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "mu_pr": 0.5
+      },
+      "flow_error": 1.837179297581315e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "slope": 0.75
+      },
+      "flow_error": 1.8735590856522322e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.68594044175552e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "slope": 1.25
+      },
+      "flow_error": 1.9190338207408786e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.7414515929867775e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "homogeneous": true
+      },
+      "flow_error": 1.0913936421275139e-11,
+      "participation_error": 0.0,
+      "load_error": 1.9984014443252818e-15,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.5
+      },
+      "flow_error": 5.443325790110976e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 9.914291609902648e-14,
+      "variable_share": 0.5000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.7
+      },
+      "flow_error": 5.443325790110976e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 9.914291609902648e-14,
+      "variable_share": 0.7000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.9
+      },
+      "flow_error": 5.443325790110976e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 9.914291609902648e-14,
+      "variable_share": 0.9000000000000001,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.5
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.5000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.7
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.9
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.9,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.5
+      },
+      "flow_error": 2.000888343900442e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.941291737419306e-14,
+      "variable_share": 0.5000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.7
+      },
+      "flow_error": 2.000888343900442e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.941291737419306e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.9
+      },
+      "flow_error": 2.000888343900442e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.941291737419306e-14,
+      "variable_share": 0.9,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.0
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.15
+      },
+      "flow_error": 4.674802767112851e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.4799272918253337e-13,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.3
+      },
+      "flow_error": 3.701643436215818e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.1757261830780408e-13,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.0
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.15
+      },
+      "flow_error": 4.674802767112851e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.4799272918253337e-13,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.3
+      },
+      "flow_error": 3.701643436215818e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.1757261830780408e-13,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.0
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.15
+      },
+      "flow_error": 4.674802767112851e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.4799272918253337e-13,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.3
+      },
+      "flow_error": 3.701643436215818e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.1757261830780408e-13,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "occupancy": 1.0
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "WC",
+      "spec": {
+        "occupancy": 3.0
+      },
+      "flow_error": 1.864464138634503e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 3.774758283725532e-14,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {},
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "money": 1.25
+      },
+      "flow_error": 4.1153569441121363e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "money": 1.5
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.6368018052048683e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "money": 2.0
+      },
+      "flow_error": 4.115072727017832e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "money": 3.0
+      },
+      "flow_error": 4.115179308428196e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6368018052048683e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "mu_sc": 0.25
+      },
+      "flow_error": 4.115250362701772e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6368018052048683e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "mu_sc": 0.35
+      },
+      "flow_error": 4.115250362701772e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "mu_pr": 0.4
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.6366907829024058e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "mu_pr": 0.5
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "slope": 0.75
+      },
+      "flow_error": 4.115179308428196e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.6366907829024058e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "slope": 1.25
+      },
+      "flow_error": 4.115179308428196e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6358026044827056e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "homogeneous": true
+      },
+      "flow_error": 2.8421709430404007e-12,
+      "participation_error": 0.0,
+      "load_error": 1.4432899320127035e-15,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.5
+      },
+      "flow_error": 3.9750958080730925e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.580957587066223e-12,
+      "variable_share": 0.5000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.7
+      },
+      "flow_error": 3.9750958080730925e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.580957587066223e-12,
+      "variable_share": 0.7,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.85,
+        "variable_share": 0.9
+      },
+      "flow_error": 3.9750958080730925e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.580957587066223e-12,
+      "variable_share": 0.9,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.5
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.4999999999999999,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.7
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.88,
+        "variable_share": 0.9
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.9,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.5
+      },
+      "flow_error": 4.3018033579755866e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.7110757255522913e-12,
+      "variable_share": 0.5,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.7
+      },
+      "flow_error": 4.3018033579755866e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.7110757255522913e-12,
+      "variable_share": 0.7000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "ref_load": 0.92,
+        "variable_share": 0.9
+      },
+      "flow_error": 4.3018033579755866e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.7110757255522913e-12,
+      "variable_share": 0.9000000000000001,
+      "cost_error": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.0
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 9.313225746154785e-10,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.15
+      },
+      "flow_error": 3.881268639815971e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.357913781419029e-12,
+      "variable_share": 0.7,
+      "cost_error": 9.313225746154785e-10,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 0.25,
+        "background": 0.3
+      },
+      "flow_error": 3.085460775764659e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.078692690725802e-12,
+      "variable_share": 0.7,
+      "cost_error": 9.313225746154785e-10,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.0
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.15
+      },
+      "flow_error": 3.881268639815971e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.357913781419029e-12,
+      "variable_share": 0.7,
+      "cost_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 0.5,
+        "background": 0.3
+      },
+      "flow_error": 3.085460775764659e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.078692690725802e-12,
+      "variable_share": 0.7,
+      "cost_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.0
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.15
+      },
+      "flow_error": 3.881268639815971e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.357913781419029e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "chi": 1.0,
+        "background": 0.3
+      },
+      "flow_error": 3.085460775764659e-10,
+      "participation_error": 1.1102230246251565e-16,
+      "load_error": 1.078692690725802e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "occupancy": 1.0
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    },
+    {
+      "case_id": "JX",
+      "spec": {
+        "occupancy": 3.0
+      },
+      "flow_error": 4.114859564197104e-10,
+      "participation_error": 2.220446049250313e-16,
+      "load_error": 1.6364687382974807e-12,
+      "variable_share": 0.7,
+      "cost_error": 3.725290298461914e-09,
+      "passed": true
+    }
+  ]
+}

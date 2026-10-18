@@ -1,0 +1,28 @@
+Waiting for active computation 29316
+STAGE closure
+DONE closure 156.1
+STAGE verification
+DONE verification 136.2
+STAGE audit
+DONE audit 6.2
+STAGE carbon
+DONE carbon 100.5
+STAGE review_analysis
+DONE review_analysis 52.0
+STAGE mechanisms
+DONE mechanisms 7.4
+STAGE accounting
+DONE accounting 11.2
+STAGE round5_analysis
+DONE round5_analysis 14.6
+STAGE writing
+DONE writing 18.2
+STAGE figures
+DONE figures 42.4
+STAGE latex
+DONE latex 9.5
+STAGE pdf_qa
+DONE pdf_qa 6.0
+STAGE finalization
+DONE finalization 15.2
+ALL ROUND-FIVE STAGES COMPLETE

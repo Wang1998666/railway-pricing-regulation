@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "grid_records": 60,
+  "variant_records": 4,
+  "accounting_max_error": 3.5390257835388184e-08,
+  "checks": [
+    "scalar demand/accounting/retention/load",
+    "integer and authority bounds",
+    "fixed K",
+    "fleet and paths",
+    "OD service and daily incumbents",
+    "finance and participation",
+    "fare bands and menu",
+    "common fares and policy membership",
+    "nested-domain profit ordering"
+  ],
+  "source_sha256": {
+    "analyze_round6.py": "a9dd35012d202dc9b1d0f67b58c412218560ff777252edeedbdc0d6bfb79e455",
+    "run_round6.py": "9fcf109d7d4373acd001f15badb6607ba90db4ff78c8ccc8a261b53d620b0c11",
+    "verify.py": "93c26a443a04950b867a994130f98d5e3808d812ce5eb7ed979c0495b0370173"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "study_id": "TRA-V7-formal-three-corridor-study",
+  "reference_date": "2026-08-05",
+  "rail_collection_window": ["2026-08-03", "2026-08-09"],
+  "cases": [
+    {
+      "id": "hangzhou_nanjing",
+      "label": "杭州—南京高密度成熟高铁廊道",
+      "case_file": "hangzhou_nanjing/case/pattern_case.json",
+      "aligned_case": "hangzhou_nanjing/case/aligned_case.json",
+      "trains_csv": "hangzhou_nanjing/raw_data/hangzhou_nanjing_trains_20260805.csv"
+    },
+    {
+      "id": "wuhan_changsha",
+      "label": "武汉—长沙铁路—公路竞争廊道",
+      "case_file": "wuhan_changsha/case/pattern_case.json",
+      "aligned_case": "wuhan_changsha/case/aligned_case.json",
+      "trains_csv": "wuhan_changsha/raw_data/wuhan_changsha_trains_20260805.csv"
+    },
+    {
+      "id": "jiangxi_ganzhou_ji_an_nanchang_jiujiang",
+      "label": "赣州—吉安—南昌—九江江西多节点廊道",
+      "case_file": "jiangxi_ganzhou_ji_an_nanchang_jiujiang/case/pattern_case.json",
+      "aligned_case": "jiangxi_ganzhou_ji_an_nanchang_jiujiang/case/aligned_case.json",
+      "trains_csv": "jiangxi_ganzhou_ji_an_nanchang_jiujiang/raw_data/jiangxi_ganzhou_ji_an_nanchang_jiujiang_trains_20260805.csv"
+    }
+  ]
+}

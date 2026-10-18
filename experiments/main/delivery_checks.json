@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "preserved": {
+    "case_fig03.pdf": "caaf675da9225c98e7c17a730fbd08e23172b30646dc743a00fd9ae7ebb982c9",
+    "case_fig05.pdf": "d9f0f6d91bcc2a68a7116d844cecf561ce0bea544a174b655a3e5cb3149df3b2",
+    "case_fig05.tex": "15536f8a54372c168012d8eea034534d77db25dd35d82c5f4c3fb4698bc662bc",
+    "Fig4a_pixels_equal": true
+  },
+  "sections_2_3_equal": true,
+  "case_numbered_equations": false,
+  "case_longtable": false,
+  "pages": 51,
+  "records": 5496,
+  "unresolved_references": []
+}

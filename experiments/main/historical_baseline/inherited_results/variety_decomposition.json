@@ -1,0 +1,24 @@
+[
+  {
+    "id": "JX_baseline",
+    "old_departures": 4,
+    "total_CS": 192273.83587619662,
+    "fare_CS": 30878.59381970018,
+    "schedule_availability_CS": 135913.91075339168,
+    "representation_residual_CS": 25481.33130310476,
+    "merged_same_saved_decision_welfare": 51878.310900205746,
+    "merged_maxlf": 0.9548076658886122,
+    "interpretation": "Ordered accounting path; residual changes representation and cannot be called pure variety. Saved legacy designs need not remain feasible."
+  },
+  {
+    "id": "JX_k_cost_0.1",
+    "old_departures": 66,
+    "total_CS": 1226627.5844141543,
+    "fare_CS": -14553.359566926956,
+    "schedule_availability_CS": 2933872.772054076,
+    "representation_residual_CS": -1692691.8280729875,
+    "merged_same_saved_decision_welfare": 2701086.4450449944,
+    "merged_maxlf": 2.4129380333316264,
+    "interpretation": "Ordered accounting path; residual changes representation and cannot be called pure variety. Saved legacy designs need not remain feasible."
+  }
+]

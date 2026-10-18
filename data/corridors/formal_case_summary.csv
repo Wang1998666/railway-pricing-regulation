@@ -1,0 +1,4 @@
+﻿case_id,case_name,cities,nodes,forward_ods,endpoint_road_distance_km,weekly_timetable_records,reference_date_timetable_records,reference_date_unique_trains,reference_G_unique_trains,reference_D_unique_trains,reference_K_unique_trains,K_candidate_patterns,station_access_records,weekly_collection_errors,static_validation,reference_dynamic_check
+hangzhou_nanjing,杭州—南京铁路—公路客运廊道,杭州—南京,2,1,279.388,1124,160,147,118,18,11,1,6,0,passed,feasible
+wuhan_changsha,武汉—长沙铁路—公路客运廊道,武汉—长沙,2,1,333.52,1297,185,185,136,7,42,1,5,0,passed,feasible
+jiangxi_ganzhou_ji_an_nanchang_jiujiang,赣州—吉安—南昌—九江铁路—公路客运廊道,赣州—吉安—南昌—九江,4,6,515.665,3464,494,190,100,37,53,10,11,0,passed,feasible

@@ -1,0 +1,64 @@
+{
+  "case_id": "hangzhou_nanjing",
+  "name": "杭州—南京铁路—公路客运廊道",
+  "case_type": "calibrated numerical case anchored to observed public-service snapshots",
+  "query_date": "2026-08-05",
+  "od_scope": "forward",
+  "cities": [
+    {
+      "name": "杭州",
+      "rail_query": "杭州",
+      "geocode_query": "杭州市人民政府"
+    },
+    {
+      "name": "南京",
+      "rail_query": "南京",
+      "geocode_query": "南京市人民政府"
+    }
+  ],
+  "collection": {
+    "amap_key_env": "AMAP_API_KEY",
+    "request_delay_seconds": 0.5,
+    "timeout_seconds": 30.0
+  },
+  "demand": {
+    "method": "capacity_loadfactor_mode_share",
+    "reference_participation_target": 0.85,
+    "class_share": {
+      "高收入": 0.2,
+      "中收入": 0.6,
+      "低收入": 0.2
+    },
+    "vulnerable_class": "低收入",
+    "load_factor": {
+      "G": 0.78,
+      "D": 0.72,
+      "K": 0.7
+    },
+    "rail_share_by_distance": [
+      {"min_km": 0, "max_km": 100, "share": 0.45},
+      {"min_km": 100, "max_km": 200, "share": 0.6},
+      {"min_km": 200, "max_km": 350, "share": 0.7},
+      {"min_km": 350, "max_km": 600, "share": 0.65},
+      {"min_km": 600, "max_km": 100000, "share": 0.6}
+    ]
+  },
+  "model": {
+    "reference_products": ["G", "D"],
+    "fare_bounds": [0.8, 1.2],
+    "line_capacity_per_hour": 16,
+    "min_od_departures_per_period": 1,
+    "loss_tolerance_options": [0.0, 500000.0, 2000000.0],
+    "retention_floor_options": [0.9, 0.95, 1.0],
+    "cost_reference_operating_ratio": 0.92
+  },
+  "data_governance": {
+    "reference_date": "2026-08-05",
+    "rail_collection_window": ["2026-08-03", "2026-08-09"],
+    "observed_fields": ["timetable", "published fare", "station set", "road distance", "road route-planning duration snapshot", "tolls"],
+    "derived_fields": ["product grouping", "median runtime", "median fare", "station-access median", "private-auto and road-service monetary attributes"],
+    "calibrated_fields": ["demand scale", "load factors", "rail shares", "participation", "utility constants", "operating costs"],
+    "scenario_fields": ["income shocks", "electrification states", "fare bounds", "regulatory floors"],
+    "citation_keys": ["ChinaRailway12306", "AmapWebService2026", "NinghangHSR2013", "NBSIncome2025"]
+  }
+}

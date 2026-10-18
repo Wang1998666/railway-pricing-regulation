@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "HN",
+      "policy": "P1",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": 2.3283064365386963e-10,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P1",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": -9.313225746154785e-10,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P2",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": 2.561137080192566e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P2",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": -3.4924596548080444e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P4",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": 1.862645149230957e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P4",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": -7.916241884231567e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P3",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": 3.259629011154175e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P3",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": -1.909211277961731e-08,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P3 strict",
+      "objective": "profit",
+      "value": 1688724.2618675418,
+      "gap": 6.05359673500061e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "HN",
+      "policy": "P3 strict",
+      "objective": "welfare",
+      "value": 562172.205942098,
+      "gap": -1.909211277961731e-08,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P1",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": -2.0954757928848267e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P1",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": 2.7241185307502747e-08,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P2",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": -2.7939677238464355e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P2",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": 2.7474015951156616e-08,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P4",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": -3.725290298461914e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P4",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": 6.05359673500061e-08,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P3",
+      "objective": "profit",
+      "delta": 0.0,
+      "gap": 9.778887033462524e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P3",
+      "objective": "welfare",
+      "delta": 0.0,
+      "gap": 6.05359673500061e-08,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P3 strict",
+      "objective": "profit",
+      "value": 2587992.770154532,
+      "gap": -5.587935447692871e-09,
+      "backend": "COPT"
+    },
+    {
+      "case": "WC",
+      "policy": "P3 strict",
+      "objective": "welfare",
+      "value": 734109.923845809,
+      "gap": 4.1443854570388794e-08,
+      "backend": "COPT"
+    }
+  ],
+  "seconds": 23.786763099997188
+}

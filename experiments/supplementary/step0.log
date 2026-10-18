@@ -1,0 +1,36 @@
+PASS HN commercial profit_gain expected 1585.2 actual 1585.178195199158
+PASS HN commercial delta_W expected -398.9 actual -398.87624877366795
+PASS HN commercial L_retention expected 0.9811 actual 0.9810630663711775
+PASS HN welfare delta_W expected 562.2 actual 562.172205942098
+PASS HN strict profit_gain expected 569.9 actual 569.9137934366986
+PASS HN strict delta_W expected 388.9 actual 388.8848373747542
+Cardinal Optimizer v8.0.6. Build date Aug  7 2026
+Copyright Cardinal Operations 2026. All Rights Reserved
+
+PASS HN tight delta_W expected 521.0 actual 521.0133335372917
+PASS HN moderate profit_gain expected 1180.7 actual 1180.7019974779805
+PASS HN moderate delta_W expected -84.7 actual -84.7304770784434
+PASS HN freeze profit_gain expected 535.4 actual 535.4444567156881
+PASS HN freeze delta_W expected 480.9 actual 480.9255010809749
+PASS WC commercial profit_gain expected 1788.8 actual 1788.7671247902026
+PASS WC commercial delta_W expected -709.7 actual -709.6546073688902
+PASS WC commercial L_retention expected 0.9882 actual 0.9882432475121146
+PASS WC welfare profit_gain expected 852.5 actual 852.538875769254
+PASS WC welfare delta_W expected 769.6 actual 769.6032320475541
+PASS WC welfare L_retention expected 0.999754 actual 0.9997538812531703
+PASS WC strict profit_gain expected 757.0 actual 756.9600712744668
+PASS WC strict delta_W expected 730.4 actual 730.4034855506644
+PASS WC tight delta_W expected 734.0 actual 734.0350773575045
+PASS WC moderate profit_gain expected 1510.8 actual 1510.753946806226
+PASS WC moderate delta_W expected -345.2 actual -345.20606937025116
+PASS WC freeze profit_gain expected 692.8 actual 692.8033809772951
+PASS WC freeze delta_W expected 683.5 actual 683.5362418807969
+PASS JX commercial profit_gain expected 1598.4 actual 1598.393731747016
+PASS JX commercial delta_W expected -941.2 actual -941.2176825851649
+PASS JX commercial L_retention expected 0.9932 actual 0.9932355840334144
+PASS JX welfare delta_W expected 833.7 actual 833.7124693948999
+PASS JX strict profit_gain expected 267.8 actual 267.84199112848364
+PASS JX strict delta_W expected 249.7 actual 249.6906345280204
+PASS JX moderate profit_gain expected 964.4 actual 964.4213334813974
+PASS JX moderate delta_W expected -401.9 actual -401.90959900898116
+STEP0 PASS

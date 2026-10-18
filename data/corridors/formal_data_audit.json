@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "prepare_formal_case_audit.py",
+  "reference_date": "2026-08-05",
+  "rail_collection_window": [
+    "2026-08-03",
+    "2026-08-09"
+  ],
+  "classification_rule": {
+    "G": "train number begins G or C",
+    "D": "begins D",
+    "K": "all remaining services"
+  },
+  "data_status": {
+    "observed": [
+      "12306 timetable and published fare snapshots",
+      "Amap road/access routing snapshots"
+    ],
+    "derived": [
+      "product groups",
+      "medians",
+      "road passenger cost formulas",
+      "pattern coverage signatures"
+    ],
+    "calibrated": [
+      "demand scale",
+      "load factor",
+      "rail share",
+      "utility constants",
+      "operating costs"
+    ],
+    "scenario": [
+      "income shocks",
+      "electrification states",
+      "fare bounds",
+      "regulatory floors"
+    ]
+  },
+  "validation": {
+    "static_schema": "3/3 passed, zero errors and warnings",
+    "reference_dynamic": "3/3 feasible"
+  },
+  "city_context": {
+    "file": "city_context_2025.csv",
+    "source_registry": "city_context_2025_sources.json",
+    "cities": 8,
+    "year": 2025,
+    "model_input": false,
+    "missing_value_policy": "unreported fields remain blank; no cross-year substitution or imputation"
+  },
+  "cases": [
+    {
+      "case_id": "hangzhou_nanjing",
+      "expected_dates": [
+        "20260803",
+        "20260804",
+        "20260805",
+        "20260806",
+        "20260807",
+        "20260808",
+        "20260809"
+      ],
+      "observed_dates": [
+        "20260803",
+        "20260804",
+        "20260805",
+        "20260806",
+        "20260807",
+        "20260808",
+        "20260809"
+      ],
+      "complete_natural_week": true,
+      "weekly_timetable_records": 1124,
+      "weekly_collection_errors": 0,
+      "reference_product_counts": {
+        "G": 118,
+        "D": 18,
+        "K": 11
+      },
+      "K_candidate_patterns": 1,
+      "mandatory_ganzhou_nanchang_present": null
+    },
+    {
+      "case_id": "wuhan_changsha",
+      "expected_dates": [
+        "20260803",
+        "20260804",
+        "20260805",
+        "20260806",
+        "20260807",
+        "20260808",
+        "20260809"
+      ],
+      "observed_dates": [
+        "20260803",
+        "20260804",
+        "20260805",
+        "20260806",
+        "20260807",
+        "20260808",
+        "20260809"
+      ],
+      "complete_natural_week": true,
+      "weekly_timetable_records": 1297,
+      "weekly_collection_errors": 0,
+      "reference_product_counts": {
+        "G": 136,
+        "D": 7,
+        "K": 42
+      },
+      "K_candidate_patterns": 1,
+      "mandatory_ganzhou_nanchang_present": null
+    },
+    {
+      "case_id": "jiangxi_ganzhou_ji_an_nanchang_jiujiang",
+      "expected_dates": [
+        "20260803",
+        "20260804",
+        "20260805",
+        "20260806",
+        "20260807",
+        "20260808",
+        "20260809"
+      ],
+      "observed_dates": [
+        "20260803",
+        "20260804",
+        "20260805",
+        "20260806",
+        "20260807",
+        "20260808",
+        "20260809"
+      ],
+      "complete_natural_week": true,
+      "weekly_timetable_records": 3464,
+      "weekly_collection_errors": 0,
+      "reference_product_counts": {
+        "G": 100,
+        "D": 37,
+        "K": 53
+      },
+      "K_candidate_patterns": 10,
+      "mandatory_ganzhou_nanchang_present": true
+    }
+  ]
+}

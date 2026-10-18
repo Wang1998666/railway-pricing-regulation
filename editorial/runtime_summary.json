@@ -1,0 +1,9 @@
+{
+  "batch_wall_seconds": 68.92079959998955,
+  "certificate_calls": 60,
+  "median_certificate_call_seconds": 0.16832169999543112,
+  "minimum_certificate_call_seconds": 0.12008700000296813,
+  "maximum_certificate_call_seconds": 6.800970700001926,
+  "workers": 4,
+  "scope": "60 HN/WC certificates plus four JX P3/P4 variant re-solves; warm starts and within-cap period-column reuse; not a cold full-study runtime"
+}

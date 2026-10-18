@@ -1,0 +1,101 @@
+{
+  "archived_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "manuscript": {
+    "path": "TRA-Final-R2/TRA-20261016-V15.tex",
+    "modified": "2026-10-18T10:21:45+08:00",
+    "sha256": "8577ff5589586afa62a92c7e59e52689ac9deaec75615a75b2eec52f3cb91c3c"
+  },
+  "selected_experiment_layers": [
+    "experiments/main",
+    "experiments/policy_grid",
+    "experiments/supplementary"
+  ],
+  "timeline": [
+    {
+      "folder": "TRA-R2/experiments_v3",
+      "result_files": 564,
+      "latest_result": "TRA-R2/experiments_v3/runs/E7/JX_10_06.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-14T19:03:38+08:00"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_review",
+      "result_files": 774,
+      "latest_result": "TRA-R2/experiments_v3_review/runs/E12/JX_polarized_0.2_1.0_1.0.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-15T00:28:49+08:00"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_revision2",
+      "result_files": 813,
+      "latest_result": "TRA-R2/experiments_v3_revision2/runs/E10/JX_06_06.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-14T21:18:11+08:00"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_round2",
+      "result_files": 849,
+      "latest_result": "TRA-R2/experiments_v3_round2/runs/E3/JX_bundle_upgrade.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-15T11:01:11+08:00"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_round3",
+      "result_files": 912,
+      "latest_result": "TRA-R2/experiments_v3_round3/runs/E15/WC_fleet1.5.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-15T12:37:32+08:00"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_round4",
+      "result_files": 54,
+      "latest_result": "TRA-R2/experiments_v3_round4/runs/E16/JX_elastic1_cap1.3.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-15T13:57:48+08:00"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_round5",
+      "result_files": 1806,
+      "latest_result": "TRA-R2/experiments_v3_round5/runs/E9/WC_reference_12.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-15T20:29:48+08:00",
+      "current_folder": "experiments/main"
+    },
+    {
+      "folder": "TRA-R2/experiments_v3_round6",
+      "result_files": 12,
+      "latest_result": "TRA-R2/experiments_v3_round6/grid/WC_1.20.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-15T22:21:59+08:00",
+      "current_folder": "experiments/policy_grid"
+    },
+    {
+      "folder": "TRA-R3/exp_v4",
+      "result_files": 110,
+      "latest_result": "TRA-R3/exp_v4/exp5/results.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-16T16:27:42+08:00"
+    },
+    {
+      "folder": "TRA-R4/exp_v4",
+      "result_files": 110,
+      "latest_result": "TRA-R4/exp_v4/exp5/results.json",
+      "latest_result_modified_Asia_Shanghai": "2026-10-16T16:27:42+08:00",
+      "current_folder": "experiments/supplementary"
+    }
+  ],
+  "v4_provenance_against_round5": {
+    "source_sha256": {
+      "checked": 76,
+      "mismatches": []
+    },
+    "input_sha256": {
+      "checked": 7,
+      "mismatches": []
+    }
+  },
+  "method": "Existing output timestamps, dependency imports, and archived source/input hashes; no experiments executed.",
+  "editorial_support": {
+    "folder": "editorial",
+    "role": "Figure label positioning and editorial support only; README reports no new main experiments.",
+    "original_folder": "TRA-R2/experiments_v3_round7"
+  },
+  "original_experiment_layer_names": [
+    "TRA-R2/experiments_v3_round5",
+    "TRA-R2/experiments_v3_round6",
+    "TRA-R4/exp_v4"
+  ],
+  "current_layout": "Functional directory names; original source paths are retained only for provenance."
+}

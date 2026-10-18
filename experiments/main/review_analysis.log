@@ -1,0 +1,231 @@
+{
+  "counts": {
+    "E2": {
+      "groups": 108,
+      "records": 1080,
+      "budgets": 0
+    },
+    "E3": {
+      "groups": 120,
+      "records": 480,
+      "budgets": 0
+    },
+    "E4": {
+      "groups": 90,
+      "records": 360,
+      "budgets": 0
+    },
+    "E5": {
+      "groups": 99,
+      "records": 792,
+      "budgets": 0
+    },
+    "E6": {
+      "groups": 9,
+      "records": 36,
+      "budgets": 0
+    },
+    "E7": {
+      "groups": 75,
+      "records": 300,
+      "budgets": 0
+    },
+    "E8": {
+      "groups": 33,
+      "records": 198,
+      "budgets": 0
+    },
+    "E9": {
+      "groups": 39,
+      "records": 156,
+      "budgets": 0
+    },
+    "E10": {
+      "groups": 120,
+      "records": 480,
+      "budgets": 0
+    },
+    "E11": {
+      "groups": 48,
+      "records": 480,
+      "budgets": 0
+    },
+    "E12": {
+      "groups": 108,
+      "records": 432,
+      "budgets": 0
+    },
+    "E5C": {
+      "groups": 54,
+      "records": 432,
+      "budgets": 0
+    }
+  },
+  "reference": [
+    {
+      "case_id": "HN",
+      "objective": "profit",
+      "values": {
+        "P0": 1118810.4684308432,
+        "P1": 1628304.4224517122,
+        "P2": 1654254.9251465313,
+        "P3": 2703988.6636300012,
+        "P4": 2795216.46515668
+      },
+      "joint_gain": 1585178.195199158,
+      "joint_increment": 1049733.73848347,
+      "factorial": 540239.784462601,
+      "fare_shapley": 779613.8462521695,
+      "frequency_shapley": 805564.3489469886,
+      "K_increment": 91227.80152667873
+    },
+    {
+      "case_id": "HN",
+      "objective": "welfare",
+      "values": {
+        "P0": 0.0,
+        "P1": 37287.55707934685,
+        "P2": 502705.2255503088,
+        "P3": 562172.205942098,
+        "P4": 569569.1475697327
+      },
+      "joint_gain": 562172.205942098,
+      "joint_increment": 59466.98039178923,
+      "factorial": 22179.423312442377,
+      "fare_shapley": 48377.26873556804,
+      "frequency_shapley": 513794.93720653,
+      "K_increment": 7396.941627634689
+    },
+    {
+      "case_id": "WC",
+      "objective": "profit",
+      "values": {
+        "P0": 1831032.6988800652,
+        "P1": 2014468.8175635412,
+        "P2": 2523836.0798573606,
+        "P3": 3619799.823670268,
+        "P4": 3802037.781539142
+      },
+      "joint_gain": 1788767.1247902028,
+      "joint_increment": 1095963.7438129075,
+      "factorial": 912527.6251294315,
+      "fare_shapley": 639699.9312481917,
+      "frequency_shapley": 1149067.193542011,
+      "K_increment": 182237.95786887407
+    },
+    {
+      "case_id": "WC",
+      "objective": "welfare",
+      "values": {
+        "P0": 0.0,
+        "P1": 8359.840474870056,
+        "P2": 683536.2418807968,
+        "P3": 769603.2320475541,
+        "P4": 769603.2320475541
+      },
+      "joint_gain": 769603.2320475541,
+      "joint_increment": 86066.99016675726,
+      "factorial": 77707.1496918872,
+      "fare_shapley": 47213.415320813656,
+      "frequency_shapley": 722389.8167267404,
+      "K_increment": 0.0
+    },
+    {
+      "case_id": "JX",
+      "objective": "profit",
+      "values": {
+        "P0": 1461490.3534412608,
+        "P1": 2100372.94047736,
+        "P2": 1738398.1665034909,
+        "P3": 3059884.085188277,
+        "P4": 3073246.7654544227
+      },
+      "joint_gain": 1598393.7317470163,
+      "joint_increment": 959511.144710917,
+      "factorial": 682603.3316486869,
+      "fare_shapley": 980184.2528604427,
+      "frequency_shapley": 618209.4788865736,
+      "K_increment": 13362.680266145617
+    },
+    {
+      "case_id": "JX",
+      "objective": "welfare",
+      "values": {
+        "P0": 0.0,
+        "P1": 84030.89711594209,
+        "P2": 637521.6942326725,
+        "P3": 833712.4693948999,
+        "P4": 1945645.0680680722
+      },
+      "joint_gain": 833712.4693948999,
+      "joint_increment": 196190.77516222745,
+      "factorial": 112159.87804628536,
+      "fare_shapley": 140110.83613908477,
+      "frequency_shapley": 693601.6332558151,
+      "K_increment": 1111932.5986731723
+    }
+  ],
+  "event_counts": {
+    "authority": 15,
+    "baseline": 5,
+    "bundle": 14,
+    "k_cost": 21,
+    "k_fare": 18,
+    "k_restart": 12,
+    "k_time": 16,
+    "money": 12,
+    "demand": 4,
+    "electric": 11,
+    "income": 5
+  },
+  "strict_retention": [
+    {
+      "case_id": "HN",
+      "objective": "profit",
+      "feasible": true,
+      "sacrifice": 1015264.4017624594,
+      "share": 0.6404733580346177
+    },
+    {
+      "case_id": "HN",
+      "objective": "welfare",
+      "feasible": true,
+      "sacrifice": 0.0,
+      "share": 0.0
+    },
+    {
+      "case_id": "WC",
+      "objective": "profit",
+      "feasible": true,
+      "sacrifice": 1031807.053515736,
+      "share": 0.576825814392554
+    },
+    {
+      "case_id": "WC",
+      "objective": "welfare",
+      "feasible": true,
+      "sacrifice": 35493.30820174515,
+      "share": 0.04611896978045956
+    },
+    {
+      "case_id": "JX",
+      "objective": "profit",
+      "feasible": true,
+      "sacrifice": 1330551.7406185325,
+      "share": 0.8324305295943965
+    },
+    {
+      "case_id": "JX",
+      "objective": "welfare",
+      "feasible": true,
+      "sacrifice": 0.0,
+      "share": 0.0
+    }
+  ],
+  "path_max": 0.75,
+  "fleet_max": [
+    0.9997916666666666,
+    0.9983796296296296,
+    0.5319693094629157
+  ]
+}

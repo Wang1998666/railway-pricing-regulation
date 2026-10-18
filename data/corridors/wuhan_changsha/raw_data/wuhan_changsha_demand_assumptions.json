@@ -1,0 +1,12 @@
+{
+  "method": "capacity_loadfactor_mode_share",
+  "status": "assumption-derived from rail supply",
+  "load_factor": {
+    "G": 0.78,
+    "D": 0.72,
+    "K": 0.7
+  },
+  "target_rail_share": 0.7000000000000001,
+  "reference_participation_target": 0.85,
+  "capacity_rescale": 0.17580187583772866
+}

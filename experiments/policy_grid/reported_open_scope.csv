@@ -1,0 +1,73 @@
+experiment,job,state,case_id,policy,objective,feasible,value,master_status,scope
+E11,HN_polarized_0.0,2216d7a15b266bdbf9495a16,HN,P4,profit,True,1352711.3761365563,1,feasible witness
+E11,HN_polarized_0.05,b6446b41f1170e58532d783f,HN,P4,profit,True,1397054.1336734109,1,feasible witness
+E11,HN_polarized_0.1,13ee994b5ef692a6f16cfff6,HN,P4,profit,True,1461369.8082914203,1,feasible witness
+E11,HN_polarized_0.2,54b5aab00d5815a816167314,HN,P4,profit,True,1551026.584155688,1,feasible witness
+E11,HN_polarized_0.35,0d1453c2a1d4aff670e41e86,HN,P4,profit,True,1713381.7067779955,1,feasible witness
+E11,HN_polarized_0.5,93301dc0c4f5f475e3d09915,HN,P4,profit,True,1847089.1075283997,1,feasible witness
+E11,HN_polarized_0.75,cd6c356a04023a88d35f5fb7,HN,P4,profit,True,2006306.311911784,1,feasible witness
+E12,HN_polarized_0.0_0.0_0.95,2216d7a15b266bdbf9495a16,HN,P4,profit,True,1352711.3761365563,1,feasible witness
+E12,HN_polarized_0.0_0.0_1.0,be718eb958bc61643b1e8d41,HN,P4,profit,False,-291394.2555981111,1,no feasible witness; unresolved
+E12,HN_polarized_0.0_0.0_1.0,be718eb958bc61643b1e8d41,HN,P4,welfare,False,86778.74980096892,1,no feasible witness; unresolved
+E12,HN_polarized_0.0_0.5_0.95,13ef32d6f8f605b7c151299f,HN,P4,profit,True,1352711.3761365563,1,feasible witness
+E12,HN_polarized_0.0_0.5_1.0,97645ad7aed67f8c6ecdf3af,HN,P4,profit,False,-293413.18950627185,1,no feasible witness; unresolved
+E12,HN_polarized_0.0_0.5_1.0,97645ad7aed67f8c6ecdf3af,HN,P4,welfare,False,95429.14196871966,1,no feasible witness; unresolved
+E12,HN_polarized_0.0_1.0_0.9,b628a0795c529e18cc0d3326,HN,P4,profit,True,2979594.884608222,1,feasible witness
+E12,HN_polarized_0.0_1.0_0.95,5db8e37868f43a6e133a8eec,HN,P4,profit,True,1352711.3761365563,1,feasible witness
+E12,HN_polarized_0.0_1.0_1.0,8b0308ae943c5e905052035b,HN,P4,profit,False,-293413.18950627185,1,no feasible witness; unresolved
+E12,HN_polarized_0.0_1.0_1.0,8b0308ae943c5e905052035b,HN,P4,welfare,False,95429.14196871966,1,no feasible witness; unresolved
+E12,HN_polarized_0.2_0.0_0.95,54b5aab00d5815a816167314,HN,P4,profit,True,1551026.584155688,1,feasible witness
+E12,HN_polarized_0.2_0.0_1.0,fb489d6dc82f0167bfcafc0b,HN,P4,profit,False,-292756.26096378267,1,no feasible witness; unresolved
+E12,HN_polarized_0.2_0.0_1.0,fb489d6dc82f0167bfcafc0b,HN,P4,welfare,False,299047.4159601927,1,no feasible witness; unresolved
+E12,HN_polarized_0.2_0.5_0.95,554060946092a7a7365d1c1e,HN,P4,profit,True,1551026.584155688,1,feasible witness
+E12,HN_polarized_0.2_0.5_1.0,4dd4bdc0c427c17f76b79ddd,HN,P4,profit,False,-291697.53521896154,1,no feasible witness; unresolved
+E12,HN_polarized_0.2_0.5_1.0,4dd4bdc0c427c17f76b79ddd,HN,P4,welfare,False,276205.79182495177,1,no feasible witness; unresolved
+E12,HN_polarized_0.2_1.0_0.9,ecbfca44fea6cbb562795836,HN,P4,profit,True,3120162.584766399,1,feasible witness
+E12,HN_polarized_0.2_1.0_0.95,cf6b61cb60c43bf13f6b0cb7,HN,P4,profit,True,1551026.584155688,1,feasible witness
+E12,HN_polarized_0.2_1.0_1.0,902d561ded741d8d27cabd07,HN,P4,profit,False,-291697.53521896526,1,no feasible witness; unresolved
+E12,HN_polarized_0.2_1.0_1.0,902d561ded741d8d27cabd07,HN,P4,welfare,False,276205.79182495177,1,no feasible witness; unresolved
+E12,HN_reference_0.0_0.0_1.0,6e5fc0dfb5309c77ab4b7307,HN,P4,profit,True,1688724.2618675418,1,feasible witness
+E12,HN_reference_0.0_0.5_1.0,00eaffc297f3678721d36bc4,HN,P4,profit,True,1692589.482762158,1,feasible witness
+E12,HN_reference_0.0_1.0_1.0,f068883de174c3001033a7b6,HN,P4,profit,True,1692589.482762158,1,feasible witness
+E12,HN_reference_0.2_0.0_1.0,1e404a5ccc290741ca9bfa8c,HN,P4,profit,True,1889154.7659276668,1,feasible witness
+E12,HN_reference_0.2_0.5_1.0,8e8a554de799f2d330a6ccc6,HN,P4,profit,True,1889154.7659276668,1,feasible witness
+E12,HN_reference_0.2_1.0_1.0,2d1edbc14155d5d641f4670c,HN,P4,profit,True,1889154.7659276668,1,feasible witness
+E3,HN_income_severe_polarized,1ac2342eeca2f254d1ad47f5,HN,P4,profit,False,-293107.519080827,1,no feasible witness; unresolved
+E3,HN_income_severe_polarized,1ac2342eeca2f254d1ad47f5,HN,P4,welfare,False,366058.0877539832,1,no feasible witness; unresolved
+E3,HN_income_severe_uniform,3f3156770e99019f711211c8,HN,P4,profit,True,1803706.1530342996,1,feasible witness
+E4,HN_polarized_0.95_0,1cd2f76ed6e8af343c961ddb,HN,P4,profit,True,1713381.7067779955,1,feasible witness
+E4,HN_polarized_0.95_2000,0d1453c2a1d4aff670e41e86,HN,P4,profit,True,1713381.7067779955,1,feasible witness
+E4,HN_polarized_0.95_5000,f5a49c8103f1f312c63e39fc,HN,P4,profit,True,1713381.7067779955,1,feasible witness
+E4,HN_polarized_0.975_0,8137c5969ac3e1091190f426,HN,P4,profit,False,23864.773887056857,1,no feasible witness; unresolved
+E4,HN_polarized_0.975_0,8137c5969ac3e1091190f426,HN,P4,welfare,False,462282.1983757727,1,no feasible witness; unresolved
+E4,HN_polarized_0.975_2000,e07577f8885c30be573672ec,HN,P4,profit,False,-282439.67882415466,1,no feasible witness; unresolved
+E4,HN_polarized_0.975_2000,e07577f8885c30be573672ec,HN,P4,welfare,False,395330.788751401,1,no feasible witness; unresolved
+E4,HN_polarized_0.975_5000,404eea4b336a5fb363146ebc,HN,P4,profit,False,-735223.0430635102,1,no feasible witness; unresolved
+E4,HN_polarized_0.975_5000,404eea4b336a5fb363146ebc,HN,P4,welfare,False,71595.33171838894,1,no feasible witness; unresolved
+E4,HN_polarized_1.0_0,9118fe856b619f5e8e926844,HN,P4,profit,False,23864.773887056857,1,no feasible witness; unresolved
+E4,HN_polarized_1.0_0,9118fe856b619f5e8e926844,HN,P4,welfare,False,462282.1983757727,1,no feasible witness; unresolved
+E4,HN_polarized_1.0_2000,c28e22833f22b2bfe7f5c87a,HN,P4,profit,False,-282439.67882415466,1,no feasible witness; unresolved
+E4,HN_polarized_1.0_2000,c28e22833f22b2bfe7f5c87a,HN,P4,welfare,False,395330.788751401,1,no feasible witness; unresolved
+E4,HN_polarized_1.0_5000,30e41f64ae3be1c96e120fda,HN,P4,profit,False,-735223.0430635102,1,no feasible witness; unresolved
+E4,HN_polarized_1.0_5000,30e41f64ae3be1c96e120fda,HN,P4,welfare,False,71595.33171838894,1,no feasible witness; unresolved
+E4,HN_reference_1.0_0,10364230f4d513a6005e578d,HN,P4,profit,True,1688724.2618675418,1,feasible witness
+E4,HN_reference_1.0_2000,6e5fc0dfb5309c77ab4b7307,HN,P4,profit,True,1688724.2618675418,1,feasible witness
+E7,HN_03_00,2216d7a15b266bdbf9495a16,HN,P4,profit,True,1352711.3761365563,1,feasible witness
+E7,HN_03_01,483b28413a7ae3c411ee323d,HN,P4,profit,True,1618478.632184472,1,feasible witness
+E7,HN_03_02,93301dc0c4f5f475e3d09915,HN,P4,profit,True,1847089.1075283997,1,feasible witness
+E7,HN_04_00,1ac2342eeca2f254d1ad47f5,HN,P4,profit,False,-293107.519080827,1,no feasible witness; unresolved
+E7,HN_04_00,1ac2342eeca2f254d1ad47f5,HN,P4,welfare,False,366058.0877539832,1,no feasible witness; unresolved
+E7,HN_04_01,4d0c742a34dbc9113404f933,HN,P4,profit,False,-286844.04258762486,1,no feasible witness; unresolved
+E7,HN_04_01,4d0c742a34dbc9113404f933,HN,P4,welfare,False,582010.8562256638,1,no feasible witness; unresolved
+E7,HN_04_02,b49a4d91e43093bd4da700e1,HN,P4,profit,False,-291034.6249088235,1,no feasible witness; unresolved
+E7,HN_04_02,b49a4d91e43093bd4da700e1,HN,P4,welfare,False,747155.265238788,1,no feasible witness; unresolved
+E7,HN_04_03,15e5161c4cf8c9d57c661ccf,HN,P4,profit,True,948922.0129221156,1,feasible witness
+E9,HN_reference_01,2b7e9367ea996cfb23bee3a1,HN,P4,profit,True,2703988.6636300012,1,feasible witness
+E9,HN_reference_03,651933e703ad51baf75f3c59,HN,P4,profit,True,2318270.0153181944,1,feasible witness
+E9,HN_reference_06,d8faa2d49fa655bdc5e2575e,HN,P4,profit,True,1868327.4616405163,1,feasible witness
+E9,HN_reference_07,9c1214826a5366fbd53e6b9a,HN,P4,profit,True,1801473.977817621,1,feasible witness
+E9,HN_reference_08,2a3fb3a2e2da0bd0800b9150,HN,P4,profit,True,1745558.209997952,1,feasible witness
+E9,HN_reference_09,6e5fc0dfb5309c77ab4b7307,HN,P4,profit,True,1688724.2618675418,1,feasible witness
+E9,HN_reference_10,04c50a0ccae1b9ceab449c0a,HN,P4,profit,True,1646758.3101114891,1,feasible witness
+E9,HN_reference_11,194f8adf4e597ea585454d2a,HN,P4,profit,True,1498012.5647398084,1,feasible witness
+E9,HN_reference_11,194f8adf4e597ea585454d2a,HN,P4,welfare,True,555174.8923173547,1,feasible witness

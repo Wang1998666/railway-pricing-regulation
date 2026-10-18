@@ -1,0 +1,19 @@
+\begin{table}[htbp]\centering
+\caption{Maximum fleet use in feasible continuous stress states}\label{tab:round2_fleet}
+\begin{minipage}{.95\textwidth}\fontsize{8}{10}\selectfont\setstretch{1}\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.08}
+\par\noindent\textbf{Named designs and remaining resource margins}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}ll>{\raggedright\arraybackslash}p{.27\linewidth}lrrr@{}}\toprule
+Case & Fleet & State & Policy & Used hours & Envelope & Utilization \\
+\midrule
+HN & G & polarized none & P0P & 475.9 & 480.0 & 0.99153 \\
+HN & D & polarized none & P3P & 106.1 & 120.0 & 0.88403 \\
+HN & K & reference none & P4P & 182.0 & 391.0 & 0.46547 \\
+WC & G & polarized none & P0P & 553.1 & 576.0 & 0.96019 \\
+WC & D & polarized none & P0P & 54.4 & 72.0 & 0.75509 \\
+WC & K & reference none & P4P & 363.7 & 889.1 & 0.40912 \\
+JX & G & uniform x0.05 & P4W & 478.8 & 480.0 & 0.99747 \\
+JX & D & uniform x0.1 & P3W & 143.4 & 144.0 & 0.99560 \\
+JX & K & reference none & P4W & 653.3 & 1458.6 & 0.44792 \\
+\bottomrule\end{tabular*}\par\medskip
+\par\noindent\fontsize{8}{9.5}\selectfont Fleet utilization is checked for each saved feasible design. A margin close to one indicates a nearly active constraint even if numerical equality is not attained; the named cases identify that planning bottleneck.
+\end{minipage}\end{table}

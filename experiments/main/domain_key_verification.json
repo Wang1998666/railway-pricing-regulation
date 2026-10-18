@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "HN",
+      "distinct_fare_cap_keys": [
+        "443e98619c4f5d69563b3f7b",
+        "52a91ef3b36152aa40b206ac",
+        "19646a252e77572adf46fbf1"
+      ],
+      "valid_projection": true,
+      "rejected_tariffs": [
+        1.2,
+        1.012
+      ],
+      "metadata_only_reuse": true
+    },
+    {
+      "case": "WC",
+      "distinct_fare_cap_keys": [
+        "9ef31f776465337b0efbee7e",
+        "7bab8fe077a1f48510305bed",
+        "9a54c58fce991bf082c12e17"
+      ],
+      "valid_projection": true,
+      "rejected_tariffs": [
+        1.2,
+        1.012
+      ],
+      "metadata_only_reuse": true
+    },
+    {
+      "case": "JX",
+      "distinct_fare_cap_keys": [
+        "bd5f1413acacb1b3ef6aa2dd",
+        "b2d46ad334d96fb2fba8e18c",
+        "65331c1076252c5a47dbad4e"
+      ],
+      "valid_projection": true,
+      "rejected_tariffs": [
+        1.2,
+        1.012
+      ],
+      "metadata_only_reuse": true
+    }
+  ]
+}

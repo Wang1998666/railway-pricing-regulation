@@ -1,0 +1,87 @@
+{
+  "case_id": "hangzhou_nanjing",
+  "collected_at_utc": "2026-07-31T02:33:52.379667+00:00",
+  "source_url": "https://lbs.amap.com/api/webservice/guide/api/direction/",
+  "city_centers": {
+    "杭州": "120.209398,30.247360",
+    "南京": "118.797066,32.057336"
+  },
+  "station_locations": {
+    "杭州": {
+      "杭州": "120.182860,30.243482",
+      "杭州南": "120.295589,30.172640",
+      "杭州西": "119.986781,30.297932",
+      "杭州东": "120.212600,30.290851"
+    },
+    "南京": {
+      "南京": "118.797510,32.087125",
+      "南京南": "118.796786,31.970968"
+    }
+  },
+  "routes": [
+    {
+      "kind": "intercity",
+      "origin": "杭州",
+      "destination": "南京",
+      "distance_km": 279.388,
+      "duration_min": 202.117,
+      "tolls_yuan": 110.0,
+      "toll_distance_km": 241.472,
+      "coach_duration_min": 262.752
+    },
+    {
+      "kind": "access",
+      "city": "杭州",
+      "station": "杭州",
+      "drive_distance_km": 4.277,
+      "drive_duration_min": 18.45,
+      "walk_distance_km": 3.461,
+      "walk_duration_min": 46.15
+    },
+    {
+      "kind": "access",
+      "city": "杭州",
+      "station": "杭州南",
+      "drive_distance_km": 15.666,
+      "drive_duration_min": 25.667,
+      "walk_distance_km": 18.958,
+      "walk_duration_min": 252.767
+    },
+    {
+      "kind": "access",
+      "city": "杭州",
+      "station": "杭州西",
+      "drive_distance_km": 33.136,
+      "drive_duration_min": 42.833,
+      "walk_distance_km": 26.49,
+      "walk_duration_min": 353.2
+    },
+    {
+      "kind": "access",
+      "city": "杭州",
+      "station": "杭州东",
+      "drive_distance_km": 7.034,
+      "drive_duration_min": 30.383,
+      "walk_distance_km": 5.7,
+      "walk_duration_min": 76.0
+    },
+    {
+      "kind": "access",
+      "city": "南京",
+      "station": "南京",
+      "drive_distance_km": 5.892,
+      "drive_duration_min": 15.683,
+      "walk_distance_km": 6.266,
+      "walk_duration_min": 83.55
+    },
+    {
+      "kind": "access",
+      "city": "南京",
+      "station": "南京南",
+      "drive_distance_km": 13.201,
+      "drive_duration_min": 27.35,
+      "walk_distance_km": 10.628,
+      "walk_duration_min": 141.7
+    }
+  ]
+}

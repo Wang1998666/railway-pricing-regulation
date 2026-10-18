@@ -1,0 +1,38 @@
+{
+  "passed": false,
+  "checks": 32,
+  "failures": [
+    {
+      "case_id": "JX",
+      "case": "moderate",
+      "metric": "profit_gain",
+      "expected": 964.4,
+      "actual": 948.8335643870867,
+      "tolerance": 0.1,
+      "passed": false,
+      "status": "search",
+      "seconds": 17.948273700021673,
+      "design_hash": "5a8b64b4522bab5ee60470a72bc62726867934e98aa639a714feb1a7208af6b3",
+      "git_commit": "bad2d0aef85b9f7e5a8667068e8c61946b1471ea",
+      "config_sha256": "45ff6c8eae258e9c2b8553cd31a3be32f0e7ac929d25a393f45fbd60698923b6",
+      "solver": "V3 deterministic multistart",
+      "scalar_error": 4.842877388000488e-08
+    },
+    {
+      "case_id": "JX",
+      "case": "moderate",
+      "metric": "delta_W",
+      "expected": -401.9,
+      "actual": -172.62097988825664,
+      "tolerance": 0.1,
+      "passed": false,
+      "status": "search",
+      "seconds": 17.948273700021673,
+      "design_hash": "5a8b64b4522bab5ee60470a72bc62726867934e98aa639a714feb1a7208af6b3",
+      "git_commit": "bad2d0aef85b9f7e5a8667068e8c61946b1471ea",
+      "config_sha256": "45ff6c8eae258e9c2b8553cd31a3be32f0e7ac929d25a393f45fbd60698923b6",
+      "solver": "V3 deterministic multistart",
+      "scalar_error": 4.842877388000488e-08
+    }
+  ]
+}

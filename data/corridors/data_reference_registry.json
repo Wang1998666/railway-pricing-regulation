@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "accessed_on": "2026-07-31",
+  "sources": [
+    {
+      "id": "rail_12306",
+      "citation_key": "ChinaRailway12306",
+      "url": "https://kyfw.12306.cn/otn/leftTicketPrice/init",
+      "publisher": "China Railway 12306",
+      "role": "observed dynamic timetable, published fare, and station snapshots",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "amap_direction",
+      "citation_key": "AmapWebService2026",
+      "url": "https://lbs.amap.com/api/webservice/guide/api/direction/",
+      "publisher": "Amap Open Platform",
+      "role": "observed route-planning distance, duration, toll, and station-access snapshots",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "ninghang_context",
+      "citation_key": "NinghangHSR2013",
+      "url": "https://zg.changzhou.gov.cn/html/czzg/2013/CIBLKPQE_0702/19289.html",
+      "publisher": "Changzhou Municipal Government website (People's Daily report)",
+      "role": "Hangzhou--Nanjing case-selection context",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "wuhan_changsha_context",
+      "citation_key": "WuhanChangshaPopularOD2026",
+      "url": "https://www.wuhan.gov.cn/sy/whyw/202604/t20260404_2749518.shtml",
+      "publisher": "Wuhan Municipal People's Government",
+      "role": "Wuhan--Changsha case-selection context",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "changgan_context_govcn",
+      "citation_key": "ChinaGovChanggan2019",
+      "url": "https://www.gov.cn/xinwen/2019-12/26/content_5464244.htm",
+      "publisher": "The State Council of the People's Republic of China / Xinhua",
+      "role": "Nanchang--Ji'an--Ganzhou infrastructure context",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "changgan_context_nanchang",
+      "citation_key": "NanchangGovChanggan2019",
+      "url": "https://www.nc.gov.cn/ncszf/hygq/201912/fc8339566dbb4b20b675b5ef643b0100.shtml",
+      "publisher": "Nanchang Municipal People's Government",
+      "role": "station, opening-service, fare, and Jiujiang-extension context",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "nbs_income_2025",
+      "citation_key": "NBSIncome2025",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260119_1962321.html",
+      "publisher": "National Bureau of Statistics of China",
+      "role": "macro scenario context only; not a source for corridor demand or class shares",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "hangzhou_stats_2025",
+      "citation_key": "HangzhouStats2025",
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-04/30/content_9214808.htm",
+      "publisher": "Hangzhou News / Hangzhou Daily; report by Hangzhou Municipal Bureau of Statistics and NBS Hangzhou Investigation Team",
+      "role": "2025 city-context GDP, population, and income fields; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "nanjing_stats_2025",
+      "citation_key": "NanjingStats2025",
+      "url": "https://tjj.nanjing.gov.cn/bmfw/njsj/202604/t20260403_5818444.html",
+      "publisher": "Nanjing Municipal Bureau of Statistics",
+      "role": "2025 city-context GDP, population, and income fields from linked DOCX; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "wuhan_stats_2025",
+      "citation_key": "WuhanStats2025",
+      "url": "https://tjj.wuhan.gov.cn/tjfw/tjgb/202604/t20260408_2750693.shtml",
+      "publisher": "Wuhan Municipal Bureau of Statistics",
+      "role": "2025 city-context GDP, population, and income fields; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "changsha_stats_2025",
+      "citation_key": "ChangshaStats2025",
+      "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/szgb/zss_1/202605/t20260512_33975356.html",
+      "publisher": "Hunan Provincial Bureau of Statistics; underlying source Changsha Municipal Bureau of Statistics",
+      "role": "2025 city-context GDP, population, and urban/rural income fields; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "ganzhou_stats_2025",
+      "citation_key": "GanzhouStats2025",
+      "url": "https://www.ganzhou.gov.cn/gzszf/c100022/202604/38a12f964da545109b1b16697faee249.shtml",
+      "publisher": "Ganzhou Municipal People's Government",
+      "role": "2025 city-context GDP, population, and income fields; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "jian_stats_2025",
+      "citation_key": "JianStats2025",
+      "url": "https://tjgb.hongheiku.com/wp-content/uploads/2026/05/1779205233-430ea0d9f5.pdf",
+      "publisher": "Official Ji'an bureau-authored communique on a public non-government PDF mirror",
+      "role": "2025 city-context GDP, population, and income fields; mirror status disclosed; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "nanchang_stats_2025",
+      "citation_key": "NanchangStats2025",
+      "url": "https://www.nc.gov.cn/ncszf/tjgb/202604/b6221a4fa0104604bdc4aacaae0f32ba.shtml",
+      "publisher": "Nanchang Municipal People's Government",
+      "role": "2025 city-context GDP and urban/rural income fields; image-form communique; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "nanchang_income_2025",
+      "citation_key": "NanchangIncome2025",
+      "url": "https://m.thepaper.cn/newsDetail_forward_32481648",
+      "publisher": "Nanchang Release government account; underlying source NBS Nanchang Investigation Team",
+      "role": "2025 city-context all-resident and urban/rural income fields; not a solver input",
+      "cite_in_manuscript": true
+    },
+    {
+      "id": "jiujiang_stats_2025",
+      "citation_key": "JiujiangStats2025",
+      "url": "https://www.jjxw.cn/article/2026/05/29/779574.html",
+      "publisher": "Jiujiang municipal government news platform; report by Jiujiang Municipal Bureau of Statistics and NBS Jiujiang Investigation Team",
+      "role": "2025 city-context GDP, population, and urban/rural income fields; not a solver input",
+      "cite_in_manuscript": true
+    }
+  ]
+}

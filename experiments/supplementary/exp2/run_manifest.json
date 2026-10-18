@@ -1,0 +1,10 @@
+{
+  "git_commit": "6a232035ae96e1b46a7d622032dbd5e2c16a1417",
+  "library_sha256": "303fd6dbd50ea3357075cfa870b35e43dc86f35ac15919e82072b393c2f98b3a",
+  "script_sha256": "b404ec1b44e4a7f2c39f0cb6f5d6088b2d47f84dbb82da172c4108faefdf65f2",
+  "status": "forward evaluation; no optimization",
+  "design_count": 1842,
+  "seconds": 191.13346610000008,
+  "scalar_max_error": 6.705522537231445e-08,
+  "common_VOT_CNY_hour": 97.5714285714
+}

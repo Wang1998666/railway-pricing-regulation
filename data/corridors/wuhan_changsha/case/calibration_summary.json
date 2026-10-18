@@ -1,0 +1,90 @@
+{
+  "case": "D:\\Paper-M\\TRA\\TRA-V7\\TRA-V7_REUSABLE_FINAL_SOLVER\\cases\\formal\\wuhan_changsha\\case\\aligned_case.json",
+  "allocation_audit": {
+    "unique_forward_trains": 185,
+    "maximum_train_allocation_ratio_error": 0.0
+  },
+  "constant_calibration": {
+    "高收入": {
+      "rail_mode_asc": -1.8140104255762557,
+      "travel_constant": 13.22162884548186
+    },
+    "中收入": {
+      "rail_mode_asc": -0.5701934364523931,
+      "travel_constant": 13.617804263696186
+    },
+    "低收入": {
+      "rail_mode_asc": 2.1696053999436105,
+      "travel_constant": 14.497231356807362
+    }
+  },
+  "demand_capacity_rescale": 0.17580187583772866,
+  "reference_metrics": {
+    "total_potential": 34332.032184438845,
+    "total_trips": 29182.227356773023,
+    "participation_rate": 0.8500000000000001,
+    "modal_pax": {
+      "rail": 20427.55914974116,
+      "road": 8117.605827604347,
+      "auto": 637.062379427517
+    },
+    "rail_pax": 20427.55914974116,
+    "rail_share_among_trips": 0.7000000000000015,
+    "road_share_among_trips": 0.2781695080488878,
+    "auto_share_among_trips": 0.02183049195111074,
+    "product_pax": {
+      "G": 19807.3708033692,
+      "D": 620.18834637196,
+      "K": 0.0
+    },
+    "seat_pax": {
+      "G:商务座": 0.00030879520299597387,
+      "G:一等座": 44.1652559980622,
+      "G:二等座": 19763.20523857593,
+      "D:二等座": 619.3446309537164,
+      "D:一等座": 0.8437154182435135
+    },
+    "class_trip": {
+      "高收入": 5836.445471354594,
+      "中收入": 17509.33641406382,
+      "低收入": 5836.445471354609
+    },
+    "class_rail": {
+      "高收入": 4085.5118299482315,
+      "中收入": 12256.535489844719,
+      "低收入": 4085.5118299482087
+    },
+    "class_potential": {
+      "高收入": 6866.40643688777,
+      "中收入": 20599.219310663306,
+      "低收入": 6866.40643688777
+    },
+    "class_vot_yuan_hr": {
+      "高收入": 175.0,
+      "中收入": 89.99999999999999,
+      "低收入": 42.857142857142854
+    },
+    "vulnerable_trips": 5836.445471354609,
+    "revenue": 4016484.566840014,
+    "operating_cost": 3695165.8014928126,
+    "profit": 321318.7653472014,
+    "consumer_benefit": 3421743.225361051,
+    "welfare_level": 3743061.9907082524,
+    "max_load_factor": 0.9199999999999999,
+    "mean_generalized_cost": 650.5499576989221,
+    "vulnerable_mean_generalized_cost": 433.65494716745764,
+    "max_generalized_cost_ratio": 1.4906609648445115,
+    "probability_error": 1.1102230246251565e-16,
+    "active_products": [
+      "G",
+      "D"
+    ],
+    "departures_by_product": {
+      "G": 136,
+      "D": 7,
+      "K": 0
+    }
+  },
+  "demand_estimate_file": "D:\\Paper-M\\TRA\\TRA-V7\\TRA-V7_REUSABLE_FINAL_SOLVER\\cases\\formal\\wuhan_changsha\\raw_data\\wuhan_changsha_demand_estimate.csv",
+  "demand_assumptions_file": "D:\\Paper-M\\TRA\\TRA-V7\\TRA-V7_REUSABLE_FINAL_SOLVER\\cases\\formal\\wuhan_changsha\\raw_data\\wuhan_changsha_demand_assumptions.json"
+}

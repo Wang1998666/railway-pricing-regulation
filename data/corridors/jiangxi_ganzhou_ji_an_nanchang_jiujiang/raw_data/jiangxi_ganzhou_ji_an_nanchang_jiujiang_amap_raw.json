@@ -1,0 +1,193 @@
+{
+  "case_id": "jiangxi_ganzhou_ji_an_nanchang_jiujiang",
+  "collected_at_utc": "2026-07-31T02:34:24.124860+00:00",
+  "source_url": "https://lbs.amap.com/api/webservice/guide/api/direction/",
+  "city_centers": {
+    "赣州": "114.933494,25.831139",
+    "吉安": "114.966810,27.091243",
+    "南昌": "115.857972,28.682976",
+    "九江": "115.952869,29.662104"
+  },
+  "station_locations": {
+    "赣州": {
+      "赣州": "114.964335,25.819178",
+      "赣州西": "114.817007,25.819777",
+      "赣县北": "115.155409,26.006055"
+    },
+    "吉安": {
+      "吉安": "115.020902,27.104892",
+      "吉安西": "114.934385,27.135643"
+    },
+    "南昌": {
+      "南昌": "115.919876,28.661832",
+      "南昌东": "116.020724,28.613654",
+      "南昌西": "115.792516,28.624876",
+      "南昌南": "115.949863,28.500437"
+    },
+    "九江": {
+      "九江": "116.007012,29.703927",
+      "庐山": "115.878938,29.596473"
+    }
+  },
+  "routes": [
+    {
+      "kind": "intercity",
+      "origin": "赣州",
+      "destination": "吉安",
+      "distance_km": 187.367,
+      "duration_min": 127.05,
+      "tolls_yuan": 75.0,
+      "toll_distance_km": 166.215,
+      "coach_duration_min": 165.165
+    },
+    {
+      "kind": "intercity",
+      "origin": "赣州",
+      "destination": "南昌",
+      "distance_km": 392.664,
+      "duration_min": 242.9,
+      "tolls_yuan": 164.0,
+      "toll_distance_km": 358.966,
+      "coach_duration_min": 315.77
+    },
+    {
+      "kind": "intercity",
+      "origin": "赣州",
+      "destination": "九江",
+      "distance_km": 515.665,
+      "duration_min": 305.45,
+      "tolls_yuan": 235.0,
+      "toll_distance_km": 496.67,
+      "coach_duration_min": 397.085
+    },
+    {
+      "kind": "intercity",
+      "origin": "吉安",
+      "destination": "南昌",
+      "distance_km": 219.592,
+      "duration_min": 142.667,
+      "tolls_yuan": 97.0,
+      "toll_distance_km": 193.951,
+      "coach_duration_min": 185.467
+    },
+    {
+      "kind": "intercity",
+      "origin": "吉安",
+      "destination": "九江",
+      "distance_km": 342.593,
+      "duration_min": 205.883,
+      "tolls_yuan": 161.0,
+      "toll_distance_km": 331.655,
+      "coach_duration_min": 267.648
+    },
+    {
+      "kind": "intercity",
+      "origin": "南昌",
+      "destination": "九江",
+      "distance_km": 123.544,
+      "duration_min": 87.4,
+      "tolls_yuan": 53.0,
+      "toll_distance_km": 104.5,
+      "coach_duration_min": 113.62
+    },
+    {
+      "kind": "access",
+      "city": "赣州",
+      "station": "赣州",
+      "drive_distance_km": 5.94,
+      "drive_duration_min": 14.667,
+      "walk_distance_km": 4.303,
+      "walk_duration_min": 57.367
+    },
+    {
+      "kind": "access",
+      "city": "赣州",
+      "station": "赣州西",
+      "drive_distance_km": 20.309,
+      "drive_duration_min": 21.55,
+      "walk_distance_km": 13.563,
+      "walk_duration_min": 180.833
+    },
+    {
+      "kind": "access",
+      "city": "赣州",
+      "station": "赣县北",
+      "drive_distance_km": 35.792,
+      "drive_duration_min": 37.833,
+      "walk_distance_km": 33.628,
+      "walk_duration_min": 448.367
+    },
+    {
+      "kind": "access",
+      "city": "吉安",
+      "station": "吉安",
+      "drive_distance_km": 8.507,
+      "drive_duration_min": 20.283,
+      "walk_distance_km": 7.414,
+      "walk_duration_min": 98.85
+    },
+    {
+      "kind": "access",
+      "city": "吉安",
+      "station": "吉安西",
+      "drive_distance_km": 8.324,
+      "drive_duration_min": 16.35,
+      "walk_distance_km": 8.09,
+      "walk_duration_min": 107.867
+    },
+    {
+      "kind": "access",
+      "city": "南昌",
+      "station": "南昌",
+      "drive_distance_km": 11.948,
+      "drive_duration_min": 25.633,
+      "walk_distance_km": 9.603,
+      "walk_duration_min": 128.033
+    },
+    {
+      "kind": "access",
+      "city": "南昌",
+      "station": "南昌东",
+      "drive_distance_km": 27.162,
+      "drive_duration_min": 37.533,
+      "walk_distance_km": 21.588,
+      "walk_duration_min": 287.833
+    },
+    {
+      "kind": "access",
+      "city": "南昌",
+      "station": "南昌西",
+      "drive_distance_km": 13.898,
+      "drive_duration_min": 25.267,
+      "walk_distance_km": 11.436,
+      "walk_duration_min": 152.483
+    },
+    {
+      "kind": "access",
+      "city": "南昌",
+      "station": "南昌南",
+      "drive_distance_km": 36.428,
+      "drive_duration_min": 42.433,
+      "walk_distance_km": 25.854,
+      "walk_duration_min": 344.717
+    },
+    {
+      "kind": "access",
+      "city": "九江",
+      "station": "九江",
+      "drive_distance_km": 8.384,
+      "drive_duration_min": 17.817,
+      "walk_distance_km": 8.157,
+      "walk_duration_min": 108.767
+    },
+    {
+      "kind": "access",
+      "city": "九江",
+      "station": "庐山",
+      "drive_distance_km": 17.813,
+      "drive_duration_min": 17.867,
+      "walk_distance_km": 10.916,
+      "walk_duration_min": 145.55
+    }
+  ]
+}

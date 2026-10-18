@@ -1,0 +1,569 @@
+{
+  "4": {
+    "name": "calibration",
+    "pdf": "fig04_calibration.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) WC reference demand: class-preserving flows (thousand/day)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) Income composition and VOT",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) Road cost reduction: longest OD",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "8": {
+    "name": "fares_headroom",
+    "pdf": "fig08_fares_headroom.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) HN  |  right: departures P / W",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) WC  |  right: departures P / W",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(d) JX  |  right: departures P / W",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) Capacity headroom",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "9": {
+    "name": "od_comparison",
+    "pdf": "fig09_od_comparison.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) Rail trips (thousand/day)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) Policy response by OD",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "10": {
+    "name": "shock_profiles",
+    "pdf": "fig10_shock_profiles.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) L rail share (%)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) Absolute L retention",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) Financial margin / train (CNY k)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "11": {
+    "name": "income_composition",
+    "pdf": "fig11_income_composition.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) Mean G/D fare",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) Commercial trains",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) Seat-pricing increment",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(d) Welfare K additions",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(e) Commercial departure response",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "12": {
+    "name": "entry_accounting",
+    "pdf": "fig12_entry_accounting.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) Profit accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) Traveler-surplus channels",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) HN entry domain",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(d) WC entry domain",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(e) JX entry domain",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "14": {
+    "name": "mobility_guarantees",
+    "pdf": "fig14_mobility_guarantees.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) Sampled floor costs by corridor",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) Restoration cost versus L fare",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) Profit loss and traveler gains",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "equity_audit": {
+    "total": 1842,
+    "lower_left": 341,
+    "on_axes": 216,
+    "jitter": false
+  },
+  "15": {
+    "name": "equity_designs",
+    "pdf": "fig15_equity_designs.pdf",
+    "panel_titles": [],
+    "canvas_width_inches": 8.5
+  },
+  "16": {
+    "name": "governance",
+    "pdf": "fig16_governance.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) HN governance tradeoff",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) WC governance tradeoff",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) JX governance tradeoff",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(d) Largest-gap accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(e) Largest-gap accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(f) Largest-gap accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "style": {
+    "text_font": "Arial",
+    "math_font": "Computer Modern",
+    "data_source": "D:\\Paper-M\\TRA\\TRA-R2\\experiments_v3_round5",
+    "dpi": 300
+  },
+  "5": {
+    "name": "elasticity",
+    "pdf": "fig05_elasticity.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) HN calibration",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) WC calibration",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) JX calibration",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "7": {
+    "name": "attribution",
+    "pdf": "fig07_attribution.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) HN / profit",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(g) HN / welfare",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(d) HN / P3 accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) WC / profit",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(h) WC / welfare",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(e) WC / P3 accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) JX / profit",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(i) JX / welfare",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(f) JX / P3 accounting",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "13": {
+    "name": "cap_floor_frontier",
+    "pdf": "fig13_cap_floor_frontier.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) HN certified P3 outcomes",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) WC certified P3 outcomes",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "17": {
+    "name": "calibration_dependence",
+    "pdf": "fig17_calibration_dependence.pdf",
+    "panel_titles": [
+      {
+        "text": "(a) HN (certified)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(d) HN sensitivity ranges",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(b) WC (certified)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(e) WC sensitivity ranges",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(c) JX (search witnesses)",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      },
+      {
+        "text": "(f) JX sensitivity ranges",
+        "size": 10.0,
+        "family": [
+          "Arial"
+        ],
+        "color": "#263C4A",
+        "weight": "bold"
+      }
+    ],
+    "canvas_width_inches": 8.5
+  },
+  "6": {
+    "name": "solution_workflow",
+    "pdf": "fig06_solution_workflow.pdf",
+    "panel_titles": [],
+    "typography_only": true
+  }
+}

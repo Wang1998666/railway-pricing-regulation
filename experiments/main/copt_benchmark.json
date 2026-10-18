@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "status": 0,
+  "upper": 2979594.8846082264,
+  "gap": 4.190951585769653e-09,
+  "columns": 246031,
+  "retained_columns": 246031,
+  "lp_upper": null,
+  "backend": "COPT",
+  "seconds": 222.79010479999124,
+  "objective": 2979594.884608222
+}

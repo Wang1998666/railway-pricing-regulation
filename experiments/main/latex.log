@@ -1,0 +1,473 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = "C.UTF-8",
+	LC_COLLATE = "C",
+	LC_CTYPE = "C",
+	LC_NUMERIC = "C",
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Latexmk: This is Latexmk, John Collins, 26 Dec. 2019, version: 4.67.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'Fig/round3_attribution.pdf'
+      'Fig/round3_calibration.pdf'
+      'Fig/round3_calibration_dependence.pdf'
+      'Fig/round3_elasticity.pdf'
+      'Fig/round3_entries.pdf'
+      'Fig/round3_equity.pdf'
+      'Fig/round3_fares_headroom.pdf'
+      'Fig/round3_governance.pdf'
+      'Fig/round3_guarantees.pdf'
+      'Fig/round3_od_arcs.pdf'
+      'Fig/round3_polarization.pdf'
+      'Fig/round3_shocks.pdf'
+      'TRA-20261014-V3.tex'
+      'tables/v3_events.tex'
+      'tables/v3_experiments.tex'
+      'tables/v3_findings.tex'
+      'tables/v3_governance.tex'
+      'tables/v3_reference.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "TRA-20261014-V3.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./TRA-20261014-V3.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/base/size10.clo))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(./TRA-20261014-V3.spl)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/calc.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+ (d:/Program Files/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys
+.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (d:/Program Files/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+)) (d:/Program Files/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty)
+) (d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfileche
+ck.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecount
+er.sty)))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode
+.def) (./TRA-20261014-V3.aux)
+(d:/Program Files/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
+sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cf
+g))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlest
+ring.sty)) (./TRA-20261014-V3.out) (./TRA-20261014-V3.out)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Overfull \hbox (2.22221pt too wide) has occurred while \output is active
+[] 
+[1{d:/Program Files/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ [2] [3] [4] [5] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/m/n/8 Frequency-economics foun-da-tion and clos-est
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/m/n/8 Motivates the flex-i-ble MaaS/minibus road-
+[9]
+Underfull \hbox (badness 1303) in paragraph at lines 238--238
+[]|\OT1/cmr/m/n/9 Retain, with-draw, or (re)introduce
+
+Underfull \hbox (badness 2418) in paragraph at lines 245--245
+[]|\OT1/cmr/m/n/9 Subsidy or public-service-obligation
+
+Underfull \hbox (badness 1127) in paragraph at lines 247--247
+[]|\OT1/cmr/m/n/9 Class-specific log change in ex-
+
+Overfull \hbox (2.1999pt too wide) in paragraph at lines 248--248
+[]|$\OML/cmm/m/it/9 E[];  \OMS/cmsy/m/n/9 I[]\OML/cmm/m/it/9 ;  g[];   []$| 
+
+Underfull \hbox (badness 4416) in paragraph at lines 248--248
+[]|\OT1/cmr/m/n/9 Electrification in-dex, elec-tri-fied
+[10] [11] [12] [13] [14] [15] [16 <./Fig/nested_logit_tree_v2.pdf>] [17]
+[18] [19] [20] [21 <./Fig/bilevel_railway_design_architecture.pdf>] [22]
+(./tables/v3_structure.tex) [23] [24 <./Fig/case_fig03.pdf>]
+(./tables/v3_parameters.tex) (./tables/v3_parameters_continued.tex)
+
+pdfTeX warning: pdflatex.exe (file ./Fig/round3_calibration.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+[25] [26 <./Fig/round3_calibration.pdf>] [27 <./Fig/round3_elasticity.pdf>]
+(./tables/v3_experiments.tex)
+Overfull \hbox (15.52069pt too wide) in paragraph at lines 640--645
+\OT1/cmr/m/n/10 finance/retention-relaxed up-per bound is unattain-able, the ma
+s-ter im-poses ad-di-tive daily profit and L-participation
+[28] [29] [30 <./Fig/case_fig05.pdf>] (./tables/v3_reference.tex) [31 <./Fig/ro
+und3_attribution.pdf>] [32] [33 <./Fig/round3_fares_headroom.pdf>] [34 <./Fig/r
+ound3_od_arcs.pdf> <./Fig/round3_shocks.pdf>]
+Overfull \hbox (16.76947pt too wide) in paragraph at lines 675--676
+[]\OT1/cmr/m/n/10 Commercial ref-er-ence P4 se-lects 3/2/1 added K de-par-tures
+ in HN/WC/JX, chang-ing profit by 91.2/182.2/13.4,
+[35 <./Fig/round3_polarization.pdf>] (./tables/v3_events.tex) [36] [37 <./Fig/r
+ound3_entries.pdf>]
+Overfull \hbox (22.56593pt too wide) in paragraph at lines 691--692
+\OT1/cmr/m/n/10 468.66/414.68/345.32 L trips and changes de-par-tures by 8/12/1
+0. Traveler-surplus gains are 1,803.0/2,471.9/2,521.5,
+[38 <./Fig/round3_guarantees.pdf>] (./tables/v3_governance.tex) [39 <./Fig/roun
+d3_equity.pdf>] [40 <./Fig/round3_governance.pdf>] [41]
+Overfull \hbox (36.0762pt too wide) in paragraph at lines 707--708
+[]\OT1/cmr/m/n/10 The elas-tic-ity di-ag-nos-tic crosses own-product an-chors -
+0.60/-0.80/-0.85/-0.90/-0.95/-1.00 with caps 1.10/1.20/1.30,
+
+Overfull \hbox (7.04828pt too wide) in paragraph at lines 709--710
+[]\OT1/cmr/m/n/10 At the cen-tral elas-tic-ity, tight-en-ing the cap from 1.20 
+to 1.10 cuts com-mer-cial wel-fare losses by 78.8/51.4/57.3
+(./tables/v3_findings.tex) [42] [43 <./Fig/round3_calibration_dependence.pdf>]
+[44] (./TRA-20261014-V3.bbl [45] [46] [47]
+Underfull \hbox (badness 3635) in paragraph at lines 425--432
+[]\OT1/cmr/m/n/10 International En-ergy Agency, 2022.  Elec-tric ve-hi-cles: To
+-tal cost of own-er-ship tool.  Data
+[48] [49] [50]) [51] (./TRA-20261014-V3.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){d:/Program Files/texlive/2
+020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Program Files/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Program Files
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Program 
+Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><d:/Prog
+ram Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/
+Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><d:/Program Files/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><d:/Program Files/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/Program Files/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Program Files/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Program Files/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Program Files/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/Program Files/texlive
+/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><d:/Program Files/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Program File
+s/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Progr
+am Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/
+Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+<d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti8.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb><d:/Program Files/texlive/2020/texmf-di
+st/fonts/type1/public/cm-super/sfbx0700.pfb><d:/Program Files/texlive/2020/texm
+f-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Program Files/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program Files/texlive/2
+020/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><d:/Program Files/texli
+ve/2020/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/Program Files/texlive
+/2020/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Program Files/texlive/20
+20/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
+Output written on TRA-20261014-V3.pdf (51 pages, 2158648 bytes).
+Transcript written on TRA-20261014-V3.log.
+Latexmk: Found input bbl file 'TRA-20261014-V3.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'TRA-20261014-V3.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [TRA-references.bib TRA-v3-map-references.bib TRA-v3-policy-references.bib TRA-v3-review-references.bib]
+Rule 'bibtex TRA-20261014-V3': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'TRA-20261014-V3.aux'
+------------
+Run number 1 of rule 'bibtex TRA-20261014-V3'
+------------
+------------
+Running 'bibtex  "TRA-20261014-V3"'
+------------
+Latexmk: applying rule 'bibtex TRA-20261014-V3'...
+For rule 'bibtex TRA-20261014-V3', running '&run_bibtex(  )' ...
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+The top-level auxiliary file: TRA-20261014-V3.aux
+The style file: elsarticle-harv.bst
+Database file #1: TRA-references.bib
+Database file #2: TRA-v3-policy-references.bib
+Database file #3: TRA-v3-map-references.bib
+Database file #4: TRA-v3-review-references.bib
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'TRA-20261014-V3.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "TRA-20261014-V3.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./TRA-20261014-V3.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2019/02/25, 3.2: Elsevier Ltd
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/base/size10.clo))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(./TRA-20261014-V3.spl)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/calc.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/array.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/multirow/multirow.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+ (d:/Program Files/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/url/url.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty)))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys
+.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (d:/Program Files/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+)) (d:/Program Files/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty)
+) (d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfileche
+ck.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecount
+er.sty)))
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode
+.def) (./TRA-20261014-V3.aux)
+(d:/Program Files/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
+sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cf
+g))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty)
+(d:/Program Files/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlest
+ring.sty)) (./TRA-20261014-V3.out) (./TRA-20261014-V3.out)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/Program Files/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Overfull \hbox (2.22221pt too wide) has occurred while \output is active
+[] 
+[1{d:/Program Files/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ [2] [3] [4] [5] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/m/n/8 Frequency-economics foun-da-tion and clos-est
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]|\OT1/cmr/m/n/8 Motivates the flex-i-ble MaaS/minibus road-
+[9]
+Underfull \hbox (badness 1303) in paragraph at lines 238--238
+[]|\OT1/cmr/m/n/9 Retain, with-draw, or (re)introduce
+
+Underfull \hbox (badness 2418) in paragraph at lines 245--245
+[]|\OT1/cmr/m/n/9 Subsidy or public-service-obligation
+
+Underfull \hbox (badness 1127) in paragraph at lines 247--247
+[]|\OT1/cmr/m/n/9 Class-specific log change in ex-
+
+Overfull \hbox (2.1999pt too wide) in paragraph at lines 248--248
+[]|$\OML/cmm/m/it/9 E[];  \OMS/cmsy/m/n/9 I[]\OML/cmm/m/it/9 ;  g[];   []$| 
+
+Underfull \hbox (badness 4416) in paragraph at lines 248--248
+[]|\OT1/cmr/m/n/9 Electrification in-dex, elec-tri-fied
+[10] [11] [12] [13] [14] [15] [16 <./Fig/nested_logit_tree_v2.pdf>] [17]
+[18] [19] [20] [21 <./Fig/bilevel_railway_design_architecture.pdf>] [22]
+(./tables/v3_structure.tex) [23] [24 <./Fig/case_fig03.pdf>]
+(./tables/v3_parameters.tex) (./tables/v3_parameters_continued.tex)
+
+pdfTeX warning: pdflatex.exe (file ./Fig/round3_calibration.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+[25] [26 <./Fig/round3_calibration.pdf>] [27 <./Fig/round3_elasticity.pdf>]
+(./tables/v3_experiments.tex)
+Overfull \hbox (15.52069pt too wide) in paragraph at lines 640--645
+\OT1/cmr/m/n/10 finance/retention-relaxed up-per bound is unattain-able, the ma
+s-ter im-poses ad-di-tive daily profit and L-participation
+[28] [29] [30 <./Fig/case_fig05.pdf>] (./tables/v3_reference.tex) [31 <./Fig/ro
+und3_attribution.pdf>] [32] [33 <./Fig/round3_fares_headroom.pdf>] [34 <./Fig/r
+ound3_od_arcs.pdf> <./Fig/round3_shocks.pdf>]
+Overfull \hbox (16.76947pt too wide) in paragraph at lines 675--676
+[]\OT1/cmr/m/n/10 Commercial ref-er-ence P4 se-lects 3/2/1 added K de-par-tures
+ in HN/WC/JX, chang-ing profit by 91.2/182.2/13.4,
+[35 <./Fig/round3_polarization.pdf>] (./tables/v3_events.tex) [36] [37 <./Fig/r
+ound3_entries.pdf>]
+Overfull \hbox (22.56593pt too wide) in paragraph at lines 691--692
+\OT1/cmr/m/n/10 468.66/414.68/345.32 L trips and changes de-par-tures by 8/12/1
+0. Traveler-surplus gains are 1,803.0/2,471.9/2,521.5,
+[38 <./Fig/round3_guarantees.pdf>] (./tables/v3_governance.tex) [39 <./Fig/roun
+d3_equity.pdf>] [40 <./Fig/round3_governance.pdf>] [41]
+Overfull \hbox (36.0762pt too wide) in paragraph at lines 707--708
+[]\OT1/cmr/m/n/10 The elas-tic-ity di-ag-nos-tic crosses own-product an-chors -
+0.60/-0.80/-0.85/-0.90/-0.95/-1.00 with caps 1.10/1.20/1.30,
+
+Overfull \hbox (7.04828pt too wide) in paragraph at lines 709--710
+[]\OT1/cmr/m/n/10 At the cen-tral elas-tic-ity, tight-en-ing the cap from 1.20 
+to 1.10 cuts com-mer-cial wel-fare losses by 78.8/51.4/57.3
+(./tables/v3_findings.tex) [42] [43 <./Fig/round3_calibration_dependence.pdf>]
+[44] (./TRA-20261014-V3.bbl [45] [46] [47]
+Underfull \hbox (badness 3635) in paragraph at lines 425--432
+[]\OT1/cmr/m/n/10 International En-ergy Agency, 2022.  Elec-tric ve-hi-cles: To
+-tal cost of own-er-ship tool.  Data
+[48] [49] [50]) [51] (./TRA-20261014-V3.aux) )
+(see the transcript file for additional information){d:/Program Files/texlive/2
+020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/Program Files/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/Program Files
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Program 
+Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><d:/Prog
+ram Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/
+Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><d:/Program Files/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><d:/Program Files/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/Program Files/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Program Files/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Program Files/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Program Files/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/Program Files/texlive
+/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><d:/Program Files/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Program File
+s/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Progr
+am Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/
+Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+<d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti8.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb><d:/Program Files/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb><d:/Program Files/texlive/2020/texmf-di
+st/fonts/type1/public/cm-super/sfbx0700.pfb><d:/Program Files/texlive/2020/texm
+f-dist/fonts/type1/public/cm-super/sfrm0700.pfb><d:/Program Files/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/Program Files/texlive/2
+020/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><d:/Program Files/texli
+ve/2020/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/Program Files/texlive
+/2020/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/Program Files/texlive/20
+20/texmf-dist/fonts/type1/public/newtx/ztmr.pfb>
+Output written on TRA-20261014-V3.pdf (51 pages, 2158648 bytes).
+Transcript written on TRA-20261014-V3.log.
+Latexmk: Found input bbl file 'TRA-20261014-V3.bbl'
+Latexmk: Log file says output to 'TRA-20261014-V3.pdf'
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [TRA-references.bib TRA-v3-map-references.bib TRA-v3-policy-references.bib TRA-v3-review-references.bib]
+Latexmk: All targets () are up-to-date

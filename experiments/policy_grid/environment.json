@@ -1,0 +1,33 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.0",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.0",
+  "pymupdf": "1.28.0",
+  "copt": "8.0.6",
+  "workers": 8,
+  "cpu": "AMD Ryzen 7 4800H with Radeon Graphics",
+  "physical_cores": 8,
+  "logical_processors": 16,
+  "physical_memory_bytes": 16505966592,
+  "os_caption": "Windows 11 Pro",
+  "os_architecture": "64 bit",
+  "coptpy": "8.0.6",
+  "highs": "1.12.0",
+  "round5_workers": 8,
+  "round6_workers": 4,
+  "solver_threads_per_worker": 1,
+  "blas_threads_per_worker": 1,
+  "lp_time_limit_seconds": 30,
+  "ordinary_mip_time_limit_seconds": [
+    120,
+    180
+  ],
+  "priority_mip_time_limit_seconds": 600,
+  "copt_relative_gap": 0,
+  "copt_absolute_gap_scaled": 1e-09,
+  "copt_feasibility_tolerance": 1e-09,
+  "copt_dual_tolerance": 1e-09,
+  "certificate_gap_CNY_per_day": 0.01
+}

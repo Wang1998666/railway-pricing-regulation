@@ -1,0 +1,556 @@
+{
+  "changed_figures": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "preserved_figures": [
+    1,
+    2,
+    3
+  ],
+  "nonfigure_tex_unchanged": true,
+  "new_asset_paths": [
+    "新成的图/fig04_calibration.pdf",
+    "新成的图/fig05_elasticity.pdf",
+    "新成的图/fig06_solution_workflow.pdf",
+    "新成的图/fig07_attribution.pdf",
+    "新成的图/fig08_fares_headroom.pdf",
+    "新成的图/fig09_od_comparison.pdf",
+    "新成的图/fig10_shock_profiles.pdf",
+    "新成的图/fig11_income_composition.pdf",
+    "新成的图/fig12_entry_accounting.pdf",
+    "新成的图/fig13_cap_floor_frontier.pdf",
+    "新成的图/fig14_mobility_guarantees.pdf",
+    "新成的图/fig15_equity_designs.pdf",
+    "新成的图/fig16_governance.pdf",
+    "新成的图/fig17_calibration_dependence.pdf"
+  ],
+  "fonts": {
+    "4": [
+      "DBEGSE+ArialMT",
+      "EVHBJH+Cmr10",
+      "FVCIDY+Arial-BoldMT",
+      "HCPRTG+Cmmi10"
+    ],
+    "5": [
+      "BVAWNY+ArialMT",
+      "HJWAKC+Arial-BoldMT"
+    ],
+    "6": [
+      "KUUHSO+CMSY9",
+      "SFZTDM+Arial-BoldMT",
+      "WYTJCO+ArialMT"
+    ],
+    "7": [
+      "BLHLUN+Cmr10",
+      "FSJZTD+Arial-BoldMT",
+      "GERFSW+Cmmi10",
+      "GOCKLF+ArialMT"
+    ],
+    "8": [
+      "CBDQUD+Arial-BoldMT",
+      "GUFZAR+ArialMT"
+    ],
+    "9": [
+      "BRMYGB+Arial-BoldMT",
+      "EXUIFS+ArialMT"
+    ],
+    "10": [
+      "EFTVWH+Arial-BoldMT",
+      "EIYWKH+ArialMT"
+    ],
+    "11": [
+      "CDLJJH+Arial-BoldMT",
+      "GKXPHV+ArialMT"
+    ],
+    "12": [
+      "CEKRED+Arial-BoldMT",
+      "DGPGPZ+ArialMT"
+    ],
+    "13": [
+      "DKWKCI+ArialMT",
+      "EIBREP+Arial-BoldMT"
+    ],
+    "14": [
+      "BLHLUN+Cmr10",
+      "BPDGGD+ArialMT",
+      "GERFSW+Cmmi10",
+      "OWIEVI+Arial-BoldMT"
+    ],
+    "15": [
+      "BVNPMC+Arial-BoldMT",
+      "CSQJUA+ArialMT"
+    ],
+    "16": [
+      "BLHLUN+Cmr10",
+      "BXMJZN+Arial-BoldMT",
+      "DCXVEF+ArialMT",
+      "FPYHOW+Cmsy10",
+      "HJGARQ+Cmmi10"
+    ],
+    "17": [
+      "GRWRLN+Arial-BoldMT",
+      "SFXTWV+ArialMT"
+    ]
+  },
+  "equity": {
+    "total": 1842,
+    "lower_left": 341
+  },
+  "reference_departures": {
+    "HN": 147.0,
+    "WC": 185.0,
+    "JX": 190.0
+  },
+  "P3_welfare_CNY_k": {
+    "HN": -398.87624877366795,
+    "WC": -709.6546073688902,
+    "JX": -941.2176825851649
+  },
+  "original_figure_hashes": {
+    "fig\\bilevel_railway_design_architecture.aux": {
+      "sha256": "3345a075a22fb3bbc04567a1e5660ed0240d53f5881f458a2234dcd42a78d335",
+      "mtime": 1791946933.3726666
+    },
+    "fig\\bilevel_railway_design_architecture.log": {
+      "sha256": "f322dc05a3decc640ca1c330502d2242238792567a3979ec99d566605c8304af",
+      "mtime": 1791946933.449169
+    },
+    "fig\\bilevel_railway_design_architecture.pdf": {
+      "sha256": "d34fec54d57aa85f1c6d89f99e09e2cd17c3ef682df812f6faab373c467c42ce",
+      "mtime": 1791946933.4471667
+    },
+    "fig\\bilevel_railway_design_architecture.png": {
+      "sha256": "495c2cfff1ef34f51d8ce304f101a21b47fc391e5868920a73fa7586547b8f63",
+      "mtime": 1785250427.844753
+    },
+    "fig\\bilevel_railway_design_architecture.synctex.gz": {
+      "sha256": "0265c975c05f70d227dc2edcb496967fc258af890480749df3bc36074e7cd6b7",
+      "mtime": 1791946933.4481661
+    },
+    "fig\\bilevel_railway_design_architecture.tex": {
+      "sha256": "c43144256c9846c6f6041aa369b3507110091acfffc9346b4cb6b8a0120ab5c9",
+      "mtime": 1791946905.1412396
+    },
+    "fig\\case_fig03.pdf": {
+      "sha256": "caaf675da9225c98e7c17a730fbd08e23172b30646dc743a00fd9ae7ebb982c9",
+      "mtime": 1791985070.6906488
+    },
+    "fig\\case_fig03.png": {
+      "sha256": "5e23f993a86eff1d0b3cc3b232eca40356a013df53f304efbff13d5895ff84a5",
+      "mtime": 1791985071.7293768
+    },
+    "fig\\case_fig04.pdf": {
+      "sha256": "ba1f7b90a1f173fbfab2f4cd65f4ad8e502539ec881e460c9a0e7aa0cbc5f992",
+      "mtime": 1792033679.8555176
+    },
+    "fig\\case_fig04.png": {
+      "sha256": "f0067f0fe741679fadab6a0624396fa2d37667c1e24d82d70f06e06da9e04220",
+      "mtime": 1792033680.6309593
+    },
+    "fig\\case_fig05.aux": {
+      "sha256": "3345a075a22fb3bbc04567a1e5660ed0240d53f5881f458a2234dcd42a78d335",
+      "mtime": 1792041832.981155
+    },
+    "fig\\case_fig05.fdb_latexmk": {
+      "sha256": "d8dee4203b0b28b97138b8a4b4dc826f6394ed88a83aee5e97c1ca56049fbe0f",
+      "mtime": 1792041833.3081374
+    },
+    "fig\\case_fig05.fls": {
+      "sha256": "4206f619eb837f9f94faaff96e5d77eda17b108b03a529cf70fbc3975d5de447",
+      "mtime": 1792041833.02662
+    },
+    "fig\\case_fig05.log": {
+      "sha256": "1275567c57983200b70005bd1f54978706934e8a766cdece406aaf606a0e09be",
+      "mtime": 1792041833.0536592
+    },
+    "fig\\case_fig05.pdf": {
+      "sha256": "d9f0f6d91bcc2a68a7116d844cecf561ce0bea544a174b655a3e5cb3149df3b2",
+      "mtime": 1792041833.0531235
+    },
+    "fig\\case_fig05.png": {
+      "sha256": "c4b1cb0aca50dec43d23399652d2aebfbfe637c21b4a5a7f917eb71ccafb5939",
+      "mtime": 1791985408.9070072
+    },
+    "fig\\case_fig05.tex": {
+      "sha256": "15536f8a54372c168012d8eea034534d77db25dd35d82c5f4c3fb4698bc662bc",
+      "mtime": 1791984439.3309739
+    },
+    "fig\\case_fig06.pdf": {
+      "sha256": "303106126e7508a2035b66bc5b759262e9129b355d9af94208bf529702a712f1",
+      "mtime": 1792033681.9638057
+    },
+    "fig\\case_fig06.png": {
+      "sha256": "3775d17ba97139695dbe1aa2894186576b1a1ca2b537628b2fb81b8b2302f354",
+      "mtime": 1792033682.8800476
+    },
+    "fig\\case_fig07.pdf": {
+      "sha256": "29682c50db004f30361377eb4d54d38d42642e7f01a4d58c82179e772a3b9944",
+      "mtime": 1792033684.7962663
+    },
+    "fig\\case_fig07.png": {
+      "sha256": "b199e32f00e2868768d9cfd589b189cdd5d4a914573b890d705c4ad04f443bab",
+      "mtime": 1792033686.0671985
+    },
+    "fig\\case_fig08.pdf": {
+      "sha256": "78c2e0e9eb458a8ea373e35980cb61076f3ccb3b7b1ba0b2f259ece333c3fbd4",
+      "mtime": 1792033687.031069
+    },
+    "fig\\case_fig08.png": {
+      "sha256": "da04052e658e82faa414d2f02afe620dad7845d2961e90f17b16efa104bbe75b",
+      "mtime": 1792033687.2835681
+    },
+    "fig\\case_fig09.pdf": {
+      "sha256": "0653e11d807f4c2b781f6cb6ef10096000d4d4d3fa44eac8e995556b25441085",
+      "mtime": 1792033689.5616028
+    },
+    "fig\\case_fig09.png": {
+      "sha256": "cfc08e9327ca9f5f86d776c44b0c85b881d999c5bed2b188c9d29c77e4fd43a8",
+      "mtime": 1792033690.5461783
+    },
+    "fig\\case_fig10.pdf": {
+      "sha256": "2ab783b6323ae4861ccb94f61f30b7039a3ec12cc477257e52384eddcff4e1ae",
+      "mtime": 1792033692.052704
+    },
+    "fig\\case_fig10.png": {
+      "sha256": "8d1c074c141291023a443734cbec30c24397bbf99ccf19d331f6dba8e9fe2ff0",
+      "mtime": 1792033692.7948387
+    },
+    "fig\\case_fig11.pdf": {
+      "sha256": "9e0b66dec16a4523bf607bf1a16836bc83501446bce41472c9527987150eeb11",
+      "mtime": 1792033694.5806015
+    },
+    "fig\\case_fig11.png": {
+      "sha256": "a03851b392d68a5cf37d28b9d94e42891734ac7e61a2c4df09f4c1cb65a21491",
+      "mtime": 1792033695.442587
+    },
+    "fig\\case_fig12.pdf": {
+      "sha256": "08cadb35c64c95dbea59f253330b4205e691546da35deaef05fbcec00e2c505f",
+      "mtime": 1792033697.4964976
+    },
+    "fig\\case_fig12.png": {
+      "sha256": "4f3120d3ee3ad3192f34fd2cb8a913e7086965a522fae73fe45a9d71d61e4b1a",
+      "mtime": 1792033698.5746434
+    },
+    "fig\\case_fig13.pdf": {
+      "sha256": "144b4106c3c9f53fe857aef49681239d74295ab46af146f27ff0b091d7772613",
+      "mtime": 1792033919.427834
+    },
+    "fig\\case_fig13.png": {
+      "sha256": "bcc83042a719f123c49d4572736abf1d105b854d01d677b87811a45d4f692458",
+      "mtime": 1792033920.1011295
+    },
+    "fig\\case_fig14.pdf": {
+      "sha256": "941e8531f739d4ab9ce0f642a304522efbcc90e586040e8b22d2d5913aadd5ad",
+      "mtime": 1792033702.4693043
+    },
+    "fig\\case_fig14.png": {
+      "sha256": "a01906a67fa07b7def0335153f31b74c01e82c7dba6b017f7d32820e3b357ab8",
+      "mtime": 1792033703.2065804
+    },
+    "fig\\corridor_od_trajectories.pdf": {
+      "sha256": "abe8f204660714c0ba6cebbe248c91d763a2a72edc5f057078095af2494f04b4",
+      "mtime": 1785681194.3643475
+    },
+    "fig\\corridor_od_trajectories.png": {
+      "sha256": "3a1316f3f28f20b46fa4731bac94cc912c952d809207a26fde340582f7a2b886",
+      "mtime": 1785681192.6711984
+    },
+    "fig\\fairness_financial_frontiers.pdf": {
+      "sha256": "4ffbbc0d05bfca1f7a87027e984bb7684d024bde5371b443dcc54aa07a570055",
+      "mtime": 1785553350.1561284
+    },
+    "fig\\fairness_financial_frontiers.png": {
+      "sha256": "4fdae5fdf19a80fd9e81dd560abba186746263380c1a96100f4d4fc27e9f7809",
+      "mtime": 1785553351.405459
+    },
+    "fig\\jiangxi_od_policy_response.pdf": {
+      "sha256": "8a08dc973c1f467fd8693ab68302c6c3b95d1d3906b266198989e3e4d6312c07",
+      "mtime": 1785553327.844941
+    },
+    "fig\\jiangxi_od_policy_response.png": {
+      "sha256": "6d45d79d0e74e42445a5e69789bd7fbd0ac7bad0a05e104b50c85eabf72d1aa9",
+      "mtime": 1785553329.2898276
+    },
+    "fig\\k_reopening_anatomy.pdf": {
+      "sha256": "e184d41cc20e64e27a7392b754ee209d93918c7919ba027944da12e92dd2b483",
+      "mtime": 1785648101.6718564
+    },
+    "fig\\k_reopening_anatomy.png": {
+      "sha256": "b418e96087ac5b0f63870bfbb6756573e94a26ae9945f297757f5e0d27db099e",
+      "mtime": 1785648102.6438801
+    },
+    "fig\\k_reopening_sensitivity_map.pdf": {
+      "sha256": "af8aaec4a7b05b06864b9feb50fcd4860106fb847dbec3643673f66ecdb629c8",
+      "mtime": 1785553345.488544
+    },
+    "fig\\k_reopening_sensitivity_map.png": {
+      "sha256": "67413194afc40d9a78d57ea0232ce2ed4aaf5c0ee96b20e44f4187d4a6c80142",
+      "mtime": 1785553346.3092923
+    },
+    "fig\\nested_logit_tree_v2.aux": {
+      "sha256": "3345a075a22fb3bbc04567a1e5660ed0240d53f5881f458a2234dcd42a78d335",
+      "mtime": 1791942755.992091
+    },
+    "fig\\nested_logit_tree_v2.log": {
+      "sha256": "7b8aefd94470d7b480fc08200c05c32ba00331218157f300bf437ad77c610c35",
+      "mtime": 1791942756.0542605
+    },
+    "fig\\nested_logit_tree_v2.pdf": {
+      "sha256": "3a3fefda446aeb26003d481bc78286b010e386afa45ba0f832a994eb13afc766",
+      "mtime": 1791942756.0522592
+    },
+    "fig\\nested_logit_tree_v2.png": {
+      "sha256": "9de6ce4abc4e7e71a9e33c539adb218ec81c41b4b088445514cdc43ff5d04f33",
+      "mtime": 1785170173.321741
+    },
+    "fig\\nested_logit_tree_v2.synctex.gz": {
+      "sha256": "186a386e765ba25bfa35d4d4e6e844a6d9cb425c62b3551aae41244f0b7ad101",
+      "mtime": 1791942756.0532534
+    },
+    "fig\\nested_logit_tree_v2.tex": {
+      "sha256": "deeb40ab8a58b49e6fc367ccd89cbb498b291cc295524769e2971527dfb63502",
+      "mtime": 1791942749.101926
+    },
+    "fig\\numerical_robustness_profile.pdf": {
+      "sha256": "73d6b90d285982cd4f74b6eee9ebb3fa6f4e3b1c3894e8f692d0e8c90ebf520c",
+      "mtime": 1785553352.195698
+    },
+    "fig\\numerical_robustness_profile.png": {
+      "sha256": "4467846a06023783bc283455c1ef0f71e03ec4f7757fba10cd0cd11d83fcd025",
+      "mtime": 1785553352.8928194
+    },
+    "fig\\reference_constraint_margins.pdf": {
+      "sha256": "37c6852f149a727e72affd780a6cfa8ecf90b66fcfcfa467bdf07d6afc6438c5",
+      "mtime": 1785648099.9696357
+    },
+    "fig\\reference_constraint_margins.png": {
+      "sha256": "8c3cdc1cc424938b4e777b0b6d32708864f5e075933b3fad04526e6653d3ab90",
+      "mtime": 1785648100.6433184
+    },
+    "fig\\reference_fare_menus.pdf": {
+      "sha256": "2e7a511ab588da49d1096df406df0269532571fc61ce27d29bc5ca3a126a8175",
+      "mtime": 1785553321.517151
+    },
+    "fig\\reference_fare_menus.png": {
+      "sha256": "7b814b822bffa2d2c72c9ad06b6d4b730e42bf655c5372fc3abba68aed98cb03",
+      "mtime": 1785553322.8370352
+    },
+    "fig\\reference_frequency_reallocation.pdf": {
+      "sha256": "94c19f143bf50c364917e9db8abd5dbfe63b5f5ada2c24be444a7bc9939ab5c9",
+      "mtime": 1785553318.7444518
+    },
+    "fig\\reference_frequency_reallocation.png": {
+      "sha256": "66f8ac555c8cb681a48fbe6b3e677afdaa92c346c37068d5bdf56107305a6e0b",
+      "mtime": 1785553320.025492
+    },
+    "fig\\reference_mode_composition.pdf": {
+      "sha256": "1e44532afd8fb39ca7b33231624f923c714856ac125a328c72836f50f1c91a09",
+      "mtime": 1785553324.842394
+    },
+    "fig\\reference_mode_composition.png": {
+      "sha256": "8b1ca179711c79589cdbf0bc1fc459eb7ccaf9e5f918a77055a21e026acbb125",
+      "mtime": 1785553326.0816848
+    },
+    "fig\\reference_policy_value_ladder.pdf": {
+      "sha256": "1370a29190028eed12c76a857918f250450ebe17253caec9997045ca2f1d3da1",
+      "mtime": 1785648097.4781673
+    },
+    "fig\\reference_policy_value_ladder.png": {
+      "sha256": "8ee5cf77251b1d4f441a840002165e183342c08c45742446dc92f6e83c7085dc",
+      "mtime": 1785648099.0934162
+    },
+    "fig\\review_appendix_headroom.pdf": {
+      "sha256": "f795f1cdb96d90c4dbf607efe941c452eb6f24c2307a85478485c2f3493ce1b4",
+      "mtime": 1792033704.3636892
+    },
+    "fig\\review_appendix_headroom.png": {
+      "sha256": "780fc83d9bea63f535532303fa1dcb15ae776402a802b8b4575597b4f8de66b0",
+      "mtime": 1792033705.0973544
+    },
+    "fig\\review_appendix_network.pdf": {
+      "sha256": "4a25ce31ea64e70c7c2dacf72cd80bfcbea7875ba6add604bfe29e98e34be820",
+      "mtime": 1792033706.046811
+    },
+    "fig\\review_appendix_network.png": {
+      "sha256": "cd4385e5a3aace473bf66fadd67ff242e07f1330a712d12a9cac2852c34bfe54",
+      "mtime": 1792033706.538198
+    },
+    "fig\\review_corridor_schematic.pdf": {
+      "sha256": "3feabf972ba70738d96b3a0629e2426e8fbb2d33d3bd82684c88ebf3926eff80",
+      "mtime": 1791996518.2628973
+    },
+    "fig\\review_corridor_schematic.png": {
+      "sha256": "69e479a0398a13e5ffb97afa21c24fb45d5feff3021967ae1436dcc5e7fda9c0",
+      "mtime": 1791996518.5190876
+    },
+    "fig\\round2_polarization.pdf": {
+      "sha256": "7fe58154fd7f4b6d6cd8a4950e6a2659765f28f0a83cfb138d50e3698bceba41",
+      "mtime": 1792033707.926943
+    },
+    "fig\\round2_polarization.png": {
+      "sha256": "b463f785f5160ace51b22f086bc972d18e92cce40abf4ce9855f2d0b1b0ca026",
+      "mtime": 1792033708.8580909
+    },
+    "fig\\round3_attribution.pdf": {
+      "sha256": "b2568157bded39ce189f3047a63deb3b11f7f7beba5413516321e674ecf32d95",
+      "mtime": 1792067752.4961512
+    },
+    "fig\\round3_attribution.png": {
+      "sha256": "72071affee993b8a7a4cb3bf23adb235b1e031bbce81eea49903773ad25c2c7f",
+      "mtime": 1792067753.972047
+    },
+    "fig\\round3_calibration.pdf": {
+      "sha256": "a06840daec518fe988eec0b4eb9441cf1cb0986d441d7802c7963f3545d6e6da",
+      "mtime": 1792067747.9314704
+    },
+    "fig\\round3_calibration.png": {
+      "sha256": "d38cc2a3f8ffe8218aaf6f3682372e84444a0121841622c6d672095950cf548c",
+      "mtime": 1792067748.0074668
+    },
+    "fig\\round3_calibration_bottom.pdf": {
+      "sha256": "5f5325a38775ee2fea80447e560ecc03da7b0b113201b89e505d70e0d51cdd57",
+      "mtime": 1792067747.075772
+    },
+    "fig\\round3_calibration_bottom.png": {
+      "sha256": "6b4131e1e8ccf902279afa38b711e911cd75d0de8ad598c60e6c5904e3201ae9",
+      "mtime": 1792067747.8540826
+    },
+    "fig\\round3_calibration_dependence.pdf": {
+      "sha256": "c678d5253d09e3b457ae27b3af8b08b6a554ad40efad64565189461b5f7c9aaa",
+      "mtime": 1792067778.5930767
+    },
+    "fig\\round3_calibration_dependence.png": {
+      "sha256": "bab0a4faa8b23ff52d1cca96f7961049d3df149144ee0fae95f33c988f839fc4",
+      "mtime": 1792067779.578859
+    },
+    "fig\\round3_elasticity.pdf": {
+      "sha256": "87306ac23495dc154b801ef4da9155ae62cc583aad20cbaece79996c836bbc92",
+      "mtime": 1792067749.3421493
+    },
+    "fig\\round3_elasticity.png": {
+      "sha256": "802406969bcac39545905624a19e56b83fca249dead4cb64c97e16a15601d287",
+      "mtime": 1792067749.6950693
+    },
+    "fig\\round3_entries.pdf": {
+      "sha256": "af4fe27e11169b44a3cd3b394c5f3fec5f7b7032264977a2f98b92f9d847a82a",
+      "mtime": 1792067765.2978253
+    },
+    "fig\\round3_entries.png": {
+      "sha256": "732944ad29a55a899b51ccaed9137eb2795917050991843e54c3d9ab00e84953",
+      "mtime": 1792067766.0916326
+    },
+    "fig\\round3_equity.pdf": {
+      "sha256": "b3d9c2ef7cf59775702bd8a9abc2595b9827f736195cd5a0d85176ce1359125f",
+      "mtime": 1792067770.7409406
+    },
+    "fig\\round3_equity.png": {
+      "sha256": "c40f8abd2b5f035a820a30051018243fb6f6037ae370831a76a5d34dc2eaa0b2",
+      "mtime": 1792067771.3301778
+    },
+    "fig\\round3_fares_headroom.pdf": {
+      "sha256": "bee8a4c018fdb9341be929f9537e0035040e16246113d977e30fc8eddbce0a90",
+      "mtime": 1792067756.3294027
+    },
+    "fig\\round3_fares_headroom.png": {
+      "sha256": "3eeb1b746de070dd1da678b24ae4635d207e3086ae57bff0ca89b95a126fcee1",
+      "mtime": 1792067757.7539108
+    },
+    "fig\\round3_fig04a_preserved.pdf": {
+      "sha256": "e24ebe6fee514871ee64efc22c22971b12559b711fa0a5aeb1ecadbd129a6aea",
+      "mtime": 1792037218.0231006
+    },
+    "fig\\round3_governance.pdf": {
+      "sha256": "b65a587a47e8929c182c567a1ca6564f5943162fe2bf2e6b97269e74fe872cb0",
+      "mtime": 1792067773.4355285
+    },
+    "fig\\round3_governance.png": {
+      "sha256": "6be7f34922444a26d4dd6d819031272a889598945e97e27e3813de43a101c1e1",
+      "mtime": 1792067774.5247188
+    },
+    "fig\\round3_guarantees.pdf": {
+      "sha256": "f1a2af3ac560719d593d6e342b563777ca60d9517285f51bdf1f4fb5c52efe7d",
+      "mtime": 1792067767.8815806
+    },
+    "fig\\round3_guarantees.png": {
+      "sha256": "30ed3c7a683986985d0772428c92e51adc5c2c9a2e1338dc5213428ddbe55f1b",
+      "mtime": 1792067768.6396005
+    },
+    "fig\\round3_od_arcs.pdf": {
+      "sha256": "4319891057c1b3a33fdcac3733b87fb44f82433ea1ec774e489c018c905e15a1",
+      "mtime": 1792067758.9668012
+    },
+    "fig\\round3_od_arcs.png": {
+      "sha256": "a9d27b17e0ca61b89f480cd61b47ad43f85b3c8883dac4f58a84c5eec62d6dbb",
+      "mtime": 1792067759.2579997
+    },
+    "fig\\round3_polarization.pdf": {
+      "sha256": "22e6578440c65a58b1aefc355e3f4deecb455109f2e82be11effc79e63f58b74",
+      "mtime": 1792067762.6809351
+    },
+    "fig\\round3_polarization.png": {
+      "sha256": "82e7da23387cff640519447b36c92511518ef807a03e9332ea6475bf02cf8506",
+      "mtime": 1792067763.3199487
+    },
+    "fig\\round3_shocks.pdf": {
+      "sha256": "e1b0ef0fcdb6c31d1150c72bcc3e3b0e48174ea6f39f37d3855db616ea4cd994",
+      "mtime": 1792067760.4059832
+    },
+    "fig\\round3_shocks.png": {
+      "sha256": "1efe799ced14b5651164c54a7267eb254346638692552f8564747baaf579cdbc",
+      "mtime": 1792067761.015302
+    },
+    "fig\\round4_fig04c.pdf": {
+      "sha256": "e71d4ba3815458af8d0ef3492d8d03c0cedacdc85cd88b81ecd83fbc9d724a54",
+      "mtime": 1792044622.086714
+    },
+    "fig\\round4_fig04c.png": {
+      "sha256": "a06e016e50e9f4fc3336b53d35c88464f1b2b5a13cbfca88330fec9c2e3d892f",
+      "mtime": 1792044622.2999036
+    },
+    "fig\\round6_frontier.pdf": {
+      "sha256": "beb929df4c7ba0f778017ee5f83d4ee15d7aa64a0e74b909c4890f7249da0d4c",
+      "mtime": 1792075756.4895453
+    },
+    "fig\\round6_frontier.png": {
+      "sha256": "81293b7281baf3e08fb0929f560f2f5acc44c6c377ad848d39d186a4208eb907",
+      "mtime": 1792075757.2837565
+    },
+    "fig\\scenario_complementarity_distribution.pdf": {
+      "sha256": "8f4087d89c235dd2298f9fe5a629a73b37b72f51139ce5d239ff4bbda42a3f58",
+      "mtime": 1785553343.4253316
+    },
+    "fig\\scenario_complementarity_distribution.png": {
+      "sha256": "d75cfc6160b1331d17b4801ac6bcb9c766eb4c7e95350f6e122061d936f934db",
+      "mtime": 1785553344.4551344
+    },
+    "fig\\scenario_feasibility_ladder.pdf": {
+      "sha256": "5471079f515a0ad38d2ee3979f4bf04fa1c78baaa6dad6512aa038fb55cb732e",
+      "mtime": 1785553339.7688572
+    },
+    "fig\\scenario_feasibility_ladder.png": {
+      "sha256": "e2cffaf76c3f490b68211ccc9bb488720fb493e680d414ba7dfefc2c4f363c2d",
+      "mtime": 1785553341.8499525
+    },
+    "fig\\scenario_joint_policy_heatmap.pdf": {
+      "sha256": "fe755bafc19a8455facc65a605345094ebf0850664a88c33593ea26dc7fc1e77",
+      "mtime": 1785553334.5814147
+    },
+    "fig\\scenario_joint_policy_heatmap.png": {
+      "sha256": "3c47f1bab5d7f56ccca60d7fe2e0433202b2d62bcec03ce3f536798b5bac888d",
+      "mtime": 1785553337.4218638
+    }
+  }
+}

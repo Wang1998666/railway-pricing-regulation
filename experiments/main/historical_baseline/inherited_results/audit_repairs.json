@@ -1,0 +1,21 @@
+[
+  {
+    "file": "JX_bundle_upgrade.json",
+    "policy": "P4",
+    "objective": "profit",
+    "improvement": 245912.0663066581,
+    "final_audit": {
+      "case_id": "JX",
+      "policy": "P4",
+      "objective": "profit",
+      "spec": {
+        "k_time": 0.8,
+        "k_cost": 0.5,
+        "k_restart": 0.5
+      },
+      "evaluated": 714,
+      "best_gain": 0.0,
+      "stable": true
+    }
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "file": "runs\\E10\\JX_04_00.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E2\\JX_reference_none.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E3\\JX_authority_0.75.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E3\\JX_authority_1.0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E3\\JX_baseline.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.925_0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.925_2000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.925_5000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.95_0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.95_2000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.95_5000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.975_0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.975_2000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.975_5000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.9_0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.9_2000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_0.9_5000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_1.0_0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_1.0_2000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E4\\JX_reference_1.0_5000.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E5\\JX_authority75.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E5\\JX_grid025.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E5\\JX_head_0.88_0.95_0.7.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E5\\JX_rounds8.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E6\\JX_reference.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E8\\JX_network_1.0_0.0.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_00.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_01.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_02.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_03.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_04.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_05.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_06.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_07.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_08.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_09.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  },
+  {
+    "file": "runs\\E9\\JX_reference_10.json",
+    "policy": "P3",
+    "objective": "welfare",
+    "old_value": 595458.229568474,
+    "new_value": 616417.8218748271,
+    "gain": 20959.59230635315
+  }
+]

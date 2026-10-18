@@ -1,0 +1,32 @@
+{
+  "private_auto": {
+    "fuel_per_km": 0.7,
+    "depreciation_per_km": 0.15,
+    "parking": 10.0
+  },
+  "coach": {
+    "per_km": 0.3,
+    "booking_fee": 5.0
+  },
+  "maas": {
+    "base_fare": 0.0,
+    "base_distance_km": 0.0,
+    "per_km": 0.5,
+    "per_min": 0.1,
+    "minimum_fare": 25.0
+  },
+  "business_van": {
+    "base_fare": 0.0,
+    "base_distance_km": 0.0,
+    "per_km": 2.2,
+    "per_min": 0.4,
+    "minimum_fare": 50.0
+  },
+  "station_access": {
+    "base_fare": 13.0,
+    "base_distance_km": 3.0,
+    "per_km": 1.8,
+    "per_min": 0.35,
+    "minimum_fare": 13.0
+  }
+}

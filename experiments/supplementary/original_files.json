@@ -1,0 +1,29 @@
+{
+  "manuscript_sha256": "f10df7532a0043895836c156d806fb3f5948d2db380ed3f7a0f5ac555e0c381f",
+  "tables_sha256": {
+    "jiangxi_od_outcomes.tex": "ba03f24906faa6bd3081e4bde4bb148186057114119085245bf35c81221f05dc",
+    "k_reopening_events.tex": "9135f2669c86a8f1fb345607c59619dc3c35db2ebe02fa0ff0f802d4f3a4c322",
+    "reference_operational_outcomes.tex": "0398f0a3ccc8ab635a22eb33133b6b26d267711bcb8c0d3845e33f0f94b3852b",
+    "review_appendix_design.tex": "ccbb877d3f9bf8ca0ad8aa7ab30058fd368ef95fa7e8c5b137fe73f671f16563",
+    "review_carbon.tex": "d4458266b561a2b2527bf0cbc009b9ea894673c691cd7480e4b53080fefc268a",
+    "review_elasticities.tex": "60e1ed5ccee4d5cdd47c94d5de12135ebe4750294aaaa23fb59fe0df5e7d0bea",
+    "review_mechanisms.tex": "7e3d7ac9a5ea150269cbb78d6d4e2dc180c0979e364dc6b4526fc8206afaf399",
+    "review_numerics.tex": "ba5dd242ef46cdf764e024daf9c9f7ae6d6ce527b8de72e87891052916851abe",
+    "review_road_contrasts.tex": "7b528e1c465fce351d702dbbf1be93e02b0ddb327becc1eb2c2bc24e8aa90f64",
+    "round2_elasticities.tex": "e909b0220b748fb0f49e3c8e87c6856fd2b20f35a233e959e2c838ccd0a895cc",
+    "round2_exact.tex": "2232cd70623e8d8ccaee76674abfd5682c3a048a21e2c7c604de795befe9d16c",
+    "round2_governance.tex": "33730f055a4a6a9ad2e2f135baca09abd14b709e22021998b760f36f0545ad5d",
+    "round2_mechanisms.tex": "08fd9e5243d1c9e764483f6bf5a1eb6d8719289e3ad0a6485691f91cd13f9e74",
+    "round2_polarization.tex": "e5b55315a4daa913b8225ada8f8bca735491610a5cfac69c3aa423c63d2628a6",
+    "scenario_policy_ladder.tex": "3e6731a0c2fa666ccab52834198448183d9943adf6d4fb06e19a1593bc64c954",
+    "v3_events.tex": "3bc9eecf5ccbd2567b9e2b00c38f6afcb8fe2901455609288fc9387036034ecc",
+    "v3_events_continued.tex": "137f4b5aa35aa72f649693d8a8a950366d193d80acbf4f37e8a799ba10624e04",
+    "v3_experiments.tex": "3823bd6a3ccc66e52815fe7907014c698f3c1704f75c5dcbb98ac4d55eb30ca4",
+    "v3_findings.tex": "5a66a66805dd306a4121fe2dd050d2350d7987e9c85fd2b7a4fd4fcc9289e312",
+    "v3_governance.tex": "78275c0c8c50298300eee13e938454b09ba4df971c30e6365829977b8cfd92ed",
+    "v3_parameters.tex": "d19ae7f6ed9f07adf416073cb3c84a668525dcfe4e7397097201e851c3a754aa",
+    "v3_parameters_continued.tex": "61ee0d80fa55311eb27a2eb6740f68eaf70a1d0fc2db18f17d554b684a381813",
+    "v3_reference.tex": "49247e80bc2197f2b52ad22fa10b08a4f3dbe8d4722dde1183d1cff18d9eee44",
+    "v3_structure.tex": "9c2ed2f542d09fe9dcf3a0e455d16a422d139b58f31ca8aaba2f49aba04bded4"
+  }
+}

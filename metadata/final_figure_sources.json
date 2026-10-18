@@ -1,0 +1,169 @@
+[
+  {
+    "final_figure": "fig01_nested_logit_tree.pdf",
+    "sha256": "e2d08d90f3b872aad3bf5a49c6485c3e298bc10639073c774f131f08b27f8f67",
+    "matching_source_artifacts": [],
+    "original_matching_source_artifacts": []
+  },
+  {
+    "final_figure": "fig02_bilevel_railway_design_architecture.pdf",
+    "sha256": "c1aa017d0b709c9eb5212f7328c399a3ae6301ba9d11541072edda68a669fea0",
+    "matching_source_artifacts": [
+      "visualization/model_diagrams/bilevel_railway_design_architecture.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/Fig/bilevel_railway_design_architecture.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig03_corridor_supply.pdf",
+    "sha256": "caaf675da9225c98e7c17a730fbd08e23172b30646dc743a00fd9ae7ebb982c9",
+    "matching_source_artifacts": [
+      "visualization/main_figures/case_fig03.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/Fig/case_fig03.pdf",
+      "TRA-R2/fig/case_fig03.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig04_calibration.pdf",
+    "sha256": "5e2f518b6c8f7156e8effa3c7825ec94be1772827c585152f36e4f861f535cff",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig04_calibration.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig04_calibration.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig05_elasticity.pdf",
+    "sha256": "8266be1151331ff460783cef7e711dfd89a6d05d09e96cc1d5d27f289a461c44",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig05_elasticity.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig05_elasticity.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig06_solution_workflow.pdf",
+    "sha256": "63378aed254c6d49c5f5abba98ffb38f84b7f819146852d1781d28a2d58e85ca",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig06_solution_workflow.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig06_solution_workflow.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig07_attribution.pdf",
+    "sha256": "df2ee40fed012a70b81e9bf2757d81ce57547e5468a14cd3572271d8d5b20c81",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig07_attribution.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig07_attribution.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig08_fares_headroom.pdf",
+    "sha256": "dc5d33e1be07345f9de4875eb0389cc96f6f254d6f67bcacee9fb29aaf993705",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig08_fares_headroom.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig08_fares_headroom.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig09_od_comparison.pdf",
+    "sha256": "f62df9cceb6402c7faf45b9c8c4b50ab0331828416b50faf25bd10715267882d",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig09_od_comparison.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig09_od_comparison.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig10_mobility_guarantees.pdf",
+    "sha256": "6047ed79e5c2a55230386fcff0e0be31e88c2b3fcc7635fe7c1e7c107f221b09",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig14_mobility_guarantees.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig14_mobility_guarantees.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig11_cap_floor_frontier.pdf",
+    "sha256": "c2c25d86d1e2ee87f9e8b456008ff2bc78b81334dac502224b418947b08bd3f3",
+    "matching_source_artifacts": [
+      "experiments/supplementary/exp1/fig13_cap_floor_frontier_v4.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/exp_v4/exp1/fig13_cap_floor_frontier_v4.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig12_equity_designs.pdf",
+    "sha256": "b06f7d3c1177b1cbc5f6076c8860e05f1be45215fb0e3d2c7a83cc46ed4a5093",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig15_equity_designs.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig15_equity_designs.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig13_entry_accounting.pdf",
+    "sha256": "c8b5dccd89ebfecfe4aa2b2c9a079c9de2ec39c549276a87651b73185fb38fbf",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig12_entry_accounting.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig12_entry_accounting.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig14_shock_profiles.pdf",
+    "sha256": "e1a7710bdef63f888326c013b211f7312cce0709dd8bc3283d11de999c615b16",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig10_shock_profiles.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig10_shock_profiles.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig15_income_composition.pdf",
+    "sha256": "24afcfa873d5a41e2624e37bc55e77699c319f323212278978be4a36b0d13ced",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig11_income_composition.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig11_income_composition.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig16_governance.pdf",
+    "sha256": "e9b34cf16ea392e5214a9f96ef0242262dfe19858a2a3dd476e26f778b9804cb",
+    "matching_source_artifacts": [
+      "visualization/case_figures/fig16_governance.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/新成的图/fig16_governance.pdf"
+    ]
+  },
+  {
+    "final_figure": "fig17_calibration_dependence.pdf",
+    "sha256": "bfe7691ef06542a99662c6e7a6101c2a2cd00fb6bfec64ebdd04839083463d5c",
+    "matching_source_artifacts": [
+      "experiments/supplementary/exp4/fig17_calibration_dependence_v4.pdf"
+    ],
+    "original_matching_source_artifacts": [
+      "TRA-R4/exp_v4/exp4/fig17_calibration_dependence_v4.pdf"
+    ]
+  }
+]

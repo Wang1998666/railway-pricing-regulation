@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "pdf_pages": 53,
+  "pdf_sha256": "842148d9dce404e33415c93d8b1f6dd28eb26494d66c5ba33a5c5e332d795f89",
+  "abstract_words": 196,
+  "model_section_unchanged": true,
+  "protected_figure_sha256": {
+    "case_fig03.pdf": "caaf675da9225c98e7c17a730fbd08e23172b30646dc743a00fd9ae7ebb982c9",
+    "case_fig05.pdf": "d9f0f6d91bcc2a68a7116d844cecf561ce0bea544a174b655a3e5cb3149df3b2",
+    "case_fig05.tex": "15536f8a54372c168012d8eea034534d77db25dd35d82c5f4c3fb4698bc662bc"
+  },
+  "undefined_references": false,
+  "overfull_warnings": [
+    "Overfull \\hbox (2.22221pt too wide) has occurred while \\output is active\n[] ",
+    "Overfull \\hbox (2.1999pt too wide) in paragraph at lines 250--250\n[]|$\\OML/cmm/m/it/9 E[];  \\OMS/cmsy/m/n/9 I[]\\OML/cmm/m/it/9 ;  g[];   []$| "
+  ],
+  "new_main_experiments": 0,
+  "visual_inspection": "Not performed, as explicitly requested by the author.",
+  "WC_welfare_benchmark": {
+    "profit_gain": 852538.8757692538,
+    "welfare": 769603.2320475541,
+    "retention": 0.9997538812531703,
+    "peak_active_GD_multiplier": 1.2,
+    "certificate": true
+  },
+  "runtime_scope": {
+    "batch_wall_seconds": 68.92079959998955,
+    "certificate_calls": 60,
+    "median_certificate_call_seconds": 0.16832169999543112,
+    "minimum_certificate_call_seconds": 0.12008700000296813,
+    "maximum_certificate_call_seconds": 6.800970700001926,
+    "workers": 4,
+    "scope": "60 HN/WC certificates plus four JX P3/P4 variant re-solves; warm starts and within-cap period-column reuse; not a cold full-study runtime"
+  }
+}

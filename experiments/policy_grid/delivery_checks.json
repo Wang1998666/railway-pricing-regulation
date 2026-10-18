@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "grid_certificates": 60,
+  "independent_max_error": 3.5390257835388184e-08,
+  "variant_objectives_unchanged": true,
+  "open_scope_complete": true,
+  "sections_2_3_unchanged": true,
+  "pdf_pages": 53,
+  "pdf_sha256": "aa8e27a663e9c4884b363a634b27010bce276affab7b40f4410f69150f72e0e9",
+  "visual_passed": true,
+  "protected_sha256": {
+    "case_fig03.pdf": "caaf675da9225c98e7c17a730fbd08e23172b30646dc743a00fd9ae7ebb982c9",
+    "case_fig05.pdf": "d9f0f6d91bcc2a68a7116d844cecf561ce0bea544a174b655a3e5cb3149df3b2",
+    "case_fig05.tex": "15536f8a54372c168012d8eea034534d77db25dd35d82c5f4c3fb4698bc662bc",
+    "round3_calibration.pdf": "a06840daec518fe988eec0b4eb9441cf1cb0986d441d7802c7963f3545d6e6da"
+  }
+}

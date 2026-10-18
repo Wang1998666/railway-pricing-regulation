@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "data_year": 2025,
+  "accessed_on": "2026-07-31",
+  "purpose": "Descriptive city context for the three formal corridor cases; never read as a solver input.",
+  "units": {
+    "gdp_100m_cny": "current-price CNY 100 million",
+    "resident_population_10k": "10,000 persons at year end",
+    "disposable_income_fields": "CNY per person per year"
+  },
+  "missing_value_policy": "Leave a field null when the accessible official communique does not report it; do not substitute another year, infer a total from urban/rural figures, or use an unofficial population estimate.",
+  "model_input": false,
+  "cities": [
+    {
+      "city": "杭州",
+      "case_ids": ["hangzhou_nanjing"],
+      "values": {"gdp_100m_cny": 23011.0, "resident_population_10k": 1270.0, "resident_disposable_income_yuan": 80017, "urban_disposable_income_yuan": 86640, "rural_disposable_income_yuan": 53565},
+      "source": {"citation_key": "HangzhouStats2025", "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-04/30/content_9214808.htm", "publisher": "Hangzhou News / Hangzhou Daily", "underlying_authors": "Hangzhou Municipal Bureau of Statistics and NBS Hangzhou Investigation Team", "evidence_class": "official statistical communique republished by a municipal news portal"}
+    },
+    {
+      "city": "南京",
+      "case_ids": ["hangzhou_nanjing"],
+      "values": {"gdp_100m_cny": 19428.78, "resident_population_10k": 963.85, "resident_disposable_income_yuan": 78243, "urban_disposable_income_yuan": 86320, "rural_disposable_income_yuan": 40471},
+      "source": {"citation_key": "NanjingStats2025", "url": "https://tjj.nanjing.gov.cn/bmfw/njsj/202604/t20260403_5818444.html", "publisher": "Nanjing Municipal Bureau of Statistics", "evidence_class": "official municipal statistical communique; values read from the linked DOCX attachment"}
+    },
+    {
+      "city": "武汉",
+      "case_ids": ["wuhan_changsha"],
+      "values": {"gdp_100m_cny": 22147.35, "resident_population_10k": 1386.19, "resident_disposable_income_yuan": 62530, "urban_disposable_income_yuan": 67248, "rural_disposable_income_yuan": 35575},
+      "source": {"citation_key": "WuhanStats2025", "url": "https://tjj.wuhan.gov.cn/tjfw/tjgb/202604/t20260408_2750693.shtml", "publisher": "Wuhan Municipal Bureau of Statistics", "evidence_class": "official municipal statistical communique"}
+    },
+    {
+      "city": "长沙",
+      "case_ids": ["wuhan_changsha"],
+      "values": {"gdp_100m_cny": 15737.82, "resident_population_10k": 1072.14, "resident_disposable_income_yuan": null, "urban_disposable_income_yuan": 72117, "rural_disposable_income_yuan": 48069},
+      "source": {"citation_key": "ChangshaStats2025", "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/szgb/zss_1/202605/t20260512_33975356.html", "publisher": "Hunan Provincial Bureau of Statistics", "underlying_source": "Changsha Municipal Bureau of Statistics", "evidence_class": "official provincial statistics portal reproducing the municipal communique"},
+      "missing_fields": {"resident_disposable_income_yuan": "not reported in the accessible communique; urban and rural figures are retained without imputation"}
+    },
+    {
+      "city": "赣州",
+      "case_ids": ["jiangxi_ganzhou_ji_an_nanchang_jiujiang"],
+      "values": {"gdp_100m_cny": 5221.29, "resident_population_10k": 895.62, "resident_disposable_income_yuan": 33813, "urban_disposable_income_yuan": 48188, "rural_disposable_income_yuan": 19839},
+      "source": {"citation_key": "GanzhouStats2025", "url": "https://www.ganzhou.gov.cn/gzszf/c100022/202604/38a12f964da545109b1b16697faee249.shtml", "publisher": "Ganzhou Municipal People's Government", "evidence_class": "official municipal government statistical communique"}
+    },
+    {
+      "city": "吉安",
+      "case_ids": ["jiangxi_ganzhou_ji_an_nanchang_jiujiang"],
+      "values": {"gdp_100m_cny": 3105.7, "resident_population_10k": 427.14, "resident_disposable_income_yuan": 37282, "urban_disposable_income_yuan": 51150, "rural_disposable_income_yuan": 23731},
+      "source": {"citation_key": "JianStats2025", "url": "https://tjgb.hongheiku.com/wp-content/uploads/2026/05/1779205233-430ea0d9f5.pdf", "publisher": "public statistical-communique mirror", "underlying_authors": "Ji'an Municipal Bureau of Statistics and NBS Ji'an Investigation Team", "evidence_class": "official bureau-authored PDF preserved on a non-government mirror; mirror status disclosed"}
+    },
+    {
+      "city": "南昌",
+      "case_ids": ["jiangxi_ganzhou_ji_an_nanchang_jiujiang"],
+      "values": {"gdp_100m_cny": 8141.69, "resident_population_10k": null, "resident_disposable_income_yuan": 51202, "urban_disposable_income_yuan": 59609, "rural_disposable_income_yuan": 28886},
+      "sources": [
+        {"fields": ["gdp_100m_cny", "urban_disposable_income_yuan", "rural_disposable_income_yuan"], "citation_key": "NanchangStats2025", "url": "https://www.nc.gov.cn/ncszf/tjgb/202604/b6221a4fa0104604bdc4aacaae0f32ba.shtml", "publisher": "Nanchang Municipal People's Government", "evidence_class": "official image-form municipal statistical communique"},
+        {"fields": ["resident_disposable_income_yuan", "urban_disposable_income_yuan", "rural_disposable_income_yuan"], "citation_key": "NanchangIncome2025", "url": "https://m.thepaper.cn/newsDetail_forward_32481648", "publisher": "Nanchang Release government account on The Paper", "underlying_source": "NBS Nanchang Investigation Team", "evidence_class": "municipal-government social-media release"}
+      ],
+      "missing_fields": {"resident_population_10k": "not reported in the image-form 2025 communique; the latest 2024 figure and unofficial 2025 estimates were not substituted"}
+    },
+    {
+      "city": "九江",
+      "case_ids": ["jiangxi_ganzhou_ji_an_nanchang_jiujiang"],
+      "values": {"gdp_100m_cny": 4246.51, "resident_population_10k": 448.42, "resident_disposable_income_yuan": null, "urban_disposable_income_yuan": 51298, "rural_disposable_income_yuan": 24171},
+      "source": {"citation_key": "JiujiangStats2025", "url": "https://www.jjxw.cn/article/2026/05/29/779574.html", "publisher": "Jiujiang News, supervised by the municipal publicity department and government information office", "underlying_authors": "Jiujiang Municipal Bureau of Statistics and NBS Jiujiang Investigation Team", "evidence_class": "official bureau-authored communique on a municipal government news platform"},
+      "missing_fields": {"resident_disposable_income_yuan": "not reported in the accessible communique; urban and rural figures are retained without imputation"}
+    }
+  ]
+}

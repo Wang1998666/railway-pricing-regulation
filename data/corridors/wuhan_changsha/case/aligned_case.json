@@ -1,0 +1,624 @@
+{
+  "meta": {
+    "name": "武汉—长沙铁路—公路客运廊道",
+    "version": "1.0",
+    "case_type": "calibrated numerical case anchored to observed public-service snapshots",
+    "direction": "武汉->长沙",
+    "source_manifest": [
+      {
+        "file": "wuhan_changsha_trains_20260805.csv",
+        "bytes": 15517,
+        "sha256": "f513c7fe16d3b06f217ca8f66acce1f1c79c83874149d3d85b5b6c062e34fa0d"
+      },
+      {
+        "file": "wuhan_changsha_prices_20260805.csv",
+        "bytes": 18003,
+        "sha256": "a9af4a57622776b8365b5e3dd088f16da520928e682b0c485a0a9eb2731d6bb9"
+      },
+      {
+        "file": "wuhan_changsha_amap_od.csv",
+        "bytes": 146,
+        "sha256": "556ab7f191a6921ba15db469c6bf0d134a58cdf944644c4997f025e11b7ff74c"
+      },
+      {
+        "file": "wuhan_changsha_amap_access.csv",
+        "bytes": 300,
+        "sha256": "4b56a00ace5fb8da31e34184eec326e4a4fca182744abdcb21844be20bf9cc87"
+      },
+      {
+        "file": "wuhan_changsha_road_passenger.csv",
+        "bytes": 207,
+        "sha256": "2a834372dd621ded695f815c5dbce53c423886f4825443442852736938cb49ce"
+      },
+      {
+        "file": "wuhan_changsha_access_fares.csv",
+        "bytes": 230,
+        "sha256": "b39fcabdbf144d5d25e984744d6451d6500ae3955bd47927be04368ac59a2d2a"
+      }
+    ],
+    "pipeline_case_id": "wuhan_changsha",
+    "demand_data_status": "assumption-derived from rail supply"
+  },
+  "sets": {
+    "cities": [
+      "武汉",
+      "长沙"
+    ],
+    "ods": [
+      "武汉-长沙"
+    ],
+    "periods": {
+      "早高峰": {
+        "start": 6,
+        "end": 9,
+        "duration_h": 3.0
+      },
+      "日间": {
+        "start": 9,
+        "end": 17,
+        "duration_h": 8.0
+      },
+      "晚高峰": {
+        "start": 17,
+        "end": 20,
+        "duration_h": 3.0
+      },
+      "夜间": {
+        "start": 20,
+        "end": 6,
+        "duration_h": 10.0
+      }
+    },
+    "classes": [
+      "高收入",
+      "中收入",
+      "低收入"
+    ],
+    "vulnerable_class": "低收入",
+    "products": [
+      "G",
+      "D",
+      "K"
+    ]
+  },
+  "network": {
+    "segments": [
+      "武汉-长沙"
+    ],
+    "segment_lengths_km": {
+      "武汉-长沙": 333.52
+    },
+    "od_segments": {
+      "武汉-长沙": [
+        "武汉-长沙"
+      ]
+    },
+    "corridor_length_km": 333.52
+  },
+  "products": {
+    "G": {
+      "name": "high_speed",
+      "seat_capacity": {
+        "商务座": 18,
+        "一等座": 96,
+        "二等座": 576
+      },
+      "seat_comfort": {
+        "商务座": 5.0,
+        "一等座": 4.0,
+        "二等座": 3.0
+      },
+      "flexibility": 2.0,
+      "reliability_fraction": 0.02,
+      "cycle_time_h": 2.7234666666666665,
+      "fleet_size": 25
+    },
+    "D": {
+      "name": "emu",
+      "seat_capacity": {
+        "一等座": 72,
+        "二等座": 480
+      },
+      "seat_comfort": {
+        "一等座": 4.0,
+        "二等座": 3.0
+      },
+      "flexibility": 2.0,
+      "reliability_fraction": 0.03,
+      "cycle_time_h": 3.8352,
+      "fleet_size": 15
+    },
+    "K": {
+      "name": "conventional",
+      "seat_capacity": {
+        "硬座": 768,
+        "硬卧": 528,
+        "软卧": 72
+      },
+      "seat_comfort": {
+        "硬座": 2.0,
+        "硬卧": 3.0,
+        "软卧": 4.0
+      },
+      "flexibility": 1.0,
+      "reliability_fraction": 0.08,
+      "cycle_time_h": 6.058666666666666,
+      "fleet_size": 12
+    }
+  },
+  "attributes": {
+    "rail_fare": {
+      "武汉-长沙": {
+        "K": {
+          "硬座": 53.5,
+          "硬卧": 107.5,
+          "软卧": 158.5
+        },
+        "D": {
+          "二等座": 112.0,
+          "一等座": 179.2
+        },
+        "G": {
+          "商务座": 697.0,
+          "一等座": 319.0,
+          "二等座": 199.0
+        }
+      }
+    },
+    "rail_runtime_min": {
+      "武汉-长沙": {
+        "K": 218.0,
+        "D": 203.0,
+        "G": 92.0
+      }
+    },
+    "road_by_od": {
+      "武汉-长沙": {
+        "distance_km": 333.52,
+        "auto_duration_min": 245.183,
+        "coach_duration_min": 318.738,
+        "tolls_yuan": 140.0,
+        "private_auto_cost": 433.49,
+        "coach_fare": 105.06,
+        "maas_fare": 191.28,
+        "business_van_fare": 831.82
+      }
+    },
+    "access_by_city": {
+      "武汉": {
+        "time_min": 28.65,
+        "fare": 38.46
+      },
+      "长沙": {
+        "time_min": 38.72,
+        "fare": 61.09
+      }
+    }
+  },
+  "demand_segments": [
+    {
+      "id": "武汉-长沙|高收入|早高峰",
+      "od": "武汉-长沙",
+      "class": "高收入",
+      "period": "早高峰",
+      "target_reference_trips": 769.0839822648287,
+      "qbar": 904.8046850174456
+    },
+    {
+      "id": "武汉-长沙|中收入|早高峰",
+      "od": "武汉-长沙",
+      "class": "中收入",
+      "period": "早高峰",
+      "target_reference_trips": 2307.251946794486,
+      "qbar": 2714.4140550523366
+    },
+    {
+      "id": "武汉-长沙|低收入|早高峰",
+      "od": "武汉-长沙",
+      "class": "低收入",
+      "period": "早高峰",
+      "target_reference_trips": 769.0839822648287,
+      "qbar": 904.8046850174456
+    },
+    {
+      "id": "武汉-长沙|高收入|日间",
+      "od": "武汉-长沙",
+      "class": "高收入",
+      "period": "日间",
+      "target_reference_trips": 2742.65995039071,
+      "qbar": 3226.658765165542
+    },
+    {
+      "id": "武汉-长沙|中收入|日间",
+      "od": "武汉-长沙",
+      "class": "中收入",
+      "period": "日间",
+      "target_reference_trips": 8227.97985117213,
+      "qbar": 9679.976295496623
+    },
+    {
+      "id": "武汉-长沙|低收入|日间",
+      "od": "武汉-长沙",
+      "class": "低收入",
+      "period": "日间",
+      "target_reference_trips": 2742.65995039071,
+      "qbar": 3226.658765165542
+    },
+    {
+      "id": "武汉-长沙|高收入|晚高峰",
+      "od": "武汉-长沙",
+      "class": "高收入",
+      "period": "晚高峰",
+      "target_reference_trips": 949.3301295237354,
+      "qbar": 1116.858975910277
+    },
+    {
+      "id": "武汉-长沙|中收入|晚高峰",
+      "od": "武汉-长沙",
+      "class": "中收入",
+      "period": "晚高峰",
+      "target_reference_trips": 2847.990388571206,
+      "qbar": 3350.576927730831
+    },
+    {
+      "id": "武汉-长沙|低收入|晚高峰",
+      "od": "武汉-长沙",
+      "class": "低收入",
+      "period": "晚高峰",
+      "target_reference_trips": 949.3301295237354,
+      "qbar": 1116.858975910277
+    },
+    {
+      "id": "武汉-长沙|高收入|夜间",
+      "od": "武汉-长沙",
+      "class": "高收入",
+      "period": "夜间",
+      "target_reference_trips": 1375.371409175329,
+      "qbar": 1618.0840107945048
+    },
+    {
+      "id": "武汉-长沙|中收入|夜间",
+      "od": "武汉-长沙",
+      "class": "中收入",
+      "period": "夜间",
+      "target_reference_trips": 4126.114227525987,
+      "qbar": 4854.252032383514
+    },
+    {
+      "id": "武汉-长沙|低收入|夜间",
+      "od": "武汉-长沙",
+      "class": "低收入",
+      "period": "夜间",
+      "target_reference_trips": 1375.371409175329,
+      "qbar": 1618.0840107945048
+    }
+  ],
+  "observed_frequency": {
+    "G": {
+      "早高峰": 12,
+      "日间": 89,
+      "晚高峰": 28,
+      "夜间": 7
+    },
+    "D": {
+      "早高峰": 3,
+      "日间": 0,
+      "晚高峰": 0,
+      "夜间": 4
+    },
+    "K": {
+      "早高峰": 8,
+      "日间": 7,
+      "晚高峰": 4,
+      "夜间": 23
+    }
+  },
+  "reference_design": {
+    "periods": [
+      "早高峰",
+      "日间",
+      "晚高峰",
+      "夜间"
+    ],
+    "N": {
+      "G": {
+        "早高峰": 12,
+        "日间": 89,
+        "晚高峰": 28,
+        "夜间": 7
+      },
+      "D": {
+        "早高峰": 3,
+        "日间": 0,
+        "晚高峰": 0,
+        "夜间": 4
+      },
+      "K": {
+        "早高峰": 0,
+        "日间": 0,
+        "晚高峰": 0,
+        "夜间": 0
+      }
+    },
+    "phi": {
+      "G": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      },
+      "D": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      },
+      "K": {
+        "早高峰": 1.0,
+        "日间": 1.0,
+        "晚高峰": 1.0,
+        "夜间": 1.0
+      }
+    }
+  },
+  "utility": {
+    "by_class": {
+      "高收入": {
+        "beta_c": 0.012,
+        "beta_iv": 0.035,
+        "beta_ac": 0.045,
+        "beta_wt": 0.05,
+        "beta_sc": 0.025,
+        "beta_rel": 0.02,
+        "beta_tr": 0.15,
+        "gamma_com": 0.08,
+        "gamma_flex": 0.1
+      },
+      "中收入": {
+        "beta_c": 0.02,
+        "beta_iv": 0.03,
+        "beta_ac": 0.04,
+        "beta_wt": 0.045,
+        "beta_sc": 0.022,
+        "beta_rel": 0.018,
+        "beta_tr": 0.12,
+        "gamma_com": 0.06,
+        "gamma_flex": 0.07
+      },
+      "低收入": {
+        "beta_c": 0.035,
+        "beta_iv": 0.025,
+        "beta_ac": 0.035,
+        "beta_wt": 0.04,
+        "beta_sc": 0.018,
+        "beta_rel": 0.015,
+        "beta_tr": 0.1,
+        "gamma_com": 0.04,
+        "gamma_flex": 0.05
+      }
+    },
+    "rho": {
+      "高收入": 0.7,
+      "中收入": 0.8,
+      "低收入": 0.9
+    },
+    "mu": {
+      "rail": 0.45,
+      "road": 0.5,
+      "auto": 0.55,
+      "mode_level": 0.75,
+      "top": 1.0
+    },
+    "asc_mode": {
+      "高收入": {
+        "rail": -1.8140104255762557,
+        "road": 0.0,
+        "auto": 0.0
+      },
+      "中收入": {
+        "rail": -0.5701934364523931,
+        "road": 0.0,
+        "auto": 0.0
+      },
+      "低收入": {
+        "rail": 2.1696053999436105,
+        "road": 0.0,
+        "auto": 0.0
+      }
+    },
+    "alpha_travel": {
+      "高收入": 13.22162884548186,
+      "中收入": 13.617804263696186,
+      "低收入": 14.497231356807362
+    },
+    "asc_product": {
+      "G": 0.15,
+      "D": 0.0,
+      "K": -0.1
+    },
+    "asc_seat": {
+      "G": {
+        "商务座": -1.559581,
+        "一等座": -0.806292,
+        "二等座": 0.0
+      },
+      "D": {
+        "一等座": -0.853704,
+        "二等座": 0.0
+      },
+      "K": {
+        "硬座": 0.0,
+        "硬卧": -0.168612,
+        "软卧": -1.065206
+      }
+    },
+    "asc_alternative": {
+      "private_auto": 0.0,
+      "coach": -0.1,
+      "maas": 0.05,
+      "business_van": -0.15
+    }
+  },
+  "schedule": {
+    "vartheta_min": 15.0,
+    "terminal_wait_min": 10.0
+  },
+  "electrification_savings": {
+    "private_auto_per_km": 0.58,
+    "maas_per_km": 0.2,
+    "business_van_per_km": 0.3,
+    "coach_per_km": 0.12
+  },
+  "scenarios": {
+    "income": {
+      "reference": {
+        "高收入": 0.0,
+        "中收入": 0.0,
+        "低收入": 0.0
+      },
+      "common_downturn": {
+        "高收入": -0.1,
+        "中收入": -0.1,
+        "低收入": -0.1
+      },
+      "polarized_downturn": {
+        "高收入": 0.02,
+        "中收入": -0.08,
+        "低收入": -0.15
+      }
+    },
+    "electrification": {
+      "none": {
+        "auto_intensity": 0.0,
+        "road_services": [],
+        "pass_through": 0.0
+      },
+      "auto_only": {
+        "auto_intensity": 0.5,
+        "road_services": [],
+        "pass_through": 0.0
+      },
+      "auto_maas_low": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.3
+      },
+      "auto_maas_high": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.7
+      },
+      "all_road_low": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "coach",
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.3
+      },
+      "all_road_high": {
+        "auto_intensity": 0.5,
+        "road_services": [
+          "coach",
+          "maas",
+          "business_van"
+        ],
+        "pass_through": 0.7
+      }
+    }
+  },
+  "constraints": {
+    "fare_bounds": [
+      0.8,
+      1.2
+    ],
+    "frequency_max": {
+      "G": {
+        "早高峰": 18,
+        "日间": 134,
+        "晚高峰": 42,
+        "夜间": 11
+      },
+      "D": {
+        "早高峰": 5,
+        "日间": 2,
+        "晚高峰": 2,
+        "夜间": 6
+      },
+      "K": {
+        "早高峰": 12,
+        "日间": 11,
+        "晚高峰": 6,
+        "夜间": 35
+      }
+    },
+    "line_capacity_per_hour": 16.0,
+    "min_od_departures_per_period": 1,
+    "loss_tolerance_options": [
+      0.0,
+      500000.0,
+      2000000.0
+    ],
+    "retention_floor_options": [
+      0.9,
+      0.95,
+      1.0
+    ]
+  },
+  "calibration": {
+    "demand_method": "capacity_loadfactor_mode_share",
+    "reference_participation_target": 0.85,
+    "target_rail_share": 0.7000000000000001,
+    "target_rail_trips": 116196.47999999994,
+    "target_market_trips": 165994.97142857133,
+    "rail_share_source": "configured OD values or distance-band assumptions",
+    "demand_allocation": "unique-train OD weights scaled to each train's peak segment load",
+    "load_factor": {
+      "G": 0.78,
+      "D": 0.72,
+      "K": 0.7
+    },
+    "fare_imputation": [
+      {
+        "od": "武汉-长沙",
+        "product": "D",
+        "seat": "一等座",
+        "imputed_fare": 179.2,
+        "method": "within-OD product fare normalized by configured seat ratio",
+        "seat_ratio": 1.6
+      }
+    ],
+    "fare_imputation_count": 1,
+    "reference_products": [
+      "G",
+      "D"
+    ],
+    "cost_reference_operating_ratio": 0.92,
+    "demand_capacity_rescale": 0.17580187583772866
+  },
+  "costs": {
+    "fixed_per_product_day": {
+      "G": 168921.86521110003,
+      "D": 126691.39890832502,
+      "K": 84460.93260555001
+    },
+    "per_run": {
+      "G": 3126.8807327806103,
+      "D": 2564.0422008801,
+      "K": 2032.4724763073966
+    },
+    "per_train_km": {
+      "G": 62.5376146556122,
+      "D": 51.280844017602,
+      "K": 40.64944952614793
+    },
+    "calibration_note": "Normalized to the configured reference operating ratio; not observed accounting cost."
+  }
+}

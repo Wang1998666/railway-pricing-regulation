@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "regression_checks": 32,
+  "supplementary_optimization_records": 102,
+  "statuses": {
+    "optimal": 94,
+    "search": 8
+  },
+  "commercial_grid_records": 70,
+  "welfare_grid_records": 8,
+  "extended_elasticity_records": 24,
+  "library_records": 1842,
+  "cross_evaluations": 6,
+  "independent_max_error": 1.5273690223693848e-07,
+  "independent_max_errors_by_scope": {
+    "optimization": 6.891787052154541e-08,
+    "library": 6.705522537231445e-08,
+    "cross_evaluation": 2.7939677238464355e-08,
+    "cost_split_extraction": 1.5273690223693848e-07,
+    "regression": 9.313225746154785e-08
+  },
+  "original_v4_unchanged": true,
+  "original_tables_unchanged": true,
+  "V3_sources_and_inputs_unchanged": true,
+  "table_preview_compiles": true,
+  "table_preview_pages": 4,
+  "draft_insertions_desktop_compiler": "success",
+  "visual_review": "Figures 13/17 PNGs and all four rendered table-preview pages inspected; no clipping or unreadable labels",
+  "git_commit": "73ca6ec9bc9278a624f334200ffb13e185ef3d32"
+}

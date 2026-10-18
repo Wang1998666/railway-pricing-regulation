@@ -1,0 +1,90 @@
+{
+  "case": "D:\\Paper-M\\TRA\\TRA-V7\\TRA-V7_REUSABLE_FINAL_SOLVER\\cases\\formal\\jiangxi_ganzhou_ji_an_nanchang_jiujiang\\case\\aligned_case.json",
+  "allocation_audit": {
+    "unique_forward_trains": 190,
+    "maximum_train_allocation_ratio_error": 2.220446049250313e-16
+  },
+  "constant_calibration": {
+    "高收入": {
+      "rail_mode_asc": 0.7528930549776591,
+      "travel_constant": 9.410666148559766
+    },
+    "中收入": {
+      "rail_mode_asc": 0.9843861809578369,
+      "travel_constant": 10.851976901047799
+    },
+    "低收入": {
+      "rail_mode_asc": 2.088634778353078,
+      "travel_constant": 13.215940359044897
+    }
+  },
+  "demand_capacity_rescale": 0.4685531429978449,
+  "reference_metrics": {
+    "total_potential": 138492.87460552622,
+    "total_trips": 117718.94341469713,
+    "participation_rate": 0.8499999999999989,
+    "modal_pax": {
+      "rail": 74429.74740348132,
+      "road": 30316.08084614597,
+      "auto": 12973.115165069841
+    },
+    "rail_pax": 74429.74740348132,
+    "rail_share_among_trips": 0.632266526053349,
+    "road_share_among_trips": 0.2575293318709912,
+    "auto_share_among_trips": 0.11020414207565982,
+    "product_pax": {
+      "G": 61909.092391808335,
+      "D": 12520.655011672989,
+      "K": 0.0
+    },
+    "seat_pax": {
+      "G:商务座": 20.923868994448437,
+      "G:一等座": 1292.8050299978304,
+      "G:二等座": 60595.36349281605,
+      "D:二等座": 12073.128075374445,
+      "D:一等座": 447.5269362985419
+    },
+    "class_trip": {
+      "高收入": 23543.788682939456,
+      "中收入": 70631.36604881826,
+      "低收入": 23543.788682939423
+    },
+    "class_rail": {
+      "高收入": 14885.949954590256,
+      "中收入": 44657.84812842513,
+      "低收入": 14885.949320465937
+    },
+    "class_potential": {
+      "高收入": 27698.574921105243,
+      "中收入": 83095.72476331571,
+      "低收入": 27698.574921105243
+    },
+    "class_vot_yuan_hr": {
+      "高收入": 175.0,
+      "中收入": 89.99999999999999,
+      "低收入": 42.857142857142854
+    },
+    "vulnerable_trips": 23543.788682939423,
+    "revenue": 7929607.453866795,
+    "operating_cost": 7295238.857557451,
+    "profit": 634368.5963093434,
+    "consumer_benefit": 30882996.5441423,
+    "welfare_level": 31517365.14045164,
+    "max_load_factor": 0.9200000000000003,
+    "mean_generalized_cost": 400.05989734997286,
+    "vulnerable_mean_generalized_cost": 264.693675326987,
+    "max_generalized_cost_ratio": 1.5051634524933242,
+    "probability_error": 2.220446049250313e-16,
+    "active_products": [
+      "G",
+      "D"
+    ],
+    "departures_by_product": {
+      "G": 100,
+      "D": 37,
+      "K": 0
+    }
+  },
+  "demand_estimate_file": "D:\\Paper-M\\TRA\\TRA-V7\\TRA-V7_REUSABLE_FINAL_SOLVER\\cases\\formal\\jiangxi_ganzhou_ji_an_nanchang_jiujiang\\raw_data\\jiangxi_ganzhou_ji_an_nanchang_jiujiang_demand_estimate.csv",
+  "demand_assumptions_file": "D:\\Paper-M\\TRA\\TRA-V7\\TRA-V7_REUSABLE_FINAL_SOLVER\\cases\\formal\\jiangxi_ganzhou_ji_an_nanchang_jiujiang\\raw_data\\jiangxi_ganzhou_ji_an_nanchang_jiujiang_demand_assumptions.json"
+}
